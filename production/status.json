@@ -1,9 +1,62 @@
 {
-  "media_files": 472,
-  "department_sources": 9,
+  "media_files": 273,
+  "department_sources": 0,
   "required_departments": 9,
-  "source_scenes": 14,
-  "generation_failures": [],
+  "source_scenes": 1,
+  "generation_failures": [
+    {
+      "id": "autumn",
+      "error": "Rejected after visual review: wrong subject. A replacement has not yet been approved."
+    },
+    {
+      "id": "bags-travel",
+      "error": "Rejected after visual review: wrong subject. A replacement has not yet been approved."
+    },
+    {
+      "id": "beauty-self-care",
+      "error": "Rejected after visual review: wrong subject. A replacement has not yet been approved."
+    },
+    {
+      "id": "digital-downloads",
+      "error": "Rejected after visual review: wrong subject. A replacement has not yet been approved."
+    },
+    {
+      "id": "fashion-accessories",
+      "error": "Rejected after visual review: wrong subject. A replacement has not yet been approved."
+    },
+    {
+      "id": "holiday",
+      "error": "Rejected after visual review: wrong subject. A replacement has not yet been approved."
+    },
+    {
+      "id": "home-kitchen",
+      "error": "Rejected after visual review: wrong subject. A replacement has not yet been approved."
+    },
+    {
+      "id": "kids-hobbies",
+      "error": "Rejected after visual review: wrong subject. A replacement has not yet been approved."
+    },
+    {
+      "id": "outdoors-fitness",
+      "error": "Rejected after visual review: wrong subject. A replacement has not yet been approved."
+    },
+    {
+      "id": "pets",
+      "error": "Rejected after visual review: wrong subject. A replacement has not yet been approved."
+    },
+    {
+      "id": "spring",
+      "error": "Rejected after visual review: wrong subject. A replacement has not yet been approved."
+    },
+    {
+      "id": "summer",
+      "error": "Rejected after visual review: wrong subject. A replacement has not yet been approved."
+    },
+    {
+      "id": "tech-desk",
+      "error": "Rejected after visual review: wrong subject. A replacement has not yet been approved."
+    }
+  ],
   "live_shopify_theme_modified": false,
   "motion": "animated stills, not live-action video",
   "visual_review": "Review individual masters and crops before live merchandising"

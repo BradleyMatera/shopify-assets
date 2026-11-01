@@ -6,189 +6,60 @@
       "origin": "Native image generation in this conversation",
       "source_url": "https://cdn.shopify.com/s/files/1/0855/4492/7460/files/rma-atrium-hero-master.png?v=1793567830",
       "use": "Editorial architectural campaign; not a claim of physical premises ownership"
-    },
+    }
+  ],
+  "failures": [
     {
-      "id": "fashion-accessories",
-      "title": "Fashion & Accessories",
-      "path": "assets/masters/fashion-accessories.jpg",
-      "origin": "Pollinations Classic image generation",
-      "prompt": "Single full-frame editorial campaign photograph. Photorealistic premium department-store art direction, tactile material detail, carefully controlled warm daylight, rich charcoal shadows, restrained bronze and ivory palette, sophisticated natural composition. No writing, no lettering, no slogans, no logos, no labels, no collage, no graphic design layout, no website, no interface. Unbranded objects, editorial atmosphere rather than a specific product listing. An adult woman in a beautifully tailored camel coat and dark unbranded sunglasses walking beside limestone architecture. A candid editorial moment, natural skin, realistic folds and fabric, medium-distance portrait with head and coat fully framed, late-afternoon side light.",
-      "source_url": "https://image.pollinations.ai/prompt/Single%20full-frame%20editorial%20campaign%20photograph.%20Photorealistic%20premium%20department-store%20art%20direction%2C%20tactile%20material%20detail%2C%20carefully%20controlled%20warm%20daylight%2C%20rich%20charcoal%20shadows%2C%20restrained%20bronze%20and%20ivory%20palette%2C%20sophisticated%20natural%20composition.%20No%20writing%2C%20no%20lettering%2C%20no%20slogans%2C%20no%20logos%2C%20no%20labels%2C%20no%20collage%2C%20no%20graphic%20design%20layout%2C%20no%20website%2C%20no%20interface.%20Unbranded%20objects%2C%20editorial%20atmosphere%20rather%20than%20a%20specific%20product%20listing.%20An%20adult%20woman%20in%20a%20beautifully%20tailored%20camel%20coat%20and%20dark%20unbranded%20sunglasses%20walking%20beside%20limestone%20architecture.%20A%20candid%20editorial%20moment%2C%20natural%20skin%2C%20realistic%20folds%20and%20fabric%2C%20medium-distance%20portrait%20with%20head%20and%20coat%20fully%20framed%2C%20late-afternoon%20side%20light.?width=1024&height=768&seed=2026110100&safe=true",
-      "native_size": [
-        886,
-        665
-      ],
-      "use": "Generated editorial scene, not an actual stocked product photograph",
-      "provider_mark": "Preserved in source master"
-    },
-    {
-      "id": "home-kitchen",
-      "title": "Home & Kitchen",
-      "path": "assets/masters/home-kitchen.jpg",
-      "origin": "Pollinations Classic image generation",
-      "prompt": "Single full-frame editorial campaign photograph. Photorealistic premium department-store art direction, tactile material detail, carefully controlled warm daylight, rich charcoal shadows, restrained bronze and ivory palette, sophisticated natural composition. No writing, no lettering, no slogans, no logos, no labels, no collage, no graphic design layout, no website, no interface. Unbranded objects, editorial atmosphere rather than a specific product listing. A serene architectural living and kitchen space with sculptural ivory seating, walnut cabinets, limestone counter, a handmade ceramic bowl and olive branches. Beautiful grazing daylight from a tall side window, warm tactile materials, realistic interior photography, no people.",
-      "source_url": "https://image.pollinations.ai/prompt/Single%20full-frame%20editorial%20campaign%20photograph.%20Photorealistic%20premium%20department-store%20art%20direction%2C%20tactile%20material%20detail%2C%20carefully%20controlled%20warm%20daylight%2C%20rich%20charcoal%20shadows%2C%20restrained%20bronze%20and%20ivory%20palette%2C%20sophisticated%20natural%20composition.%20No%20writing%2C%20no%20lettering%2C%20no%20slogans%2C%20no%20logos%2C%20no%20labels%2C%20no%20collage%2C%20no%20graphic%20design%20layout%2C%20no%20website%2C%20no%20interface.%20Unbranded%20objects%2C%20editorial%20atmosphere%20rather%20than%20a%20specific%20product%20listing.%20A%20serene%20architectural%20living%20and%20kitchen%20space%20with%20sculptural%20ivory%20seating%2C%20walnut%20cabinets%2C%20limestone%20counter%2C%20a%20handmade%20ceramic%20bowl%20and%20olive%20branches.%20Beautiful%20grazing%20daylight%20from%20a%20tall%20side%20window%2C%20warm%20tactile%20materials%2C%20realistic%20interior%20photography%2C%20no%20people.?width=1024&height=768&seed=2026110101&safe=true",
-      "native_size": [
-        886,
-        665
-      ],
-      "use": "Generated editorial scene, not an actual stocked product photograph",
-      "provider_mark": "Preserved in source master"
+      "id": "autumn",
+      "error": "Rejected after visual review: wrong subject. A replacement has not yet been approved."
     },
     {
       "id": "bags-travel",
-      "title": "Bags & Travel",
-      "path": "assets/masters/bags-travel.jpg",
-      "origin": "Pollinations Classic image generation",
-      "prompt": "Single full-frame editorial campaign photograph. Photorealistic premium department-store art direction, tactile material detail, carefully controlled warm daylight, rich charcoal shadows, restrained bronze and ivory palette, sophisticated natural composition. No writing, no lettering, no slogans, no logos, no labels, no collage, no graphic design layout, no website, no interface. Unbranded objects, editorial atmosphere rather than a specific product listing. A beautifully made unbranded dark leather weekender and a natural canvas tote on a limestone bench in a quiet modern travel lounge. A coat folded nearby, sophisticated architectural shadows, elegant luggage still life, realistic stitching and handles.",
-      "source_url": "https://image.pollinations.ai/prompt/Single%20full-frame%20editorial%20campaign%20photograph.%20Photorealistic%20premium%20department-store%20art%20direction%2C%20tactile%20material%20detail%2C%20carefully%20controlled%20warm%20daylight%2C%20rich%20charcoal%20shadows%2C%20restrained%20bronze%20and%20ivory%20palette%2C%20sophisticated%20natural%20composition.%20No%20writing%2C%20no%20lettering%2C%20no%20slogans%2C%20no%20logos%2C%20no%20labels%2C%20no%20collage%2C%20no%20graphic%20design%20layout%2C%20no%20website%2C%20no%20interface.%20Unbranded%20objects%2C%20editorial%20atmosphere%20rather%20than%20a%20specific%20product%20listing.%20A%20beautifully%20made%20unbranded%20dark%20leather%20weekender%20and%20a%20natural%20canvas%20tote%20on%20a%20limestone%20bench%20in%20a%20quiet%20modern%20travel%20lounge.%20A%20coat%20folded%20nearby%2C%20sophisticated%20architectural%20shadows%2C%20elegant%20luggage%20still%20life%2C%20realistic%20stitching%20and%20handles.?width=1024&height=768&seed=2026110102&safe=true",
-      "native_size": [
-        886,
-        665
-      ],
-      "use": "Generated editorial scene, not an actual stocked product photograph",
-      "provider_mark": "Preserved in source master"
+      "error": "Rejected after visual review: wrong subject. A replacement has not yet been approved."
     },
     {
       "id": "beauty-self-care",
-      "title": "Beauty & Self-Care",
-      "path": "assets/masters/beauty-self-care.jpg",
-      "origin": "Pollinations Classic image generation",
-      "prompt": "Single full-frame editorial campaign photograph. Photorealistic premium department-store art direction, tactile material detail, carefully controlled warm daylight, rich charcoal shadows, restrained bronze and ivory palette, sophisticated natural composition. No writing, no lettering, no slogans, no logos, no labels, no collage, no graphic design layout, no website, no interface. Unbranded objects, editorial atmosphere rather than a specific product listing. A translucent amber glass bottle, a plain frosted glass jar, folded ivory linen and a branch of white blossoms on honed stone. Sculptural shadows, extremely realistic glass and liquid reflections, restrained luxury skincare editorial still life. Completely blank containers without labels.",
-      "source_url": "https://image.pollinations.ai/prompt/Single%20full-frame%20editorial%20campaign%20photograph.%20Photorealistic%20premium%20department-store%20art%20direction%2C%20tactile%20material%20detail%2C%20carefully%20controlled%20warm%20daylight%2C%20rich%20charcoal%20shadows%2C%20restrained%20bronze%20and%20ivory%20palette%2C%20sophisticated%20natural%20composition.%20No%20writing%2C%20no%20lettering%2C%20no%20slogans%2C%20no%20logos%2C%20no%20labels%2C%20no%20collage%2C%20no%20graphic%20design%20layout%2C%20no%20website%2C%20no%20interface.%20Unbranded%20objects%2C%20editorial%20atmosphere%20rather%20than%20a%20specific%20product%20listing.%20A%20translucent%20amber%20glass%20bottle%2C%20a%20plain%20frosted%20glass%20jar%2C%20folded%20ivory%20linen%20and%20a%20branch%20of%20white%20blossoms%20on%20honed%20stone.%20Sculptural%20shadows%2C%20extremely%20realistic%20glass%20and%20liquid%20reflections%2C%20restrained%20luxury%20skincare%20editorial%20still%20life.%20Completely%20blank%20containers%20without%20labels.?width=1024&height=768&seed=2026110103&safe=true",
-      "native_size": [
-        886,
-        665
-      ],
-      "use": "Generated editorial scene, not an actual stocked product photograph",
-      "provider_mark": "Preserved in source master"
-    },
-    {
-      "id": "pets",
-      "title": "Pets",
-      "path": "assets/masters/pets.jpg",
-      "origin": "Pollinations Classic image generation",
-      "prompt": "Single full-frame editorial campaign photograph. Photorealistic premium department-store art direction, tactile material detail, carefully controlled warm daylight, rich charcoal shadows, restrained bronze and ivory palette, sophisticated natural composition. No writing, no lettering, no slogans, no logos, no labels, no collage, no graphic design layout, no website, no interface. Unbranded objects, editorial atmosphere rather than a specific product listing. A relaxed golden retriever sitting beside a soft textured ivory dog bed in an elegant warm contemporary home. Natural window light, realistic fur, kind expression, full head and paws visible, warm candid pet lifestyle campaign, no collar lettering.",
-      "source_url": "https://image.pollinations.ai/prompt/Single%20full-frame%20editorial%20campaign%20photograph.%20Photorealistic%20premium%20department-store%20art%20direction%2C%20tactile%20material%20detail%2C%20carefully%20controlled%20warm%20daylight%2C%20rich%20charcoal%20shadows%2C%20restrained%20bronze%20and%20ivory%20palette%2C%20sophisticated%20natural%20composition.%20No%20writing%2C%20no%20lettering%2C%20no%20slogans%2C%20no%20logos%2C%20no%20labels%2C%20no%20collage%2C%20no%20graphic%20design%20layout%2C%20no%20website%2C%20no%20interface.%20Unbranded%20objects%2C%20editorial%20atmosphere%20rather%20than%20a%20specific%20product%20listing.%20A%20relaxed%20golden%20retriever%20sitting%20beside%20a%20soft%20textured%20ivory%20dog%20bed%20in%20an%20elegant%20warm%20contemporary%20home.%20Natural%20window%20light%2C%20realistic%20fur%2C%20kind%20expression%2C%20full%20head%20and%20paws%20visible%2C%20warm%20candid%20pet%20lifestyle%20campaign%2C%20no%20collar%20lettering.?width=1024&height=768&seed=2026110104&safe=true",
-      "native_size": [
-        886,
-        665
-      ],
-      "use": "Generated editorial scene, not an actual stocked product photograph",
-      "provider_mark": "Preserved in source master"
-    },
-    {
-      "id": "tech-desk",
-      "title": "Tech & Desk",
-      "path": "assets/masters/tech-desk.jpg",
-      "origin": "Pollinations Classic image generation",
-      "prompt": "Single full-frame editorial campaign photograph. Photorealistic premium department-store art direction, tactile material detail, carefully controlled warm daylight, rich charcoal shadows, restrained bronze and ivory palette, sophisticated natural composition. No writing, no lettering, no slogans, no logos, no labels, no collage, no graphic design layout, no website, no interface. Unbranded objects, editorial atmosphere rather than a specific product listing. An unbranded pair of matte black over-ear headphones resting beside a closed thin laptop and a precisely machined keyboard on a walnut desk. Restrained blue screen reflection and warm side light, clean contemporary work studio, premium materials, no RGB clutter or text.",
-      "source_url": "https://image.pollinations.ai/prompt/Single%20full-frame%20editorial%20campaign%20photograph.%20Photorealistic%20premium%20department-store%20art%20direction%2C%20tactile%20material%20detail%2C%20carefully%20controlled%20warm%20daylight%2C%20rich%20charcoal%20shadows%2C%20restrained%20bronze%20and%20ivory%20palette%2C%20sophisticated%20natural%20composition.%20No%20writing%2C%20no%20lettering%2C%20no%20slogans%2C%20no%20logos%2C%20no%20labels%2C%20no%20collage%2C%20no%20graphic%20design%20layout%2C%20no%20website%2C%20no%20interface.%20Unbranded%20objects%2C%20editorial%20atmosphere%20rather%20than%20a%20specific%20product%20listing.%20An%20unbranded%20pair%20of%20matte%20black%20over-ear%20headphones%20resting%20beside%20a%20closed%20thin%20laptop%20and%20a%20precisely%20machined%20keyboard%20on%20a%20walnut%20desk.%20Restrained%20blue%20screen%20reflection%20and%20warm%20side%20light%2C%20clean%20contemporary%20work%20studio%2C%20premium%20materials%2C%20no%20RGB%20clutter%20or%20text.?width=1024&height=768&seed=2026110105&safe=true",
-      "native_size": [
-        886,
-        665
-      ],
-      "use": "Generated editorial scene, not an actual stocked product photograph",
-      "provider_mark": "Preserved in source master"
-    },
-    {
-      "id": "outdoors-fitness",
-      "title": "Outdoors & Fitness",
-      "path": "assets/masters/outdoors-fitness.jpg",
-      "origin": "Pollinations Classic image generation",
-      "prompt": "Single full-frame editorial campaign photograph. Photorealistic premium department-store art direction, tactile material detail, carefully controlled warm daylight, rich charcoal shadows, restrained bronze and ivory palette, sophisticated natural composition. No writing, no lettering, no slogans, no logos, no labels, no collage, no graphic design layout, no website, no interface. Unbranded objects, editorial atmosphere rather than a specific product listing. A lone adult hiker with an unbranded charcoal backpack looking toward dramatic mountain ridges and a pine valley at golden hour. Wide scenic editorial adventure photography, natural ochre clothing, believable anatomy and terrain, crisp mountain detail, no logos.",
-      "source_url": "https://image.pollinations.ai/prompt/Single%20full-frame%20editorial%20campaign%20photograph.%20Photorealistic%20premium%20department-store%20art%20direction%2C%20tactile%20material%20detail%2C%20carefully%20controlled%20warm%20daylight%2C%20rich%20charcoal%20shadows%2C%20restrained%20bronze%20and%20ivory%20palette%2C%20sophisticated%20natural%20composition.%20No%20writing%2C%20no%20lettering%2C%20no%20slogans%2C%20no%20logos%2C%20no%20labels%2C%20no%20collage%2C%20no%20graphic%20design%20layout%2C%20no%20website%2C%20no%20interface.%20Unbranded%20objects%2C%20editorial%20atmosphere%20rather%20than%20a%20specific%20product%20listing.%20A%20lone%20adult%20hiker%20with%20an%20unbranded%20charcoal%20backpack%20looking%20toward%20dramatic%20mountain%20ridges%20and%20a%20pine%20valley%20at%20golden%20hour.%20Wide%20scenic%20editorial%20adventure%20photography%2C%20natural%20ochre%20clothing%2C%20believable%20anatomy%20and%20terrain%2C%20crisp%20mountain%20detail%2C%20no%20logos.?width=1024&height=768&seed=2026110106&safe=true",
-      "native_size": [
-        886,
-        665
-      ],
-      "use": "Generated editorial scene, not an actual stocked product photograph",
-      "provider_mark": "Preserved in source master"
-    },
-    {
-      "id": "kids-hobbies",
-      "title": "Kids & Hobbies",
-      "path": "assets/masters/kids-hobbies.jpg",
-      "origin": "Pollinations Classic image generation",
-      "prompt": "Single full-frame editorial campaign photograph. Photorealistic premium department-store art direction, tactile material detail, carefully controlled warm daylight, rich charcoal shadows, restrained bronze and ivory palette, sophisticated natural composition. No writing, no lettering, no slogans, no logos, no labels, no collage, no graphic design layout, no website, no interface. Unbranded objects, editorial atmosphere rather than a specific product listing. A beautifully arranged creative hobby table with unbranded wooden building shapes, colored pencils, a small unfinished paper model and a sketchbook with abstract blank shapes. Warm afternoon sunlight, refined walnut and ivory room, joyful color accents, realistic tactile still life, no characters or copyrighted toys.",
-      "source_url": "https://image.pollinations.ai/prompt/Single%20full-frame%20editorial%20campaign%20photograph.%20Photorealistic%20premium%20department-store%20art%20direction%2C%20tactile%20material%20detail%2C%20carefully%20controlled%20warm%20daylight%2C%20rich%20charcoal%20shadows%2C%20restrained%20bronze%20and%20ivory%20palette%2C%20sophisticated%20natural%20composition.%20No%20writing%2C%20no%20lettering%2C%20no%20slogans%2C%20no%20logos%2C%20no%20labels%2C%20no%20collage%2C%20no%20graphic%20design%20layout%2C%20no%20website%2C%20no%20interface.%20Unbranded%20objects%2C%20editorial%20atmosphere%20rather%20than%20a%20specific%20product%20listing.%20A%20beautifully%20arranged%20creative%20hobby%20table%20with%20unbranded%20wooden%20building%20shapes%2C%20colored%20pencils%2C%20a%20small%20unfinished%20paper%20model%20and%20a%20sketchbook%20with%20abstract%20blank%20shapes.%20Warm%20afternoon%20sunlight%2C%20refined%20walnut%20and%20ivory%20room%2C%20joyful%20color%20accents%2C%20realistic%20tactile%20still%20life%2C%20no%20characters%20or%20copyrighted%20toys.?width=1024&height=768&seed=2026110107&safe=true",
-      "native_size": [
-        886,
-        665
-      ],
-      "use": "Generated editorial scene, not an actual stocked product photograph",
-      "provider_mark": "Preserved in source master"
+      "error": "Rejected after visual review: wrong subject. A replacement has not yet been approved."
     },
     {
       "id": "digital-downloads",
-      "title": "Digital Downloads",
-      "path": "assets/masters/digital-downloads.jpg",
-      "origin": "Pollinations Classic image generation",
-      "prompt": "Single full-frame editorial campaign photograph. Photorealistic premium department-store art direction, tactile material detail, carefully controlled warm daylight, rich charcoal shadows, restrained bronze and ivory palette, sophisticated natural composition. No writing, no lettering, no slogans, no logos, no labels, no collage, no graphic design layout, no website, no interface. Unbranded objects, editorial atmosphere rather than a specific product listing. A premium creative work desk with an unbranded drawing tablet showing a simple abstract ochre geometric artwork, neatly arranged blank paper sheets, a graphite stylus, and a closed charcoal notebook. Warm light crossing limestone, elegant creative-work editorial photography, no screen text.",
-      "source_url": "https://image.pollinations.ai/prompt/Single%20full-frame%20editorial%20campaign%20photograph.%20Photorealistic%20premium%20department-store%20art%20direction%2C%20tactile%20material%20detail%2C%20carefully%20controlled%20warm%20daylight%2C%20rich%20charcoal%20shadows%2C%20restrained%20bronze%20and%20ivory%20palette%2C%20sophisticated%20natural%20composition.%20No%20writing%2C%20no%20lettering%2C%20no%20slogans%2C%20no%20logos%2C%20no%20labels%2C%20no%20collage%2C%20no%20graphic%20design%20layout%2C%20no%20website%2C%20no%20interface.%20Unbranded%20objects%2C%20editorial%20atmosphere%20rather%20than%20a%20specific%20product%20listing.%20A%20premium%20creative%20work%20desk%20with%20an%20unbranded%20drawing%20tablet%20showing%20a%20simple%20abstract%20ochre%20geometric%20artwork%2C%20neatly%20arranged%20blank%20paper%20sheets%2C%20a%20graphite%20stylus%2C%20and%20a%20closed%20charcoal%20notebook.%20Warm%20light%20crossing%20limestone%2C%20elegant%20creative-work%20editorial%20photography%2C%20no%20screen%20text.?width=1024&height=768&seed=2026110108&safe=true",
-      "native_size": [
-        886,
-        665
-      ],
-      "use": "Generated editorial scene, not an actual stocked product photograph",
-      "provider_mark": "Preserved in source master"
+      "error": "Rejected after visual review: wrong subject. A replacement has not yet been approved."
     },
     {
-      "id": "spring",
-      "title": "Spring Edit",
-      "path": "assets/masters/spring.jpg",
-      "origin": "Pollinations Classic image generation",
-      "prompt": "Single full-frame editorial campaign photograph. Photorealistic premium department-store art direction, tactile material detail, carefully controlled warm daylight, rich charcoal shadows, restrained bronze and ivory palette, sophisticated natural composition. No writing, no lettering, no slogans, no logos, no labels, no collage, no graphic design layout, no website, no interface. Unbranded objects, editorial atmosphere rather than a specific product listing. A sculptural clear glass vase with fresh white and pale blush spring blossoms on a limestone pedestal beside airy ivory linen curtains. Luminous soft daylight, botanical editorial still life, quietly luxurious, generous negative space.",
-      "source_url": "https://image.pollinations.ai/prompt/Single%20full-frame%20editorial%20campaign%20photograph.%20Photorealistic%20premium%20department-store%20art%20direction%2C%20tactile%20material%20detail%2C%20carefully%20controlled%20warm%20daylight%2C%20rich%20charcoal%20shadows%2C%20restrained%20bronze%20and%20ivory%20palette%2C%20sophisticated%20natural%20composition.%20No%20writing%2C%20no%20lettering%2C%20no%20slogans%2C%20no%20logos%2C%20no%20labels%2C%20no%20collage%2C%20no%20graphic%20design%20layout%2C%20no%20website%2C%20no%20interface.%20Unbranded%20objects%2C%20editorial%20atmosphere%20rather%20than%20a%20specific%20product%20listing.%20A%20sculptural%20clear%20glass%20vase%20with%20fresh%20white%20and%20pale%20blush%20spring%20blossoms%20on%20a%20limestone%20pedestal%20beside%20airy%20ivory%20linen%20curtains.%20Luminous%20soft%20daylight%2C%20botanical%20editorial%20still%20life%2C%20quietly%20luxurious%2C%20generous%20negative%20space.?width=1024&height=768&seed=2026110109&safe=true",
-      "native_size": [
-        886,
-        665
-      ],
-      "use": "Generated editorial scene, not an actual stocked product photograph",
-      "provider_mark": "Preserved in source master"
-    },
-    {
-      "id": "summer",
-      "title": "Summer Edit",
-      "path": "assets/masters/summer.jpg",
-      "origin": "Pollinations Classic image generation",
-      "prompt": "Single full-frame editorial campaign photograph. Photorealistic premium department-store art direction, tactile material detail, carefully controlled warm daylight, rich charcoal shadows, restrained bronze and ivory palette, sophisticated natural composition. No writing, no lettering, no slogans, no logos, no labels, no collage, no graphic design layout, no website, no interface. Unbranded objects, editorial atmosphere rather than a specific product listing. A woven natural-fiber travel tote, folded ivory linen and unbranded sunglasses on a sunlit stone terrace overlooking a calm blue sea. Soft coastal atmosphere, realistic materials, elegant summer lifestyle still life, no people or writing.",
-      "source_url": "https://image.pollinations.ai/prompt/Single%20full-frame%20editorial%20campaign%20photograph.%20Photorealistic%20premium%20department-store%20art%20direction%2C%20tactile%20material%20detail%2C%20carefully%20controlled%20warm%20daylight%2C%20rich%20charcoal%20shadows%2C%20restrained%20bronze%20and%20ivory%20palette%2C%20sophisticated%20natural%20composition.%20No%20writing%2C%20no%20lettering%2C%20no%20slogans%2C%20no%20logos%2C%20no%20labels%2C%20no%20collage%2C%20no%20graphic%20design%20layout%2C%20no%20website%2C%20no%20interface.%20Unbranded%20objects%2C%20editorial%20atmosphere%20rather%20than%20a%20specific%20product%20listing.%20A%20woven%20natural-fiber%20travel%20tote%2C%20folded%20ivory%20linen%20and%20unbranded%20sunglasses%20on%20a%20sunlit%20stone%20terrace%20overlooking%20a%20calm%20blue%20sea.%20Soft%20coastal%20atmosphere%2C%20realistic%20materials%2C%20elegant%20summer%20lifestyle%20still%20life%2C%20no%20people%20or%20writing.?width=1024&height=768&seed=2026110110&safe=true",
-      "native_size": [
-        886,
-        665
-      ],
-      "use": "Generated editorial scene, not an actual stocked product photograph",
-      "provider_mark": "Preserved in source master"
-    },
-    {
-      "id": "autumn",
-      "title": "Autumn Edit",
-      "path": "assets/masters/autumn.jpg",
-      "origin": "Pollinations Classic image generation",
-      "prompt": "Single full-frame editorial campaign photograph. Photorealistic premium department-store art direction, tactile material detail, carefully controlled warm daylight, rich charcoal shadows, restrained bronze and ivory palette, sophisticated natural composition. No writing, no lettering, no slogans, no logos, no labels, no collage, no graphic design layout, no website, no interface. Unbranded objects, editorial atmosphere rather than a specific product listing. A folded ochre wool scarf, a dark ceramic mug, an unbranded leather notebook and a few autumn leaves on warm walnut beside a window. Intimate editorial still life, golden light and deep charcoal shadows, no text.",
-      "source_url": "https://image.pollinations.ai/prompt/Single%20full-frame%20editorial%20campaign%20photograph.%20Photorealistic%20premium%20department-store%20art%20direction%2C%20tactile%20material%20detail%2C%20carefully%20controlled%20warm%20daylight%2C%20rich%20charcoal%20shadows%2C%20restrained%20bronze%20and%20ivory%20palette%2C%20sophisticated%20natural%20composition.%20No%20writing%2C%20no%20lettering%2C%20no%20slogans%2C%20no%20logos%2C%20no%20labels%2C%20no%20collage%2C%20no%20graphic%20design%20layout%2C%20no%20website%2C%20no%20interface.%20Unbranded%20objects%2C%20editorial%20atmosphere%20rather%20than%20a%20specific%20product%20listing.%20A%20folded%20ochre%20wool%20scarf%2C%20a%20dark%20ceramic%20mug%2C%20an%20unbranded%20leather%20notebook%20and%20a%20few%20autumn%20leaves%20on%20warm%20walnut%20beside%20a%20window.%20Intimate%20editorial%20still%20life%2C%20golden%20light%20and%20deep%20charcoal%20shadows%2C%20no%20text.?width=1024&height=768&seed=2026110111&safe=true",
-      "native_size": [
-        886,
-        665
-      ],
-      "use": "Generated editorial scene, not an actual stocked product photograph",
-      "provider_mark": "Preserved in source master"
+      "id": "fashion-accessories",
+      "error": "Rejected after visual review: wrong subject. A replacement has not yet been approved."
     },
     {
       "id": "holiday",
-      "title": "Holiday Edit",
-      "path": "assets/masters/holiday.jpg",
-      "origin": "Pollinations Classic image generation",
-      "prompt": "Single full-frame editorial campaign photograph. Photorealistic premium department-store art direction, tactile material detail, carefully controlled warm daylight, rich charcoal shadows, restrained bronze and ivory palette, sophisticated natural composition. No writing, no lettering, no slogans, no logos, no labels, no collage, no graphic design layout, no website, no interface. Unbranded objects, editorial atmosphere rather than a specific product listing. Beautiful unbranded ivory and charcoal gift boxes tied with restrained bronze satin ribbons, evergreen branches and soft warm lights in the background. Elegant holiday still life on dark stone, editorial luxury rather than glitter, no labels or writing.",
-      "source_url": "https://image.pollinations.ai/prompt/Single%20full-frame%20editorial%20campaign%20photograph.%20Photorealistic%20premium%20department-store%20art%20direction%2C%20tactile%20material%20detail%2C%20carefully%20controlled%20warm%20daylight%2C%20rich%20charcoal%20shadows%2C%20restrained%20bronze%20and%20ivory%20palette%2C%20sophisticated%20natural%20composition.%20No%20writing%2C%20no%20lettering%2C%20no%20slogans%2C%20no%20logos%2C%20no%20labels%2C%20no%20collage%2C%20no%20graphic%20design%20layout%2C%20no%20website%2C%20no%20interface.%20Unbranded%20objects%2C%20editorial%20atmosphere%20rather%20than%20a%20specific%20product%20listing.%20Beautiful%20unbranded%20ivory%20and%20charcoal%20gift%20boxes%20tied%20with%20restrained%20bronze%20satin%20ribbons%2C%20evergreen%20branches%20and%20soft%20warm%20lights%20in%20the%20background.%20Elegant%20holiday%20still%20life%20on%20dark%20stone%2C%20editorial%20luxury%20rather%20than%20glitter%2C%20no%20labels%20or%20writing.?width=1024&height=768&seed=2026110112&safe=true",
-      "native_size": [
-        886,
-        665
-      ],
-      "use": "Generated editorial scene, not an actual stocked product photograph",
-      "provider_mark": "Preserved in source master"
+      "error": "Rejected after visual review: wrong subject. A replacement has not yet been approved."
+    },
+    {
+      "id": "home-kitchen",
+      "error": "Rejected after visual review: wrong subject. A replacement has not yet been approved."
+    },
+    {
+      "id": "kids-hobbies",
+      "error": "Rejected after visual review: wrong subject. A replacement has not yet been approved."
+    },
+    {
+      "id": "outdoors-fitness",
+      "error": "Rejected after visual review: wrong subject. A replacement has not yet been approved."
+    },
+    {
+      "id": "pets",
+      "error": "Rejected after visual review: wrong subject. A replacement has not yet been approved."
+    },
+    {
+      "id": "spring",
+      "error": "Rejected after visual review: wrong subject. A replacement has not yet been approved."
+    },
+    {
+      "id": "summer",
+      "error": "Rejected after visual review: wrong subject. A replacement has not yet been approved."
+    },
+    {
+      "id": "tech-desk",
+      "error": "Rejected after visual review: wrong subject. A replacement has not yet been approved."
     }
-  ],
-  "failures": []
+  ]
 }
