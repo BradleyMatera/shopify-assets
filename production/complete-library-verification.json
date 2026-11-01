@@ -1,0 +1,32 @@
+{
+  "status": "local-files-verified-awaiting-remote-readback",
+  "source_archive": "real-mall-assets-complete.zip",
+  "source_archive_sha256": "d2f5f5c4828d3e3876995779ce6e58791f4369ada66682941846eb3444891915",
+  "archive_bytes": 186141158,
+  "package_file_count": 1323,
+  "registered_media_exports": 1302,
+  "original_checksum_entries_verified": 1322,
+  "existing_asset_files_preserved": 273,
+  "destination": "complete-library",
+  "formats": {
+    "PNG": 654,
+    "JPG": 202,
+    "WEBP": 272,
+    "AVIF": 24,
+    "SVG": 137,
+    "ICO": 1,
+    "MP4": 4,
+    "WEBM": 4,
+    "GIF": 4
+  },
+  "missing_files": [],
+  "corrupt_files": [],
+  "scope": "Every file in the supplied ZIP; this does not certify the unfinished creative-production backlog.",
+  "quality_notes": [
+    "No artificial enlargement is described as new photographic detail.",
+    "Small category crops have native masters and explicit resampled variants.",
+    "Reference concepts contain unverified promotional claims and are not production assets.",
+    "Videos are camera/light animation from stills, not filmed or independently generated scenes.",
+    "No font files are included."
+  ]
+}
