@@ -1,8 +1,8 @@
 {
-  "media_files": 273,
-  "department_sources": 0,
+  "media_files": 472,
+  "department_sources": 9,
   "required_departments": 9,
-  "source_scenes": 1,
+  "source_scenes": 14,
   "generation_failures": [],
   "live_shopify_theme_modified": false,
   "motion": "animated stills, not live-action video",

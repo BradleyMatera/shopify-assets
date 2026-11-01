@@ -1,18 +1,19 @@
 {
-  "total_files": 273,
+  "total_files": 472,
   "groups": {
     "backgrounds": 12,
     "brand": 17,
-    "campaigns": 2,
-    "email": 1,
+    "campaigns": 16,
+    "departments": 144,
+    "email": 8,
     "hero": 14,
     "icons": 216,
-    "masters": 1,
+    "masters": 14,
     "motion": 7,
-    "social": 3
+    "social": 24
   },
-  "sources": 1,
-  "department_sources": 0,
+  "sources": 14,
+  "department_sources": 9,
   "generation_failures": [],
   "scope": "Generated asset library, not a published Shopify theme",
   "files": [
@@ -249,6 +250,22 @@
       "height": 750
     },
     {
+      "path": "assets/campaigns/autumn-edit-banner-1600.jpg",
+      "bytes": 106741,
+      "sha256": "135aa806d2deb5b17878c59850a8a5820dfadd03177c6ee14d51bb6709b4e076",
+      "group": "campaigns",
+      "width": 1600,
+      "height": 640
+    },
+    {
+      "path": "assets/campaigns/autumn-edit-banner-1600.webp",
+      "bytes": 47614,
+      "sha256": "c9b7108df6e97278d9ac41abd1679af3041085ce33943b40789ab625b9b6d668",
+      "group": "campaigns",
+      "width": 1600,
+      "height": 640
+    },
+    {
       "path": "assets/campaigns/discover-banner-1600.jpg",
       "bytes": 345192,
       "sha256": "88e45d65b551bc97a374bfedc975268eaede7dfa3767d9da52198c2e6e81cd9d",
@@ -265,9 +282,1313 @@
       "height": 640
     },
     {
+      "path": "assets/campaigns/holiday-edit-banner-1600.jpg",
+      "bytes": 96863,
+      "sha256": "2869ee59f277652275eef08e7e0acdcf7ce2ba985aab02b7ebeb6d3d0cc00c85",
+      "group": "campaigns",
+      "width": 1600,
+      "height": 640
+    },
+    {
+      "path": "assets/campaigns/holiday-edit-banner-1600.webp",
+      "bytes": 39692,
+      "sha256": "f7be834e2e00e9294ccbfa8df6e1ab08764783621c6626edc4c4b4073c122a84",
+      "group": "campaigns",
+      "width": 1600,
+      "height": 640
+    },
+    {
+      "path": "assets/campaigns/home-edit-banner-1600.jpg",
+      "bytes": 87975,
+      "sha256": "782f06052cbcff2a8b1bda1942eb9ea6b1fb90c75bdae0e2db202a888a97f20f",
+      "group": "campaigns",
+      "width": 1600,
+      "height": 640
+    },
+    {
+      "path": "assets/campaigns/home-edit-banner-1600.webp",
+      "bytes": 35316,
+      "sha256": "f3c95841a65d77be206abe0574d45782baa753eeda5f26f85cdffac73fbc1a26",
+      "group": "campaigns",
+      "width": 1600,
+      "height": 640
+    },
+    {
+      "path": "assets/campaigns/new-arrivals-banner-1600.jpg",
+      "bytes": 95277,
+      "sha256": "eaf4de118a5f966afce68c8eb9b6b1306953d35b8dec15cb186fe34a1e9ead9e",
+      "group": "campaigns",
+      "width": 1600,
+      "height": 640
+    },
+    {
+      "path": "assets/campaigns/new-arrivals-banner-1600.webp",
+      "bytes": 42510,
+      "sha256": "8efae4cf6b3f65b80320e93258aabd2ea1fc7e4b07081708e46d9bbb482f7b06",
+      "group": "campaigns",
+      "width": 1600,
+      "height": 640
+    },
+    {
+      "path": "assets/campaigns/outdoor-edit-banner-1600.jpg",
+      "bytes": 95834,
+      "sha256": "9c7d91ad5b39c6a9ab55bcd800b2c6c4c7f44b1806370d1613cd6c129c0e0c6a",
+      "group": "campaigns",
+      "width": 1600,
+      "height": 640
+    },
+    {
+      "path": "assets/campaigns/outdoor-edit-banner-1600.webp",
+      "bytes": 39692,
+      "sha256": "dd0453592dfbb9c5c6d54943ace624d5cb09ad27201db8b99c75b801c3381605",
+      "group": "campaigns",
+      "width": 1600,
+      "height": 640
+    },
+    {
+      "path": "assets/campaigns/spring-edit-banner-1600.jpg",
+      "bytes": 102551,
+      "sha256": "47e42bb20a70701e2a7aa692da1e1b1cc32f4a7bdc4c62c40c296b913b2332ba",
+      "group": "campaigns",
+      "width": 1600,
+      "height": 640
+    },
+    {
+      "path": "assets/campaigns/spring-edit-banner-1600.webp",
+      "bytes": 42334,
+      "sha256": "b742e15e80d68d29452a7af7116b75b74d4f0d2fd18a94eab5a825c6987a7915",
+      "group": "campaigns",
+      "width": 1600,
+      "height": 640
+    },
+    {
+      "path": "assets/campaigns/summer-edit-banner-1600.jpg",
+      "bytes": 96392,
+      "sha256": "02b20aa22e4ea0dd54285cdce8d3beda053f6498e058d66f637c2964f6a21246",
+      "group": "campaigns",
+      "width": 1600,
+      "height": 640
+    },
+    {
+      "path": "assets/campaigns/summer-edit-banner-1600.webp",
+      "bytes": 39624,
+      "sha256": "3b9ca1d1098f2b44d39b5bed09e2d6b6b1df8f56461d38d99fdcc1157cc32573",
+      "group": "campaigns",
+      "width": 1600,
+      "height": 640
+    },
+    {
+      "path": "assets/departments/bags-travel/portrait-320.jpg",
+      "bytes": 21570,
+      "sha256": "90feac13d3f4532414c9c3fce8e8040b13a43837f68f3b57de38d79fd3307bc6",
+      "group": "departments",
+      "width": 320,
+      "height": 427
+    },
+    {
+      "path": "assets/departments/bags-travel/portrait-320.webp",
+      "bytes": 9400,
+      "sha256": "14a795950dd3b04bf8df4283aafc7b96fce0191b91a1f995a23ddedfe48ec5ac",
+      "group": "departments",
+      "width": 320,
+      "height": 427
+    },
+    {
+      "path": "assets/departments/bags-travel/portrait-480.jpg",
+      "bytes": 38409,
+      "sha256": "32d9acda84e91fae026a354eab186de0b3902cca37181d2e874b807bc84c7d79",
+      "group": "departments",
+      "width": 480,
+      "height": 640
+    },
+    {
+      "path": "assets/departments/bags-travel/portrait-480.webp",
+      "bytes": 16346,
+      "sha256": "643af5e03a89f10617d3202f5c97ed35c0aa86a099646b44847433a42cea5eb5",
+      "group": "departments",
+      "width": 480,
+      "height": 640
+    },
+    {
+      "path": "assets/departments/bags-travel/square-320.jpg",
+      "bytes": 16623,
+      "sha256": "082bddb3ce71927588d6c3b04628102a03e2e744ab36bb1adcaa5e2754650fa9",
+      "group": "departments",
+      "width": 320,
+      "height": 320
+    },
+    {
+      "path": "assets/departments/bags-travel/square-320.webp",
+      "bytes": 7670,
+      "sha256": "dda11724457107bc3e93238a57f7cb8bd9265c185d946e4caa07123598133f88",
+      "group": "departments",
+      "width": 320,
+      "height": 320
+    },
+    {
+      "path": "assets/departments/bags-travel/square-480.jpg",
+      "bytes": 30668,
+      "sha256": "9e85faff3170a009b6519a751c6406b5bad7dbc3e280237d0e6dca7aedf3e31d",
+      "group": "departments",
+      "width": 480,
+      "height": 480
+    },
+    {
+      "path": "assets/departments/bags-travel/square-480.webp",
+      "bytes": 13034,
+      "sha256": "dcf34972775e29c5e1f3d8503e2632115dfb16bae1db5dad3536e8fadebb88d9",
+      "group": "departments",
+      "width": 480,
+      "height": 480
+    },
+    {
+      "path": "assets/departments/bags-travel/square-640.jpg",
+      "bytes": 46479,
+      "sha256": "c7d6560a0984f800611e4ddd262a1a4ecf3e16e5a580255ac4f73d094bb571be",
+      "group": "departments",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "path": "assets/departments/bags-travel/square-640.webp",
+      "bytes": 19800,
+      "sha256": "767568b6cb24a0a68b2a2ffa5192f6072abbf3ee789ea02e367eeabd972fa4d9",
+      "group": "departments",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "path": "assets/departments/bags-travel/wide-320.jpg",
+      "bytes": 11027,
+      "sha256": "fac6820ec18690c57def9f47ff5420a2090639a5eee6119547ba73f6d848f400",
+      "group": "departments",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "assets/departments/bags-travel/wide-320.webp",
+      "bytes": 5160,
+      "sha256": "13ce25c33cc123de726ff9fa915af9df322d3d863db1cfb3b330efb94d19f7e7",
+      "group": "departments",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "assets/departments/bags-travel/wide-480.jpg",
+      "bytes": 20362,
+      "sha256": "db612efebb657b4e2f7873bd0dc03f1ce8dbb49c21963b554d9a75d3c2705c93",
+      "group": "departments",
+      "width": 480,
+      "height": 300
+    },
+    {
+      "path": "assets/departments/bags-travel/wide-480.webp",
+      "bytes": 8796,
+      "sha256": "993dee4e78fc5bba507bdb29f62d3954788e70d6f9936be4f782c7051e76e2b3",
+      "group": "departments",
+      "width": 480,
+      "height": 300
+    },
+    {
+      "path": "assets/departments/bags-travel/wide-640.jpg",
+      "bytes": 31253,
+      "sha256": "ef0f2b50d6f15a5c9fd5cd638488124d48a23d17b7e289fc20d5f83aa84ee531",
+      "group": "departments",
+      "width": 640,
+      "height": 400
+    },
+    {
+      "path": "assets/departments/bags-travel/wide-640.webp",
+      "bytes": 12872,
+      "sha256": "aa7f141f536d22eaa71427b97bd1772e8732662e14d3abca0ba6fc8757c82b83",
+      "group": "departments",
+      "width": 640,
+      "height": 400
+    },
+    {
+      "path": "assets/departments/beauty-self-care/portrait-320.jpg",
+      "bytes": 22571,
+      "sha256": "8117a861fa741eba3e8b89c0a9ba78c6693c88730b9825483435dad80f7ca5f7",
+      "group": "departments",
+      "width": 320,
+      "height": 427
+    },
+    {
+      "path": "assets/departments/beauty-self-care/portrait-320.webp",
+      "bytes": 10238,
+      "sha256": "e9c7e8c19e75588b473f68b71f4a9410cc356487b7f23be92a551444d9d56c5b",
+      "group": "departments",
+      "width": 320,
+      "height": 427
+    },
+    {
+      "path": "assets/departments/beauty-self-care/portrait-480.jpg",
+      "bytes": 40538,
+      "sha256": "8635ea827c860ea75cde688500cdd6a1817ea4eeea4e714a5da09e98744848c5",
+      "group": "departments",
+      "width": 480,
+      "height": 640
+    },
+    {
+      "path": "assets/departments/beauty-self-care/portrait-480.webp",
+      "bytes": 17676,
+      "sha256": "d645cb269ef74353bf2c051a5c5ac3b70cff914cacd09c3b01f53b29d67709a7",
+      "group": "departments",
+      "width": 480,
+      "height": 640
+    },
+    {
+      "path": "assets/departments/beauty-self-care/square-320.jpg",
+      "bytes": 18896,
+      "sha256": "ccbcf252117941c740f7bd5baab32137ab1ba0398be7f0df3a2054d3277dff71",
+      "group": "departments",
+      "width": 320,
+      "height": 320
+    },
+    {
+      "path": "assets/departments/beauty-self-care/square-320.webp",
+      "bytes": 9068,
+      "sha256": "7d02031b190d84db23d3a361b6de6ffe5f32637373a12eb338c9663f67008233",
+      "group": "departments",
+      "width": 320,
+      "height": 320
+    },
+    {
+      "path": "assets/departments/beauty-self-care/square-480.jpg",
+      "bytes": 35040,
+      "sha256": "0ce171af8bf57720dac9b3361a0b586161223feea733c66f2068479544ed8d80",
+      "group": "departments",
+      "width": 480,
+      "height": 480
+    },
+    {
+      "path": "assets/departments/beauty-self-care/square-480.webp",
+      "bytes": 15934,
+      "sha256": "9ff9efc7a74dfd9f6b1f779a618ba7a732f743e7b0a032e06bc4cbbe97837a35",
+      "group": "departments",
+      "width": 480,
+      "height": 480
+    },
+    {
+      "path": "assets/departments/beauty-self-care/square-640.jpg",
+      "bytes": 53251,
+      "sha256": "c4a75e1cb4c0fe501b3a5ce4f66e3c048630d051c6dccb4f541e044469e5ca2e",
+      "group": "departments",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "path": "assets/departments/beauty-self-care/square-640.webp",
+      "bytes": 23758,
+      "sha256": "a9574638b0d43fd8d61175c88d2d91cd3f0091572024fdf491012fa9948c12f0",
+      "group": "departments",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "path": "assets/departments/beauty-self-care/wide-320.jpg",
+      "bytes": 12684,
+      "sha256": "80a1925e94ed4eccd6a54a376f7f2ccf5e26ee675e5c6a235fb5c0f909f81476",
+      "group": "departments",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "assets/departments/beauty-self-care/wide-320.webp",
+      "bytes": 6342,
+      "sha256": "e38ccb63d90ffc0a5087bcfa90e00b0229a224321289c0e3a2f6cb3ce2eadf6b",
+      "group": "departments",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "assets/departments/beauty-self-care/wide-480.jpg",
+      "bytes": 23651,
+      "sha256": "09d66e7913101cc36cc76b4901a6d11c5b056a03e19be2d8c5f214d115109289",
+      "group": "departments",
+      "width": 480,
+      "height": 300
+    },
+    {
+      "path": "assets/departments/beauty-self-care/wide-480.webp",
+      "bytes": 11004,
+      "sha256": "4b070ce109cd8b3897a9808af97cd81b152134a75e34efeaa275bf4ceae818f2",
+      "group": "departments",
+      "width": 480,
+      "height": 300
+    },
+    {
+      "path": "assets/departments/beauty-self-care/wide-640.jpg",
+      "bytes": 35971,
+      "sha256": "1a247ad57c223f3dd93b8d8e66a76b2eeeba4c56c01a67e904c8c5812df03b71",
+      "group": "departments",
+      "width": 640,
+      "height": 400
+    },
+    {
+      "path": "assets/departments/beauty-self-care/wide-640.webp",
+      "bytes": 15816,
+      "sha256": "90f6ccfd562f3f9607d56e1af21f9c945ed9efb508c257a565136817300bd418",
+      "group": "departments",
+      "width": 640,
+      "height": 400
+    },
+    {
+      "path": "assets/departments/digital-downloads/portrait-320.jpg",
+      "bytes": 25662,
+      "sha256": "5056883298cac1b6c034fdf5f253504ce515775c2adaaa0114fa547450d9d0aa",
+      "group": "departments",
+      "width": 320,
+      "height": 427
+    },
+    {
+      "path": "assets/departments/digital-downloads/portrait-320.webp",
+      "bytes": 13440,
+      "sha256": "9c6b41f38181fe92c82d77eca51ec90375b8ec76b6bfdba2ec4130275592e239",
+      "group": "departments",
+      "width": 320,
+      "height": 427
+    },
+    {
+      "path": "assets/departments/digital-downloads/portrait-480.jpg",
+      "bytes": 46461,
+      "sha256": "80768c32829ff1cf6bd937b71166066abfd757b401d351abaa11c62dc0a50179",
+      "group": "departments",
+      "width": 480,
+      "height": 640
+    },
+    {
+      "path": "assets/departments/digital-downloads/portrait-480.webp",
+      "bytes": 22438,
+      "sha256": "06a7f5cb905b594d118f1442c424c699c125c862360ac0ffc0b45a02595d4613",
+      "group": "departments",
+      "width": 480,
+      "height": 640
+    },
+    {
+      "path": "assets/departments/digital-downloads/square-320.jpg",
+      "bytes": 20492,
+      "sha256": "996c68400d9cb3611f7d4676670cc12e4698f9d407a8b73f0ebf4af11b23d395",
+      "group": "departments",
+      "width": 320,
+      "height": 320
+    },
+    {
+      "path": "assets/departments/digital-downloads/square-320.webp",
+      "bytes": 10742,
+      "sha256": "ebe1a887b3f18760770d093ab19b0183b479b99086fdb0fd5df9cd5522078201",
+      "group": "departments",
+      "width": 320,
+      "height": 320
+    },
+    {
+      "path": "assets/departments/digital-downloads/square-480.jpg",
+      "bytes": 38447,
+      "sha256": "7af5afc6e2286289a7603009aad9e6ab7d2610633bb71ba7f8bba7a0c214d366",
+      "group": "departments",
+      "width": 480,
+      "height": 480
+    },
+    {
+      "path": "assets/departments/digital-downloads/square-480.webp",
+      "bytes": 18646,
+      "sha256": "f9d5ef5105ba7572ed1b30f8c069b025d42cd9bbce92a965686a136a70cfd636",
+      "group": "departments",
+      "width": 480,
+      "height": 480
+    },
+    {
+      "path": "assets/departments/digital-downloads/square-640.jpg",
+      "bytes": 59129,
+      "sha256": "ba449b1fb3256c3ff98e8975979befcda2b1fb3dd795e3c6267a1849d248b4c9",
+      "group": "departments",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "path": "assets/departments/digital-downloads/square-640.webp",
+      "bytes": 28276,
+      "sha256": "2bf027ab844780fc628c5cba320d2bc20b0d2394a288c4f65063fb3cffb7441e",
+      "group": "departments",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "path": "assets/departments/digital-downloads/wide-320.jpg",
+      "bytes": 13424,
+      "sha256": "71e68d2a99d1669caae4a4b2259dfe758c88c9457ba86d1edf83cfc8afbf13ba",
+      "group": "departments",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "assets/departments/digital-downloads/wide-320.webp",
+      "bytes": 7266,
+      "sha256": "ca92446fde987ff89657603036e9d7ac01b19d2afc43e389f3fe5839db1246eb",
+      "group": "departments",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "assets/departments/digital-downloads/wide-480.jpg",
+      "bytes": 26322,
+      "sha256": "431e0a2bca0e53822d452e9495a516b8aa7930da180a6c710d37a9645fea5647",
+      "group": "departments",
+      "width": 480,
+      "height": 300
+    },
+    {
+      "path": "assets/departments/digital-downloads/wide-480.webp",
+      "bytes": 12590,
+      "sha256": "39f974035f35e6236b8c28777858e322bb0528d41f753c0123d70d86d198a92c",
+      "group": "departments",
+      "width": 480,
+      "height": 300
+    },
+    {
+      "path": "assets/departments/digital-downloads/wide-640.jpg",
+      "bytes": 41389,
+      "sha256": "5517239d84e77edc9b1fe4b3bf3781b037fc2056880be0bc1ad08a201f244fe8",
+      "group": "departments",
+      "width": 640,
+      "height": 400
+    },
+    {
+      "path": "assets/departments/digital-downloads/wide-640.webp",
+      "bytes": 19162,
+      "sha256": "0b7f13437be2f99ae330da40674023e50d1b37987189f1ef6422503f6bbdd7bb",
+      "group": "departments",
+      "width": 640,
+      "height": 400
+    },
+    {
+      "path": "assets/departments/fashion-accessories/portrait-320.jpg",
+      "bytes": 23760,
+      "sha256": "9f08dcc321eeb56a722052a5600df4edb26e55f37f94c33c976f1eca8d66439e",
+      "group": "departments",
+      "width": 320,
+      "height": 427
+    },
+    {
+      "path": "assets/departments/fashion-accessories/portrait-320.webp",
+      "bytes": 13126,
+      "sha256": "8c48a8090547b633afe7f6e6583440b129bd2f6d3aaa44ef7b0cdcf5681c9a1c",
+      "group": "departments",
+      "width": 320,
+      "height": 427
+    },
+    {
+      "path": "assets/departments/fashion-accessories/portrait-480.jpg",
+      "bytes": 43128,
+      "sha256": "b5be3749a02f26edfa0c22037589948a29d2c7365670b39996b60daf4ae50f11",
+      "group": "departments",
+      "width": 480,
+      "height": 640
+    },
+    {
+      "path": "assets/departments/fashion-accessories/portrait-480.webp",
+      "bytes": 21692,
+      "sha256": "447e29d3e06a6af26a8fb7f74cc2f488045e6524168d47d249317436fd2acd08",
+      "group": "departments",
+      "width": 480,
+      "height": 640
+    },
+    {
+      "path": "assets/departments/fashion-accessories/square-320.jpg",
+      "bytes": 18084,
+      "sha256": "8a38253a06156fd0a0767752da2c08dd9041590b93112fb294c91f4648fee0d1",
+      "group": "departments",
+      "width": 320,
+      "height": 320
+    },
+    {
+      "path": "assets/departments/fashion-accessories/square-320.webp",
+      "bytes": 10234,
+      "sha256": "7f4a87ee611853f50d7d9799448f53cd43ad562ed71525349d807344a3c42f8c",
+      "group": "departments",
+      "width": 320,
+      "height": 320
+    },
+    {
+      "path": "assets/departments/fashion-accessories/square-480.jpg",
+      "bytes": 33962,
+      "sha256": "247d39d34a3ebb486f247d2ade9b1b8cc8d2d0ef50349999ae70da7bcada3c99",
+      "group": "departments",
+      "width": 480,
+      "height": 480
+    },
+    {
+      "path": "assets/departments/fashion-accessories/square-480.webp",
+      "bytes": 17406,
+      "sha256": "5554e4f86b33a7b0dedcec9600997d03abb7623faab00a2fd45ced87d8fe4e89",
+      "group": "departments",
+      "width": 480,
+      "height": 480
+    },
+    {
+      "path": "assets/departments/fashion-accessories/square-640.jpg",
+      "bytes": 51957,
+      "sha256": "0399d27146c887ab6fb28fd747d1075cd0135ba14ea9ef25f6f31a9ea6eedddf",
+      "group": "departments",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "path": "assets/departments/fashion-accessories/square-640.webp",
+      "bytes": 25554,
+      "sha256": "34732e36d8972e0b0ed4376bc750acf4898b5368d471819d4a6aea80b7634907",
+      "group": "departments",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "path": "assets/departments/fashion-accessories/wide-320.jpg",
+      "bytes": 11599,
+      "sha256": "3c0bd0bf0e838418ca042ef620d510bdfdd6dfafe672e6ca8ecdfea32f561f69",
+      "group": "departments",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "assets/departments/fashion-accessories/wide-320.webp",
+      "bytes": 6610,
+      "sha256": "7358db1047fd10e0498354196c75358fef80de659266b4a5d93b7e01112268ad",
+      "group": "departments",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "assets/departments/fashion-accessories/wide-480.jpg",
+      "bytes": 22491,
+      "sha256": "ae4a465dde5a831306e1fa9cf2a9b50b4d13093f1a3c3493cd7244e11c78dfd2",
+      "group": "departments",
+      "width": 480,
+      "height": 300
+    },
+    {
+      "path": "assets/departments/fashion-accessories/wide-480.webp",
+      "bytes": 12058,
+      "sha256": "4a2cce18e8a136f5e6eb39b4520e01f3e6e42598b5305f329f231dce46b11ecd",
+      "group": "departments",
+      "width": 480,
+      "height": 300
+    },
+    {
+      "path": "assets/departments/fashion-accessories/wide-640.jpg",
+      "bytes": 34756,
+      "sha256": "fd5fc495118b862cc47dd24513ee5e6ef4e0b02936c86759bea689b954165683",
+      "group": "departments",
+      "width": 640,
+      "height": 400
+    },
+    {
+      "path": "assets/departments/fashion-accessories/wide-640.webp",
+      "bytes": 17314,
+      "sha256": "f65786e1af70620163023262a6b3f4c6a97598cba078af891b1acaada14343a5",
+      "group": "departments",
+      "width": 640,
+      "height": 400
+    },
+    {
+      "path": "assets/departments/home-kitchen/portrait-320.jpg",
+      "bytes": 20542,
+      "sha256": "617e8c6cfd22b455d590e1155860876536b6b9cf0b23e516e67cc124be8cd2d8",
+      "group": "departments",
+      "width": 320,
+      "height": 427
+    },
+    {
+      "path": "assets/departments/home-kitchen/portrait-320.webp",
+      "bytes": 8848,
+      "sha256": "15a78a792290410602534bff536ed08293515ba8a273071d0f58415507501693",
+      "group": "departments",
+      "width": 320,
+      "height": 427
+    },
+    {
+      "path": "assets/departments/home-kitchen/portrait-480.jpg",
+      "bytes": 36499,
+      "sha256": "767222de3cea2552c8f66cc21df3bca460535c0a05aeb24c27ecab7b8a67ffb9",
+      "group": "departments",
+      "width": 480,
+      "height": 640
+    },
+    {
+      "path": "assets/departments/home-kitchen/portrait-480.webp",
+      "bytes": 15028,
+      "sha256": "74eb2182f2d7d3676edd85d0e0ce9d002a0149b550353df5302d45d961e88415",
+      "group": "departments",
+      "width": 480,
+      "height": 640
+    },
+    {
+      "path": "assets/departments/home-kitchen/square-320.jpg",
+      "bytes": 15918,
+      "sha256": "2a8bd5d02e9dc33936411177ba81dbc2cba7026a44144c46bc0fd1ebcf71ab5a",
+      "group": "departments",
+      "width": 320,
+      "height": 320
+    },
+    {
+      "path": "assets/departments/home-kitchen/square-320.webp",
+      "bytes": 7066,
+      "sha256": "9de95cb78ca082178405f95523b32ce05950f7013dfc4832e34db6c13ac93fb3",
+      "group": "departments",
+      "width": 320,
+      "height": 320
+    },
+    {
+      "path": "assets/departments/home-kitchen/square-480.jpg",
+      "bytes": 29069,
+      "sha256": "7bbd459d6ed034cd35f248516d84a7913c5a48b3518cca6c65a576e40ea83c31",
+      "group": "departments",
+      "width": 480,
+      "height": 480
+    },
+    {
+      "path": "assets/departments/home-kitchen/square-480.webp",
+      "bytes": 12046,
+      "sha256": "b4ed3098c8d7eb04580291525df4b14f0f22499b665fa67fdb2faa0106789515",
+      "group": "departments",
+      "width": 480,
+      "height": 480
+    },
+    {
+      "path": "assets/departments/home-kitchen/square-640.jpg",
+      "bytes": 44318,
+      "sha256": "5e6d723dec95be800cb880b63b3a695cd29e1ca34ef3b8fcb718d4c814b893d8",
+      "group": "departments",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "path": "assets/departments/home-kitchen/square-640.webp",
+      "bytes": 17700,
+      "sha256": "0c41bda05b3d659ee2b50e805fa6d2820c586810fbfc23b12d0bfc98258390df",
+      "group": "departments",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "path": "assets/departments/home-kitchen/wide-320.jpg",
+      "bytes": 10581,
+      "sha256": "9c78d6b5c2dddf6432a96a865ee4354be0b6adb6afdbbba0a2f34a81037e9640",
+      "group": "departments",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "assets/departments/home-kitchen/wide-320.webp",
+      "bytes": 4862,
+      "sha256": "5b739d4a126772148d0580c37a2e724a3c255a498b31bbb0374696c58b43c86c",
+      "group": "departments",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "assets/departments/home-kitchen/wide-480.jpg",
+      "bytes": 19748,
+      "sha256": "267b11a35f3c7063a8dbf47c785efa7ca79f760b029a58ce3a23cffe8905e6c3",
+      "group": "departments",
+      "width": 480,
+      "height": 300
+    },
+    {
+      "path": "assets/departments/home-kitchen/wide-480.webp",
+      "bytes": 8368,
+      "sha256": "0ff41d3fecf8de54550f67972f8f0574aeee9427e04e2de53ca77ca0c8b34d37",
+      "group": "departments",
+      "width": 480,
+      "height": 300
+    },
+    {
+      "path": "assets/departments/home-kitchen/wide-640.jpg",
+      "bytes": 30074,
+      "sha256": "64ba1f5d958ed6822857fe00e81acfac32477c17e54b5e8ed326dd15bfa00c72",
+      "group": "departments",
+      "width": 640,
+      "height": 400
+    },
+    {
+      "path": "assets/departments/home-kitchen/wide-640.webp",
+      "bytes": 11988,
+      "sha256": "d976fbf53951d4884ce70ba75d42b3320b671466ec3b16c74c73621f8e1eff56",
+      "group": "departments",
+      "width": 640,
+      "height": 400
+    },
+    {
+      "path": "assets/departments/kids-hobbies/portrait-320.jpg",
+      "bytes": 22629,
+      "sha256": "ae3f1d3f03879f7901998e219596a8115c5d7a119480d1c0dc1c43e92beedb9e",
+      "group": "departments",
+      "width": 320,
+      "height": 427
+    },
+    {
+      "path": "assets/departments/kids-hobbies/portrait-320.webp",
+      "bytes": 10118,
+      "sha256": "e3fb1ec2c19b7f50f793d7b0739448e9f1d8bd5a3cec16c2ab26c99b4ec0ef73",
+      "group": "departments",
+      "width": 320,
+      "height": 427
+    },
+    {
+      "path": "assets/departments/kids-hobbies/portrait-480.jpg",
+      "bytes": 39797,
+      "sha256": "f36017f13c31b1fa27357a5322ee438f5bc3e682be50b1a5a1a750b3ecb2c964",
+      "group": "departments",
+      "width": 480,
+      "height": 640
+    },
+    {
+      "path": "assets/departments/kids-hobbies/portrait-480.webp",
+      "bytes": 16678,
+      "sha256": "ef613dd67b3c79065cafbe1270b0098f40ffdb2a6ecbebf9a0aafda254b9300f",
+      "group": "departments",
+      "width": 480,
+      "height": 640
+    },
+    {
+      "path": "assets/departments/kids-hobbies/square-320.jpg",
+      "bytes": 17653,
+      "sha256": "7582bdda0712f80cd7e3b4c1bf0db81e147e3ad3abe61cac5cf9b3431e6f5c4e",
+      "group": "departments",
+      "width": 320,
+      "height": 320
+    },
+    {
+      "path": "assets/departments/kids-hobbies/square-320.webp",
+      "bytes": 8114,
+      "sha256": "e6c45e3f8842ff4db8981bad6d604d0cac6ee40a9ed0f9558a72aedd219af507",
+      "group": "departments",
+      "width": 320,
+      "height": 320
+    },
+    {
+      "path": "assets/departments/kids-hobbies/square-480.jpg",
+      "bytes": 31605,
+      "sha256": "c4f9732a6aa8e127b890ed62c0afa91a371c63d4aa6d78cf67fc51043370479f",
+      "group": "departments",
+      "width": 480,
+      "height": 480
+    },
+    {
+      "path": "assets/departments/kids-hobbies/square-480.webp",
+      "bytes": 13780,
+      "sha256": "844fd681162be3e7eb3e1a31fa70434dbe7738172840b812524585319d726718",
+      "group": "departments",
+      "width": 480,
+      "height": 480
+    },
+    {
+      "path": "assets/departments/kids-hobbies/square-640.jpg",
+      "bytes": 47566,
+      "sha256": "4de8b144389e79a01e15c8d3bcb2e8b0b1d6ecd075633acca9e7c5d0d6f536fd",
+      "group": "departments",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "path": "assets/departments/kids-hobbies/square-640.webp",
+      "bytes": 19802,
+      "sha256": "8250b94da402cbdd9a100c6dc221034d38c681bfd3d00d138ef03d9a1aeb400c",
+      "group": "departments",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "path": "assets/departments/kids-hobbies/wide-320.jpg",
+      "bytes": 12015,
+      "sha256": "644b3efaefdfa3f3e20445bed1723ebacc8c2af7ed4bad298efec2487e515ca4",
+      "group": "departments",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "assets/departments/kids-hobbies/wide-320.webp",
+      "bytes": 5792,
+      "sha256": "a1922251ec85d80f8755fc4d6605380012ef2eb8261f05103c7ee567cdf6ceb6",
+      "group": "departments",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "assets/departments/kids-hobbies/wide-480.jpg",
+      "bytes": 21720,
+      "sha256": "628d55dacbdf467e44c57ebf07f570617ff6e2b66fa773da9d8f7fd440393520",
+      "group": "departments",
+      "width": 480,
+      "height": 300
+    },
+    {
+      "path": "assets/departments/kids-hobbies/wide-480.webp",
+      "bytes": 9926,
+      "sha256": "b1b1d73f258c0f924e1c6fe801ab38294e0b85a0d99b4828a57afcddb4c511de",
+      "group": "departments",
+      "width": 480,
+      "height": 300
+    },
+    {
+      "path": "assets/departments/kids-hobbies/wide-640.jpg",
+      "bytes": 32668,
+      "sha256": "12d6baa421d0d8c94bc8fdbfd4344e6bf63efdee828a702d9e9845a446a27221",
+      "group": "departments",
+      "width": 640,
+      "height": 400
+    },
+    {
+      "path": "assets/departments/kids-hobbies/wide-640.webp",
+      "bytes": 13722,
+      "sha256": "047ef601bc17e57ba73018bb7f94095832e0cf3f479d48a2106d06b7156c7e07",
+      "group": "departments",
+      "width": 640,
+      "height": 400
+    },
+    {
+      "path": "assets/departments/outdoors-fitness/portrait-320.jpg",
+      "bytes": 25974,
+      "sha256": "f074d9eb83156614558b93772e7799a5166884c8711e91a29ea8f961266788d4",
+      "group": "departments",
+      "width": 320,
+      "height": 427
+    },
+    {
+      "path": "assets/departments/outdoors-fitness/portrait-320.webp",
+      "bytes": 12630,
+      "sha256": "fc22de55441683c7e0c36303b14c912daaa497784c072e3dec7fe137b1baa1ee",
+      "group": "departments",
+      "width": 320,
+      "height": 427
+    },
+    {
+      "path": "assets/departments/outdoors-fitness/portrait-480.jpg",
+      "bytes": 46374,
+      "sha256": "0a7accafcd756b028fd910841670231ec113f6fcb2dbe98ee0c724ceddfa6f23",
+      "group": "departments",
+      "width": 480,
+      "height": 640
+    },
+    {
+      "path": "assets/departments/outdoors-fitness/portrait-480.webp",
+      "bytes": 21242,
+      "sha256": "cf1cee74b7152ba4e9841026cbff52042c358654a4031de2c8fce7fab0357310",
+      "group": "departments",
+      "width": 480,
+      "height": 640
+    },
+    {
+      "path": "assets/departments/outdoors-fitness/square-320.jpg",
+      "bytes": 19644,
+      "sha256": "1cb5e8f925472338ff98ab3d910c1075f3fb11b55d7220c2d927f34086765871",
+      "group": "departments",
+      "width": 320,
+      "height": 320
+    },
+    {
+      "path": "assets/departments/outdoors-fitness/square-320.webp",
+      "bytes": 9516,
+      "sha256": "bfed51c55e1c08f1bd5bb30ab85e20b043b713df94ce31a19704906c02db2607",
+      "group": "departments",
+      "width": 320,
+      "height": 320
+    },
+    {
+      "path": "assets/departments/outdoors-fitness/square-480.jpg",
+      "bytes": 36048,
+      "sha256": "1913bbb3fc7cd7b8d32e1129ccff45d09ae45475409254dde23c4d7f08236d21",
+      "group": "departments",
+      "width": 480,
+      "height": 480
+    },
+    {
+      "path": "assets/departments/outdoors-fitness/square-480.webp",
+      "bytes": 16290,
+      "sha256": "516f2653d7239f8df7910b655c61ffbcb593fc9742edf68497c5c8bd0f5b1540",
+      "group": "departments",
+      "width": 480,
+      "height": 480
+    },
+    {
+      "path": "assets/departments/outdoors-fitness/square-640.jpg",
+      "bytes": 54706,
+      "sha256": "f2911d20022ab76b9388c9bc81d39cd1a994c2c2fabdf8e491bde1d38f8637f3",
+      "group": "departments",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "path": "assets/departments/outdoors-fitness/square-640.webp",
+      "bytes": 24064,
+      "sha256": "eafbf846524a75e45ca9ab124ffc6232bc0b38b592c944a798ef87bf4d8a5617",
+      "group": "departments",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "path": "assets/departments/outdoors-fitness/wide-320.jpg",
+      "bytes": 12530,
+      "sha256": "4b17e7ba556d399541c7dfda56614dc961c7ee54a01a50dd7b1e17a0597e1d38",
+      "group": "departments",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "assets/departments/outdoors-fitness/wide-320.webp",
+      "bytes": 6436,
+      "sha256": "4a4b5bc28b9a4806dc54c759ebe880f33e4186d8dd49fbcd8bbdd793566dcd3d",
+      "group": "departments",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "assets/departments/outdoors-fitness/wide-480.jpg",
+      "bytes": 23814,
+      "sha256": "f2b9b4834a14d8573cb50a21b7f5c8d2c43cc7223f31831f9b79a48c83ed2778",
+      "group": "departments",
+      "width": 480,
+      "height": 300
+    },
+    {
+      "path": "assets/departments/outdoors-fitness/wide-480.webp",
+      "bytes": 10956,
+      "sha256": "cfc9c58f2e2019120544caf97debe96c98adc3c273c428d83c1dbcc1c2dda9b0",
+      "group": "departments",
+      "width": 480,
+      "height": 300
+    },
+    {
+      "path": "assets/departments/outdoors-fitness/wide-640.jpg",
+      "bytes": 36562,
+      "sha256": "dc94fa1e353360a866a0d0ce49f7e9ae7c88faf097c6a9ed5b98f1dd999e17c6",
+      "group": "departments",
+      "width": 640,
+      "height": 400
+    },
+    {
+      "path": "assets/departments/outdoors-fitness/wide-640.webp",
+      "bytes": 16194,
+      "sha256": "215d516c1336d6b02eb6b7b22d0dcbdb69f97d9a4374ad9990b0f6677ce2dc25",
+      "group": "departments",
+      "width": 640,
+      "height": 400
+    },
+    {
+      "path": "assets/departments/pets/portrait-320.jpg",
+      "bytes": 27803,
+      "sha256": "2c91d1bc308d3b13abe8b2ec8681897e12bb1f624b9206635b9fc7c71c084d60",
+      "group": "departments",
+      "width": 320,
+      "height": 427
+    },
+    {
+      "path": "assets/departments/pets/portrait-320.webp",
+      "bytes": 13738,
+      "sha256": "b6bf822274b1df074bd1c5f7b51f575993742d3ae013966e3d9f969c041ad792",
+      "group": "departments",
+      "width": 320,
+      "height": 427
+    },
+    {
+      "path": "assets/departments/pets/portrait-480.jpg",
+      "bytes": 49906,
+      "sha256": "eacc1283851c5d65f23adfe3ee655699771647620578b7b129be695c8ae9980e",
+      "group": "departments",
+      "width": 480,
+      "height": 640
+    },
+    {
+      "path": "assets/departments/pets/portrait-480.webp",
+      "bytes": 23236,
+      "sha256": "36bf24ff55cdb235bb08065ac6956d32c43c65aaa272b2b1871022eac48cd33a",
+      "group": "departments",
+      "width": 480,
+      "height": 640
+    },
+    {
+      "path": "assets/departments/pets/square-320.jpg",
+      "bytes": 21097,
+      "sha256": "f08f9fca3158100885e366cf122b505ce48de935755bf75c1e63ce6c8b5d28b1",
+      "group": "departments",
+      "width": 320,
+      "height": 320
+    },
+    {
+      "path": "assets/departments/pets/square-320.webp",
+      "bytes": 10790,
+      "sha256": "4a39ed9e5f9bf5528b65959141e634153d936f7456ef18fa590f14168a6aeb43",
+      "group": "departments",
+      "width": 320,
+      "height": 320
+    },
+    {
+      "path": "assets/departments/pets/square-480.jpg",
+      "bytes": 39529,
+      "sha256": "6e85adcb2c312e53f5ad34a543e63ded249a811bb045b8316a41675c21d0995d",
+      "group": "departments",
+      "width": 480,
+      "height": 480
+    },
+    {
+      "path": "assets/departments/pets/square-480.webp",
+      "bytes": 18764,
+      "sha256": "148b2113c79dd4820198f0f4caca23526da48efe72a56528fe6c21d028511eb6",
+      "group": "departments",
+      "width": 480,
+      "height": 480
+    },
+    {
+      "path": "assets/departments/pets/square-640.jpg",
+      "bytes": 60556,
+      "sha256": "f2d21e26a50c4397ff6b7510ae351245ce39c95c2574e2fdd7c76cb4641eef4d",
+      "group": "departments",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "path": "assets/departments/pets/square-640.webp",
+      "bytes": 28308,
+      "sha256": "dc6bec792d9ebbed2a7897b9486083988cdc31f4d760bd797e3046062666e669",
+      "group": "departments",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "path": "assets/departments/pets/wide-320.jpg",
+      "bytes": 13475,
+      "sha256": "ffff54a64de6d9d12c4999b51c88b61376b1ae1278a2985a3fdae8aeb36121d1",
+      "group": "departments",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "assets/departments/pets/wide-320.webp",
+      "bytes": 6646,
+      "sha256": "d5c4f7e0ef4469840185d20938b3c54d77cc02821dd64f0531c893222ab260c3",
+      "group": "departments",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "assets/departments/pets/wide-480.jpg",
+      "bytes": 25859,
+      "sha256": "d0ea0ac25d3b81784e381c7b590bd8f00fa341a342a92f712e9c2aca7235bf19",
+      "group": "departments",
+      "width": 480,
+      "height": 300
+    },
+    {
+      "path": "assets/departments/pets/wide-480.webp",
+      "bytes": 11850,
+      "sha256": "eda6c691d5938f738beaf6596f6f5d73f39d6078741083f63d2aaeca1f4dc534",
+      "group": "departments",
+      "width": 480,
+      "height": 300
+    },
+    {
+      "path": "assets/departments/pets/wide-640.jpg",
+      "bytes": 39869,
+      "sha256": "66a74836effa44fd590823dd970146ef3009f25c1bd14e2d2c9c59bb446cc92c",
+      "group": "departments",
+      "width": 640,
+      "height": 400
+    },
+    {
+      "path": "assets/departments/pets/wide-640.webp",
+      "bytes": 17738,
+      "sha256": "f7929d8a4435e46eba92ba9e38759af1989c0683a614f6eae22c0c5d88485943",
+      "group": "departments",
+      "width": 640,
+      "height": 400
+    },
+    {
+      "path": "assets/departments/tech-desk/portrait-320.jpg",
+      "bytes": 22508,
+      "sha256": "bc91f2e2d52b082adc0e23109f33d716feb0329881f2ebbfda42e866ddd1bd7d",
+      "group": "departments",
+      "width": 320,
+      "height": 427
+    },
+    {
+      "path": "assets/departments/tech-desk/portrait-320.webp",
+      "bytes": 9856,
+      "sha256": "8b04d6fe80a9e6da0d1adbd7af824d116b80b0df7be3c2204b7c179c7108e58d",
+      "group": "departments",
+      "width": 320,
+      "height": 427
+    },
+    {
+      "path": "assets/departments/tech-desk/portrait-480.jpg",
+      "bytes": 40102,
+      "sha256": "b3733ff78dbcf0c6c1c5f26a20257c779573e87dd2ddf5585802be4b5db0444e",
+      "group": "departments",
+      "width": 480,
+      "height": 640
+    },
+    {
+      "path": "assets/departments/tech-desk/portrait-480.webp",
+      "bytes": 16812,
+      "sha256": "f85a69c001387613a0929a00389162401488a138cbaa8186b7678193ff2c3e84",
+      "group": "departments",
+      "width": 480,
+      "height": 640
+    },
+    {
+      "path": "assets/departments/tech-desk/square-320.jpg",
+      "bytes": 17713,
+      "sha256": "d139cb4cd2e6c15c50b473965687a45b3be21aebd62a7376398e9225b8606bf3",
+      "group": "departments",
+      "width": 320,
+      "height": 320
+    },
+    {
+      "path": "assets/departments/tech-desk/square-320.webp",
+      "bytes": 7816,
+      "sha256": "0c133289c9da3d4e275327e2f4a479b32fde7f8b4cd02b45015e54960543e54d",
+      "group": "departments",
+      "width": 320,
+      "height": 320
+    },
+    {
+      "path": "assets/departments/tech-desk/square-480.jpg",
+      "bytes": 32510,
+      "sha256": "f9ea6eb6b7ec2545867fe29fdd2bb2de5de5419ef5efaf3d9da53764d14a6375",
+      "group": "departments",
+      "width": 480,
+      "height": 480
+    },
+    {
+      "path": "assets/departments/tech-desk/square-480.webp",
+      "bytes": 13798,
+      "sha256": "155e6a605442f720dedb746c6f14e618be5229fb7e9ea0de8b219392af882caf",
+      "group": "departments",
+      "width": 480,
+      "height": 480
+    },
+    {
+      "path": "assets/departments/tech-desk/square-640.jpg",
+      "bytes": 49334,
+      "sha256": "c0891322806ebc4bf31cccc0318b1eeead4ecb36e598a5489faba410640ab631",
+      "group": "departments",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "path": "assets/departments/tech-desk/square-640.webp",
+      "bytes": 19952,
+      "sha256": "fa5f1f72136beec81b032bcc5baafa2c253ad990fe7dce7ed336548c367582a3",
+      "group": "departments",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "path": "assets/departments/tech-desk/wide-320.jpg",
+      "bytes": 11304,
+      "sha256": "f3f81d2b06377502c55e05063a71a35ada69ef8b7e63fc28f09f2ab26d24261f",
+      "group": "departments",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "assets/departments/tech-desk/wide-320.webp",
+      "bytes": 5446,
+      "sha256": "13e0a843161220423f00ff403c0df66051366220f7bf9856c591f25b128db3ec",
+      "group": "departments",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "assets/departments/tech-desk/wide-480.jpg",
+      "bytes": 21311,
+      "sha256": "1650a2dde482bb6a1cc1dac6886aa8eb44b08826d7c1aadf7c80c02a49c7045e",
+      "group": "departments",
+      "width": 480,
+      "height": 300
+    },
+    {
+      "path": "assets/departments/tech-desk/wide-480.webp",
+      "bytes": 8712,
+      "sha256": "cf84503c462b276762a058ead7bb06bd8acf937e927b0c01568282b04ae2130d",
+      "group": "departments",
+      "width": 480,
+      "height": 300
+    },
+    {
+      "path": "assets/departments/tech-desk/wide-640.jpg",
+      "bytes": 32961,
+      "sha256": "9ba3bcca66545965c3e8971f21febcf501006d176fa7b93c1c8e197859afad42",
+      "group": "departments",
+      "width": 640,
+      "height": 400
+    },
+    {
+      "path": "assets/departments/tech-desk/wide-640.webp",
+      "bytes": 13110,
+      "sha256": "88ad5dddb4cfbb4b926f7ec80f211c59f615244f865c1e17bc69c6b40c1aebc7",
+      "group": "departments",
+      "width": 640,
+      "height": 400
+    },
+    {
+      "path": "assets/email/autumn-edit-1200.jpg",
+      "bytes": 59714,
+      "sha256": "3df59dcffd659b6b3eb401047ea60430852cbaf976f6c0ffab9531ac0be49e9c",
+      "group": "email",
+      "width": 1200,
+      "height": 400
+    },
+    {
       "path": "assets/email/discover-1200.jpg",
       "bytes": 183772,
       "sha256": "4854d2dabd120732794d982d99202a970802b2e66e5fb936024ecbfefab2be15",
+      "group": "email",
+      "width": 1200,
+      "height": 400
+    },
+    {
+      "path": "assets/email/holiday-edit-1200.jpg",
+      "bytes": 53921,
+      "sha256": "a08841a64fa5fe91fceb299e367bb7dc8ff31abd01161a78c18c5e1bd621dd06",
+      "group": "email",
+      "width": 1200,
+      "height": 400
+    },
+    {
+      "path": "assets/email/home-edit-1200.jpg",
+      "bytes": 49198,
+      "sha256": "454c6fea3f9b69c57d0bfe5225b392a483d6b26eb0ba1f5ad9ec83bbfc8f082f",
+      "group": "email",
+      "width": 1200,
+      "height": 400
+    },
+    {
+      "path": "assets/email/new-arrivals-1200.jpg",
+      "bytes": 54691,
+      "sha256": "78692194157226e77884fa68f78d0b64e31d0cb328316220dc149ab0379ec445",
+      "group": "email",
+      "width": 1200,
+      "height": 400
+    },
+    {
+      "path": "assets/email/outdoor-edit-1200.jpg",
+      "bytes": 54808,
+      "sha256": "aee1a2d67e833366a560916aa784dab3e76a0596ee69fbb7f04ea61a8c365fc9",
+      "group": "email",
+      "width": 1200,
+      "height": 400
+    },
+    {
+      "path": "assets/email/spring-edit-1200.jpg",
+      "bytes": 58256,
+      "sha256": "bc786dda3a93ae09109d20c735b2be1aaf13a6820fa9352a2faea5a73b4e81b0",
+      "group": "email",
+      "width": 1200,
+      "height": 400
+    },
+    {
+      "path": "assets/email/summer-edit-1200.jpg",
+      "bytes": 54710,
+      "sha256": "8e48588c9561ce0253d1a572f1aaa2f5003656e4f6f88a731358770ca097ad12",
       "group": "email",
       "width": 1200,
       "height": 400
@@ -2121,6 +3442,110 @@
       "height": 941
     },
     {
+      "path": "assets/masters/autumn.jpg",
+      "bytes": 99358,
+      "sha256": "4fceb607aa2af5a0be9f109aac46609cd1e4d2015e7edf15032124fd4fe2efca",
+      "group": "masters",
+      "width": 886,
+      "height": 665
+    },
+    {
+      "path": "assets/masters/bags-travel.jpg",
+      "bytes": 76579,
+      "sha256": "50e66e1bd7f94054abda722877bd352ffa7ceabc882d9c20378f527ca25a77bf",
+      "group": "masters",
+      "width": 886,
+      "height": 665
+    },
+    {
+      "path": "assets/masters/beauty-self-care.jpg",
+      "bytes": 85409,
+      "sha256": "900f8112704c32e509bf6b68350502d8c083ae896deba0fbc890485107179406",
+      "group": "masters",
+      "width": 886,
+      "height": 665
+    },
+    {
+      "path": "assets/masters/digital-downloads.jpg",
+      "bytes": 101205,
+      "sha256": "831bcd19fc2e79cdba3ea20c282d44404839d4efbd8b97b46561d56d8b6b48c7",
+      "group": "masters",
+      "width": 886,
+      "height": 665
+    },
+    {
+      "path": "assets/masters/fashion-accessories.jpg",
+      "bytes": 84486,
+      "sha256": "e5e0d904887b92c91ad45c55b8742082a9d951a34076492b833b7390a2f432b4",
+      "group": "masters",
+      "width": 886,
+      "height": 665
+    },
+    {
+      "path": "assets/masters/holiday.jpg",
+      "bytes": 84622,
+      "sha256": "108fe361a854790c163c25a842d54ce58a99630de4ae8a7fa9048fb83cd2c19e",
+      "group": "masters",
+      "width": 886,
+      "height": 665
+    },
+    {
+      "path": "assets/masters/home-kitchen.jpg",
+      "bytes": 73923,
+      "sha256": "74b3cc2d3e09be88c0f37309c3f0cecedfddfe8b990a19d429d3b04aa5b539ff",
+      "group": "masters",
+      "width": 886,
+      "height": 665
+    },
+    {
+      "path": "assets/masters/kids-hobbies.jpg",
+      "bytes": 79111,
+      "sha256": "9f2d663ae699e52cd6804061e226640ad2c1b819b25c97e692e832a01cb5f1c4",
+      "group": "masters",
+      "width": 886,
+      "height": 665
+    },
+    {
+      "path": "assets/masters/outdoors-fitness.jpg",
+      "bytes": 87212,
+      "sha256": "46070263684afa81d376c8833d1f74f6e97840676bedf76e013c5bc135c49c90",
+      "group": "masters",
+      "width": 886,
+      "height": 665
+    },
+    {
+      "path": "assets/masters/pets.jpg",
+      "bytes": 97571,
+      "sha256": "4520c997eb813241fb84acbf95c2f278b9fe2fe712f63c0d4967c0bc2432d15f",
+      "group": "masters",
+      "width": 886,
+      "height": 665
+    },
+    {
+      "path": "assets/masters/spring.jpg",
+      "bytes": 94257,
+      "sha256": "7f8e00455b42daed1592293a23fc582c34dd99cfe51faee63da4bfb7d2fda134",
+      "group": "masters",
+      "width": 886,
+      "height": 665
+    },
+    {
+      "path": "assets/masters/summer.jpg",
+      "bytes": 83898,
+      "sha256": "3646369e7348810791e5db9ad32137f90f77c0f4b54c59accee5dc2d55b92d6d",
+      "group": "masters",
+      "width": 886,
+      "height": 665
+    },
+    {
+      "path": "assets/masters/tech-desk.jpg",
+      "bytes": 80711,
+      "sha256": "feca1dc0cc83fe3da00baf4b6ade53975788df7d2999cb5aa3170b28deabaaa9",
+      "group": "masters",
+      "width": 886,
+      "height": 665
+    },
+    {
       "path": "assets/motion/ambient-bronze-1280x720.mp4",
       "bytes": 167959,
       "sha256": "787cc711825321e0cdcd4454cbfa6679630ff327a54a28d225020ecef0c0fdc2",
@@ -2171,6 +3596,30 @@
       "height": 720
     },
     {
+      "path": "assets/social/autumn-edit-landscape.jpg",
+      "bytes": 81074,
+      "sha256": "439f06e9a4582dded74c2ef151c0d887d217195b25b6bea7ff40b7f4deb6cc60",
+      "group": "social",
+      "width": 1200,
+      "height": 630
+    },
+    {
+      "path": "assets/social/autumn-edit-portrait.jpg",
+      "bytes": 107738,
+      "sha256": "03391762d4656caffe43fca449a5d65d16596771d980956a9474fec7dcf3902c",
+      "group": "social",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "path": "assets/social/autumn-edit-square.jpg",
+      "bytes": 103264,
+      "sha256": "2e247e192a4b52f0bed92b77565761cbe91938a39072e6329ded284a0b673aef",
+      "group": "social",
+      "width": 1080,
+      "height": 1080
+    },
+    {
       "path": "assets/social/discover-landscape.jpg",
       "bytes": 259928,
       "sha256": "08479158a423d8b18064a3ab2e0a8119b84821f3d93ca29351e1c252e54d4250",
@@ -2190,6 +3639,150 @@
       "path": "assets/social/discover-square.jpg",
       "bytes": 323695,
       "sha256": "e85e2754625c1e2b5360fe2dbb9042148f82544cef0ae15b3deea5d2809a2563",
+      "group": "social",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "path": "assets/social/holiday-edit-landscape.jpg",
+      "bytes": 72893,
+      "sha256": "e1a6d0ee1fbff86dee3d1bb2975a883f13e0aa4bbada69ea7a3e43535a777761",
+      "group": "social",
+      "width": 1200,
+      "height": 630
+    },
+    {
+      "path": "assets/social/holiday-edit-portrait.jpg",
+      "bytes": 98669,
+      "sha256": "dea14af7c97826664432653b7aa25c4b88572dc841a34c0ae3aa8a29af6170b8",
+      "group": "social",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "path": "assets/social/holiday-edit-square.jpg",
+      "bytes": 94337,
+      "sha256": "7ef9f1713411f75905cd1f6de2b87be9869eb442fe53ad4460612e28a7fe6ce7",
+      "group": "social",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "path": "assets/social/home-edit-landscape.jpg",
+      "bytes": 67106,
+      "sha256": "5ad8720ba8b7ac9cebe3021b49d8f9170120d291fe83f886596d212309b8bc78",
+      "group": "social",
+      "width": 1200,
+      "height": 630
+    },
+    {
+      "path": "assets/social/home-edit-portrait.jpg",
+      "bytes": 90781,
+      "sha256": "1e0e5e082fe63ab1988d344e4705103104153e2e81860109a33e612218519e1c",
+      "group": "social",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "path": "assets/social/home-edit-square.jpg",
+      "bytes": 85828,
+      "sha256": "7b37468beefb487ef824b130c13aea694853329c1a29a9bb257b1997eeada01b",
+      "group": "social",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "path": "assets/social/new-arrivals-landscape.jpg",
+      "bytes": 73891,
+      "sha256": "2cdb07e663d2021936ef0bf89164e71af3c61569123b613766389e2fc0f034d6",
+      "group": "social",
+      "width": 1200,
+      "height": 630
+    },
+    {
+      "path": "assets/social/new-arrivals-portrait.jpg",
+      "bytes": 96677,
+      "sha256": "cbfc98e42ec64e2bceac25f0bd1e20e91ef7dfe5daee2aacfe4632ad4bdd78ae",
+      "group": "social",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "path": "assets/social/new-arrivals-square.jpg",
+      "bytes": 91923,
+      "sha256": "30af01b9f3016fc5fa0660580ee36b9e8f0b02c96d3f6c66e64186fc47102ce0",
+      "group": "social",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "path": "assets/social/outdoor-edit-landscape.jpg",
+      "bytes": 76714,
+      "sha256": "9d9739d6a759ac42c399c5a9cfacd01668cb959138d52b2b887a24b432d3fc5d",
+      "group": "social",
+      "width": 1200,
+      "height": 630
+    },
+    {
+      "path": "assets/social/outdoor-edit-portrait.jpg",
+      "bytes": 99195,
+      "sha256": "ee599a7bf79d89ed1e775b43bf8bab8d4871a67df514fef66e33cf2a7d368d33",
+      "group": "social",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "path": "assets/social/outdoor-edit-square.jpg",
+      "bytes": 94179,
+      "sha256": "9bc81084ba6a5e77921dd2ad551c29d23f144edbde4971430d9b3f8da11bb18d",
+      "group": "social",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "path": "assets/social/spring-edit-landscape.jpg",
+      "bytes": 80034,
+      "sha256": "54d09248a69dcbe696b8f64c9643d035a5816daeae61e83f1f8fba8aaf1a6899",
+      "group": "social",
+      "width": 1200,
+      "height": 630
+    },
+    {
+      "path": "assets/social/spring-edit-portrait.jpg",
+      "bytes": 104105,
+      "sha256": "d6894486326dcf71d3602c15dd85964e22ceaea943da134dccde4c7be4fde868",
+      "group": "social",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "path": "assets/social/spring-edit-square.jpg",
+      "bytes": 99185,
+      "sha256": "f38ee842e37f7395473ec5f5c097140cc28c65eb298d4880eae0feb775836da9",
+      "group": "social",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "path": "assets/social/summer-edit-landscape.jpg",
+      "bytes": 75113,
+      "sha256": "d9981318bca73f240ab4ad160e9b8a9aa1327a1b724b60753cc455b51669170e",
+      "group": "social",
+      "width": 1200,
+      "height": 630
+    },
+    {
+      "path": "assets/social/summer-edit-portrait.jpg",
+      "bytes": 98418,
+      "sha256": "3d0da384c29c0987c44c0f57ba1ea09ecab34631cf06c52fa14c16a46a9b788a",
+      "group": "social",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "path": "assets/social/summer-edit-square.jpg",
+      "bytes": 93476,
+      "sha256": "5f61378d883e776c33a84775c4824af7c4b3a3b5858e54062655787fd5169047",
       "group": "social",
       "width": 1080,
       "height": 1080

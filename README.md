@@ -2,7 +2,7 @@
 
 ![Real Mall visual identity](assets/brand/wordmark-horizontal-ivory.png)
 
-**This repository contains 273 actual media files, not only briefs or mockup screenshots.** File counts include color, responsive-size and format variants. They are not claims of 273 unique photographs.
+**This repository contains 472 actual media files, not only briefs or mockup screenshots.** File counts include color, responsive-size and format variants. They are not claims of 472 unique photographs.
 
 ![Generated architectural campaign](assets/hero/atrium-desktop-1600.webp)
 
@@ -16,15 +16,16 @@ Open `index.html` for the visual asset library or `preview/storefront.html` for 
 | --- | ---: |
 | backgrounds | 12 |
 | brand | 17 |
-| campaigns | 2 |
-| email | 1 |
+| campaigns | 16 |
+| departments | 144 |
+| email | 8 |
 | hero | 14 |
 | icons | 216 |
-| masters | 1 |
+| masters | 14 |
 | motion | 7 |
-| social | 3 |
+| social | 24 |
 
-Department source coverage: **0 of 9**. Source photography registry: `production/sources.json`. Exact dimensions, bytes and hashes: `production/asset-manifest.json` and `production/SHA256SUMS.txt`.
+Department source coverage: **9 of 9**. Source photography registry: `production/sources.json`. Exact dimensions, bytes and hashes: `production/asset-manifest.json` and `production/SHA256SUMS.txt`.
 
 ## What is included
 
