@@ -1,0 +1,4 @@
+{% comment %}Usage: render 'rma-icon', name: 'search', tone: 'ivory'. Icon-only buttons still need an accessible name on the button. These decorative images are intentionally hidden from assistive technology.{% endcomment %}
+{% assign icon_tone = tone | default: 'ink' %}
+{% assign icon_file = 'rma-icon-' | append: name | append: '-' | append: icon_tone | append: '.png' %}
+<img src="{{ icon_file | asset_url }}" width="24" height="24" alt="" aria-hidden="true" loading="lazy">

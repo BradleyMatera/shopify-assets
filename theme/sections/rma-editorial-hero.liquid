@@ -1,0 +1,28 @@
+{{ 'rma-editorial.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'rma-motion.js' | asset_url }}" defer></script>
+<section class="rma rma-hero" aria-labelledby="rma-title-{{ section.id }}">
+  <picture class="rma-hero__media">
+    {% if section.settings.mobile_image != blank %}
+      <source media="(max-width: 749px)" srcset="{{ section.settings.mobile_image | image_url: width: 648 }}">
+    {% else %}
+      <source media="(max-width: 749px)" srcset="{{ 'rma-hero-mobile-648.webp' | asset_url }}">
+    {% endif %}
+    {% if section.settings.image != blank %}
+      {{ section.settings.image | image_url: width: 1600 | image_tag: widths: '480,768,1280,1600', sizes: '100vw', loading: 'eager', fetchpriority: 'high', alt: '' }}
+    {% else %}
+      <img src="{{ 'rma-hero-desktop-1600.webp' | asset_url }}" width="1600" height="900" alt="" fetchpriority="high">
+    {% endif %}
+  </picture>
+  <div class="rma-hero__content">
+    <p class="rma-kicker">{{ section.settings.eyebrow | escape }}</p>
+    <h1 id="rma-title-{{ section.id }}">{{ section.settings.heading | escape }}</h1>
+    <p class="rma-hero__description">{{ section.settings.description | escape }}</p>
+    <a class="rma-button" href="{{ section.settings.link | default: routes.all_products_collection_url }}">{{ section.settings.label | escape }} <span aria-hidden="true">→</span></a>
+  </div>
+  {% if section.settings.enable_motion %}
+    <button class="rma-motion-toggle" type="button" data-rma-motion="{{ 'rma-atrium-loop.mp4' | asset_url }}" aria-pressed="false">Play motion</button>
+  {% endif %}
+</section>
+{% schema %}
+{"name":"RMA editorial hero","settings":[{"type":"image_picker","id":"image","label":"Desktop campaign image"},{"type":"image_picker","id":"mobile_image","label":"Mobile campaign image"},{"type":"text","id":"eyebrow","label":"Eyebrow","default":"Discover your next favorite"},{"type":"text","id":"heading","label":"Heading","default":"A world of finds. One destination."},{"type":"textarea","id":"description","label":"Description","default":"Explore style, home, travel and the everyday details that make life yours."},{"type":"text","id":"label","label":"Button label","default":"Explore the departments"},{"type":"url","id":"link","label":"Button link"},{"type":"checkbox","id":"enable_motion","label":"Offer optional motion playback","default":false}],"presets":[{"name":"RMA editorial hero"}]}
+{% endschema %}

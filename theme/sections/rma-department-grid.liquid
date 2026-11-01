@@ -1,0 +1,27 @@
+{{ 'rma-editorial.css' | asset_url | stylesheet_tag }}
+<section class="rma rma-departments" aria-labelledby="rma-departments-{{ section.id }}"><div class="rma-departments__inner">
+  <p class="rma-kicker">{{ section.settings.eyebrow | escape }}</p>
+  <h2 id="rma-departments-{{ section.id }}">{{ section.settings.heading | escape }}</h2>
+  <div class="rma-department-grid">
+  {% for block in section.blocks %}
+    {% assign collection = block.settings.collection %}
+    {% if collection != blank %}
+      {% assign campaign = block.settings.image | default: collection.image %}
+      <a class="rma-department" href="{{ collection.url }}" {{ block.shopify_attributes }}>
+        <div class="rma-department__image">
+        {% if campaign != blank %}
+          {{ campaign | image_url: width: 640 | image_tag: widths: '320,480,640', sizes: '(min-width: 750px) 30vw, 45vw', loading: 'lazy', alt: '' }}
+        {% else %}
+          {% assign campaign_filename = 'rma-dept-' | append: collection.handle | append: '-640.webp' %}
+          <img src="{{ campaign_filename | asset_url }}" width="640" height="640" alt="" loading="lazy">
+        {% endif %}
+        </div>
+        <div class="rma-department__label"><span>{{ collection.title | escape }}</span><span aria-hidden="true">→</span></div>
+      </a>
+    {% endif %}
+  {% endfor %}
+  </div>
+</div></section>
+{% schema %}
+{"name":"RMA departments","max_blocks":12,"settings":[{"type":"text","id":"eyebrow","label":"Eyebrow","default":"Find your direction"},{"type":"text","id":"heading","label":"Heading","default":"Explore the departments."}],"blocks":[{"type":"department","name":"Department","settings":[{"type":"collection","id":"collection","label":"Existing collection"},{"type":"image_picker","id":"image","label":"Optional campaign image"}]}],"presets":[{"name":"RMA departments","blocks":[{"type":"department"},{"type":"department"},{"type":"department"}]}]}
+{% endschema %}
