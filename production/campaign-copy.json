@@ -1,0 +1,66 @@
+[
+  {
+    "id": "discover",
+    "source": "atrium-evening",
+    "heading": "A world of finds.",
+    "subheading": "One destination.",
+    "cta": "Explore the departments",
+    "url": "/collections/all"
+  },
+  {
+    "id": "new-arrivals",
+    "source": "fashion-accessories",
+    "heading": "Fresh perspectives.",
+    "subheading": "New arrivals.",
+    "cta": "Explore new arrivals",
+    "url": "/collections/new-arrivals"
+  },
+  {
+    "id": "home-edit",
+    "source": "home-kitchen",
+    "heading": "Make room",
+    "subheading": "for everyday beauty.",
+    "cta": "Explore home & kitchen",
+    "url": "/collections/home-kitchen"
+  },
+  {
+    "id": "outdoor-edit",
+    "source": "outdoors-fitness",
+    "heading": "A little further.",
+    "subheading": "A lot to discover.",
+    "cta": "Explore the outdoors",
+    "url": "/collections/outdoors-fitness"
+  },
+  {
+    "id": "spring-edit",
+    "source": "spring",
+    "heading": "Room to bloom.",
+    "subheading": "The spring edit.",
+    "cta": "Explore the collection",
+    "url": "/collections/all"
+  },
+  {
+    "id": "summer-edit",
+    "source": "summer",
+    "heading": "A lighter outlook.",
+    "subheading": "The summer edit.",
+    "cta": "Explore the collection",
+    "url": "/collections/all"
+  },
+  {
+    "id": "autumn-edit",
+    "source": "autumn",
+    "heading": "A warmer welcome.",
+    "subheading": "The autumn edit.",
+    "cta": "Explore the collection",
+    "url": "/collections/all"
+  },
+  {
+    "id": "holiday-edit",
+    "source": "holiday",
+    "heading": "Thoughtful finds.",
+    "subheading": "Beautifully given.",
+    "cta": "Discover gift ideas",
+    "url": "/collections/all"
+  }
+]

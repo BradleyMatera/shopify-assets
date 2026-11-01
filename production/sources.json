@@ -1,0 +1,11 @@
+{
+  "sources": [
+    {
+      "id": "atrium-evening",
+      "path": "assets/masters/atrium-evening.png",
+      "origin": "Native image generation in this conversation",
+      "use": "Editorial architectural scene, not physical premises ownership"
+    }
+  ],
+  "failures": []
+}

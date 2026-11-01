@@ -1,0 +1,2198 @@
+{
+  "total_files": 273,
+  "groups": {
+    "backgrounds": 12,
+    "brand": 17,
+    "campaigns": 2,
+    "email": 1,
+    "hero": 14,
+    "icons": 216,
+    "masters": 1,
+    "motion": 7,
+    "social": 3
+  },
+  "sources": 1,
+  "department_sources": 0,
+  "generation_failures": [],
+  "scope": "Generated asset library, not a published Shopify theme",
+  "files": [
+    {
+      "path": "assets/backgrounds/bronze-atmosphere.png",
+      "bytes": 470757,
+      "sha256": "ec1a06250b7aaf6ab38a588c47f568ba26a8368958be3873d89f1195087f4543",
+      "group": "backgrounds",
+      "width": 1600,
+      "height": 1000
+    },
+    {
+      "path": "assets/backgrounds/bronze-atmosphere.webp",
+      "bytes": 8224,
+      "sha256": "7a7589dbda5f12004be9cc7f40bccd43d10f9ebf0e4db342c1fb2abc82ea11a2",
+      "group": "backgrounds",
+      "width": 1600,
+      "height": 1000
+    },
+    {
+      "path": "assets/backgrounds/brushed-bronze.png",
+      "bytes": 593658,
+      "sha256": "41730c9a5cdf0421994a3da6cbf475ea975e7b9d9c40469938ffe060cdd2ea0c",
+      "group": "backgrounds",
+      "width": 1600,
+      "height": 1000
+    },
+    {
+      "path": "assets/backgrounds/brushed-bronze.webp",
+      "bytes": 10918,
+      "sha256": "10503e513e69a32fb07faeaca255aee6a216d7244c9ac7dab4bee603c4230803",
+      "group": "backgrounds",
+      "width": 1600,
+      "height": 1000
+    },
+    {
+      "path": "assets/backgrounds/graphite.png",
+      "bytes": 822708,
+      "sha256": "9882e147438e58a5d2de433ffd5b812952d8752059dd735cab1564c7cd24deda",
+      "group": "backgrounds",
+      "width": 1600,
+      "height": 1000
+    },
+    {
+      "path": "assets/backgrounds/graphite.webp",
+      "bytes": 12436,
+      "sha256": "980ac0c4ff9aa17d3a6034842cbbb124e86b013aa3e987e79ca809aeacafbc69",
+      "group": "backgrounds",
+      "width": 1600,
+      "height": 1000
+    },
+    {
+      "path": "assets/backgrounds/ivory-linen.png",
+      "bytes": 682913,
+      "sha256": "f96549484646e49450d29ecc576b21dd3d417387bf83eca53cdd55d2e9e3efbb",
+      "group": "backgrounds",
+      "width": 1600,
+      "height": 1000
+    },
+    {
+      "path": "assets/backgrounds/ivory-linen.webp",
+      "bytes": 14746,
+      "sha256": "d8d226070383fd3ffb0f137661ceb6965c1c13319e844e3660d3b41f3875d01d",
+      "group": "backgrounds",
+      "width": 1600,
+      "height": 1000
+    },
+    {
+      "path": "assets/backgrounds/midnight-silk.png",
+      "bytes": 496214,
+      "sha256": "df023b8f61435b6df0de2f5e865c6dafe990d4833b0a3b6413d766ccd4e51289",
+      "group": "backgrounds",
+      "width": 1600,
+      "height": 1000
+    },
+    {
+      "path": "assets/backgrounds/midnight-silk.webp",
+      "bytes": 5018,
+      "sha256": "d9b2dc0130e85e312c398c842fda6ed7af267e15c6d7a8db3b9bac170b453cb5",
+      "group": "backgrounds",
+      "width": 1600,
+      "height": 1000
+    },
+    {
+      "path": "assets/backgrounds/warm-limestone.png",
+      "bytes": 923279,
+      "sha256": "499cbb0e11dadbde748e38d97b9e7d7cc1bc537e1a9ae7fc06b1c56443065fa0",
+      "group": "backgrounds",
+      "width": 1600,
+      "height": 1000
+    },
+    {
+      "path": "assets/backgrounds/warm-limestone.webp",
+      "bytes": 53590,
+      "sha256": "810562e004e1ad909b5691489b1f8becfcd7dafd3d0befe4676c201d395b1249",
+      "group": "backgrounds",
+      "width": 1600,
+      "height": 1000
+    },
+    {
+      "path": "assets/brand/favicon-16.png",
+      "bytes": 561,
+      "sha256": "4c4a0689a466c940899f2612e00ee67a96406c57e4d69bdae7e6d80b47f05a66",
+      "group": "brand",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "assets/brand/favicon-180.png",
+      "bytes": 7559,
+      "sha256": "de56a42a532c73d49a86c54c6194d0b135a49f9e995d12995f5cba1689b951a6",
+      "group": "brand",
+      "width": 180,
+      "height": 180
+    },
+    {
+      "path": "assets/brand/favicon-192.png",
+      "bytes": 7372,
+      "sha256": "22b1cdc564dede8b0719d2bc4aebec2d92cd848ceda44f76899b8a1b5a49f640",
+      "group": "brand",
+      "width": 192,
+      "height": 192
+    },
+    {
+      "path": "assets/brand/favicon-32.png",
+      "bytes": 1220,
+      "sha256": "5b4dee92da95214e7e9de012d16949e81c75cc54b761f11db717efc1329c257b",
+      "group": "brand",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/brand/favicon-48.png",
+      "bytes": 1914,
+      "sha256": "cbab2c7d4feaef57dc9f910856eb8787f515530331a6687ec923b62e75735ff3",
+      "group": "brand",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "assets/brand/favicon-64.png",
+      "bytes": 2499,
+      "sha256": "e9c27e7157add76774f110a6b71d30e4607f08b9e1488f862254536744a3c58e",
+      "group": "brand",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "assets/brand/favicon.ico",
+      "bytes": 6431,
+      "sha256": "1ed4acad5dd98cc3278827a4385c5323e8ddcf47a597a98bcb7f7a14f0e76719",
+      "group": "brand",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "assets/brand/monogram-bronze-512.png",
+      "bytes": 17802,
+      "sha256": "1f013a65ecb1084ee116339fad471710f93e011fd38783af1e82a5d1f6265ff0",
+      "group": "brand",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "assets/brand/monogram-ink-512.png",
+      "bytes": 14533,
+      "sha256": "f2cba7412f513847e00f452bea7c32aec1667c83b68fced10414810427f8e6dc",
+      "group": "brand",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "assets/brand/monogram-ivory-512.png",
+      "bytes": 18232,
+      "sha256": "ac470ecc1bf02dcf9a96c411299fe9b8517f1f91c344eac5d5094b2487d84569",
+      "group": "brand",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "assets/brand/social-avatar-512.png",
+      "bytes": 2923,
+      "sha256": "fccadb17e07e33dc8a522d25604ec43e8c6edb4999ddc6262279dd1a88b74eb9",
+      "group": "brand",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "assets/brand/wordmark-horizontal-bronze.png",
+      "bytes": 50669,
+      "sha256": "407d2d4be4eabcf813d7cd8fedab223899971e5ba3f6f6c38d99b48a330afd96",
+      "group": "brand",
+      "width": 1600,
+      "height": 360
+    },
+    {
+      "path": "assets/brand/wordmark-horizontal-ink.png",
+      "bytes": 38341,
+      "sha256": "980ab4b5e47f7e592e6726d19b5afef90caa2ffc931a132e9bfb6d1bd7ca7c0e",
+      "group": "brand",
+      "width": 1600,
+      "height": 360
+    },
+    {
+      "path": "assets/brand/wordmark-horizontal-ivory.png",
+      "bytes": 48534,
+      "sha256": "33a870a3f077c7dd483960419a79a4a7422ecade5f94637dc19bdcbb85303aaf",
+      "group": "brand",
+      "width": 1600,
+      "height": 360
+    },
+    {
+      "path": "assets/brand/wordmark-stacked-bronze.png",
+      "bytes": 47960,
+      "sha256": "d266342c48b4eb53fce02fb16693715b6ac9ae25c3f16d956d06e0dc0cfc3d0a",
+      "group": "brand",
+      "width": 900,
+      "height": 750
+    },
+    {
+      "path": "assets/brand/wordmark-stacked-ink.png",
+      "bytes": 36635,
+      "sha256": "942faf92020d61cc4cf9a27ab9e92a13be53268894d2e4a3934b5051d0d35d36",
+      "group": "brand",
+      "width": 900,
+      "height": 750
+    },
+    {
+      "path": "assets/brand/wordmark-stacked-ivory.png",
+      "bytes": 46687,
+      "sha256": "cc08801089d34253eef40ea00c4d8ca94cfbee6be1bf9ae2e2528c56a55bcfd1",
+      "group": "brand",
+      "width": 900,
+      "height": 750
+    },
+    {
+      "path": "assets/campaigns/discover-banner-1600.jpg",
+      "bytes": 345192,
+      "sha256": "88e45d65b551bc97a374bfedc975268eaede7dfa3767d9da52198c2e6e81cd9d",
+      "group": "campaigns",
+      "width": 1600,
+      "height": 640
+    },
+    {
+      "path": "assets/campaigns/discover-banner-1600.webp",
+      "bytes": 206784,
+      "sha256": "7d7a59c295b1bc28e9d3a86bea13b5c94bd9b836b18da64996b091bcc9e7d115",
+      "group": "campaigns",
+      "width": 1600,
+      "height": 640
+    },
+    {
+      "path": "assets/email/discover-1200.jpg",
+      "bytes": 183772,
+      "sha256": "4854d2dabd120732794d982d99202a970802b2e66e5fb936024ecbfefab2be15",
+      "group": "email",
+      "width": 1200,
+      "height": 400
+    },
+    {
+      "path": "assets/hero/atrium-desktop-1280.jpg",
+      "bytes": 533147,
+      "sha256": "4f66b1e002e9a48ede675e908be0b3735ff54172cea81179417b1ffeb0c2b92c",
+      "group": "hero",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "path": "assets/hero/atrium-desktop-1280.webp",
+      "bytes": 356552,
+      "sha256": "e7d5b030a81659b4b2429ebef6c53260950a461d0945537541b37f71a710866e",
+      "group": "hero",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "path": "assets/hero/atrium-desktop-1600.jpg",
+      "bytes": 748729,
+      "sha256": "e323d9a89de3d2c47203bcc34f46fd68894ea7a1769390cb56b1f370565bc222",
+      "group": "hero",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "path": "assets/hero/atrium-desktop-1600.webp",
+      "bytes": 491706,
+      "sha256": "6b76dc75a3040cd0e3335e15e06d669c6a1226201c796dac7836e98e07f5c805",
+      "group": "hero",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "path": "assets/hero/atrium-desktop-480.jpg",
+      "bytes": 94302,
+      "sha256": "5caf6632e0962783d455763907d2096746ecf834ce0d874e58266e98332fb79b",
+      "group": "hero",
+      "width": 480,
+      "height": 270
+    },
+    {
+      "path": "assets/hero/atrium-desktop-480.webp",
+      "bytes": 63080,
+      "sha256": "51f228641fc823496201d3556316bb29e54aa4efef3ff596734d525b4416f60d",
+      "group": "hero",
+      "width": 480,
+      "height": 270
+    },
+    {
+      "path": "assets/hero/atrium-desktop-768.jpg",
+      "bytes": 222772,
+      "sha256": "ff0db59aa1c1aea6957ec2892be1ddbf4c043a93225bce54ebaaa59a6317fdd2",
+      "group": "hero",
+      "width": 768,
+      "height": 432
+    },
+    {
+      "path": "assets/hero/atrium-desktop-768.webp",
+      "bytes": 148768,
+      "sha256": "c67c4e86e1ef13bc392877c225ba9c097c266a0756a73d8795231adcef0805cc",
+      "group": "hero",
+      "width": 768,
+      "height": 432
+    },
+    {
+      "path": "assets/hero/atrium-mobile-360.jpg",
+      "bytes": 111184,
+      "sha256": "9e1220df8eb463af031f09077b4fd18c638459acc939debd2835dddd54bf3277",
+      "group": "hero",
+      "width": 360,
+      "height": 480
+    },
+    {
+      "path": "assets/hero/atrium-mobile-360.webp",
+      "bytes": 74118,
+      "sha256": "358a9a1045c352733b9df1df2f1d62eaae8660d02cfd3099038d1fbd8a53dc38",
+      "group": "hero",
+      "width": 360,
+      "height": 480
+    },
+    {
+      "path": "assets/hero/atrium-mobile-480.jpg",
+      "bytes": 181346,
+      "sha256": "26e7599ee9989b8b67257d0c6e5ae6336f7ab5f65ccb75b464b45857149cf7bd",
+      "group": "hero",
+      "width": 480,
+      "height": 640
+    },
+    {
+      "path": "assets/hero/atrium-mobile-480.webp",
+      "bytes": 121646,
+      "sha256": "e16941a53bb82656d6c281f96cba36d72eebd51de31c15c6717a2bcfc898017f",
+      "group": "hero",
+      "width": 480,
+      "height": 640
+    },
+    {
+      "path": "assets/hero/atrium-mobile-648.jpg",
+      "bytes": 288680,
+      "sha256": "6ff24405550db17c780755a82ab1360e24da8e81495023d4a71fa53e857e13df",
+      "group": "hero",
+      "width": 648,
+      "height": 864
+    },
+    {
+      "path": "assets/hero/atrium-mobile-648.webp",
+      "bytes": 191590,
+      "sha256": "53cbdd62ceb30ba7a598a90e3aa676e9dbbd168ca91ed9b7f6b517fbac67415f",
+      "group": "hero",
+      "width": 648,
+      "height": 864
+    },
+    {
+      "path": "assets/icons/account-bronze-32.png",
+      "bytes": 931,
+      "sha256": "065a31309de1bade5f648c036b27dbfe795e71446d55801e68c194f6b64d442f",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/account-bronze-96.png",
+      "bytes": 2670,
+      "sha256": "2b0830caa399c5783bde4a4dc3c140ff95e68a57637fc6d89d6be85b4b691693",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/account-ink-32.png",
+      "bytes": 866,
+      "sha256": "bcd50775d109981d936604c418dba7dbbb057e385daae8b951ef44c25b559c00",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/account-ink-96.png",
+      "bytes": 2690,
+      "sha256": "dcd92d45fe4678f89cd12380c9fb3e3853a9a87c47fc41d5d9296ccd314ff78c",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/account-ivory-32.png",
+      "bytes": 857,
+      "sha256": "cd3688df4de0d86be985801b038336b750493f775dd5655bb59cb64b42e52655",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/account-ivory-96.png",
+      "bytes": 2620,
+      "sha256": "252cd5bbc2ba17731577081690df9a05fd83358f6ef5b760409b18c9a0af7e44",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/arrow-left-bronze-32.png",
+      "bytes": 321,
+      "sha256": "d29548449a637e80dfdaffd0244b4083d01ab16cc7a33445fc0d9e7f5dc304b2",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/arrow-left-bronze-96.png",
+      "bytes": 688,
+      "sha256": "5e5e64d53e2d2d3bd1fc4836f643965f9b6358e8ef2a66abc3fd945451a1965e",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/arrow-left-ink-32.png",
+      "bytes": 309,
+      "sha256": "a03962faf8e89b307698e0cc3d13dd2cf0fdf13d8c7ab68b3474048008a7d4ca",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/arrow-left-ink-96.png",
+      "bytes": 710,
+      "sha256": "ad61133a22ea5a74d8644e672e03943e9db8231148f8bba570aa944eecf32a6e",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/arrow-left-ivory-32.png",
+      "bytes": 241,
+      "sha256": "2c46209f7d89b29fad39d7929234d76580a2315b18681fa901e66acf4b7771b1",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/arrow-left-ivory-96.png",
+      "bytes": 663,
+      "sha256": "206989366d4b0ece40802441befd15afaf7b9edfc80add8c0feecdcd4605a00f",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/arrow-right-bronze-32.png",
+      "bytes": 320,
+      "sha256": "3c9390702534a4f654d5445bc314740b828551ee4299d865b670e7cbee14203a",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/arrow-right-bronze-96.png",
+      "bytes": 684,
+      "sha256": "6ba741d354dc031f9ca1bd8b1e16d9113b0f3c165200baa798795cf78a39b522",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/arrow-right-ink-32.png",
+      "bytes": 273,
+      "sha256": "b0a290848cf0522bca3c94e775f00915d5f73b66244016c184c25d49bef22f2b",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/arrow-right-ink-96.png",
+      "bytes": 716,
+      "sha256": "6b0de7c8f500267f58f877d99b36c996efdf8c21487d5ff685c23243435db3d6",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/arrow-right-ivory-32.png",
+      "bytes": 240,
+      "sha256": "073cd280894ebf066715c90015fdd13ba0038a88461830b71446b213e9d0eb6d",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/arrow-right-ivory-96.png",
+      "bytes": 706,
+      "sha256": "f5be58427b5330d56ac9c333fbad677458069be9dadcde84a8fa58a1b87cffd8",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/cart-bronze-32.png",
+      "bytes": 674,
+      "sha256": "1d0755da966f79415786d51f119736d48b09be9d66454647474b5f15345dcab4",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/cart-bronze-96.png",
+      "bytes": 1567,
+      "sha256": "2286518a2a91c6d9bc551982707ba927c29dd8d1b4934f484055e9dd6c44e3f1",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/cart-ink-32.png",
+      "bytes": 664,
+      "sha256": "bd55bad4fe1c04532deba42cc0c7733780b4f774d1686e85f114e698519cdb7e",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/cart-ink-96.png",
+      "bytes": 1587,
+      "sha256": "c73a491fa20a297adbbafe066ab6e1e2b506c90443402e8e93ede141e2f287f7",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/cart-ivory-32.png",
+      "bytes": 663,
+      "sha256": "a25534d21c03faeb2feef89fc3500d85d889daf3f1ac7e377d106a4293226d66",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/cart-ivory-96.png",
+      "bytes": 1546,
+      "sha256": "cd69ed5e6fe9ce81ff3ef9f56524bf12e2852003974c4c23093e999285dfd2f0",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/chat-bronze-32.png",
+      "bytes": 400,
+      "sha256": "292914eb3dfb10ac5cfed096146fab5b35213c4498dea77a523ae21f49b3ab49",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/chat-bronze-96.png",
+      "bytes": 833,
+      "sha256": "d1214bda86683a07fc334cc1e61592b8dc03868105a5a6baac12b90aca9809e7",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/chat-ink-32.png",
+      "bytes": 391,
+      "sha256": "4708b7620d01e3f2742727eb9bb192de5534c24dc3b9897ffbdad36e38899a8b",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/chat-ink-96.png",
+      "bytes": 863,
+      "sha256": "8a67712b3fe350c3fbe1297546094472d84efc323f7a2171922be383f00cc071",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/chat-ivory-32.png",
+      "bytes": 386,
+      "sha256": "28f670ac7ee32d3d97733823f7a77575dc667c26a7d2e2f867a00a1d4762dcf5",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/chat-ivory-96.png",
+      "bytes": 830,
+      "sha256": "9685457cf27ab98c235d9379c0597ac4bffa874d5a3a032bed3ab868828a30a6",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/check-bronze-32.png",
+      "bytes": 330,
+      "sha256": "445e98b189e24b640fed965e3b693435b18825b3a04a80b3bc98cdf70adde786",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/check-bronze-96.png",
+      "bytes": 772,
+      "sha256": "ac44eaba93f713c689933f66c1a6e7aaf43439247d392949dda292f4b9938498",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/check-ink-32.png",
+      "bytes": 335,
+      "sha256": "3cf2dbdf0edd63967c66af2af8e070878d54a527d6e1950376b482c917a06de8",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/check-ink-96.png",
+      "bytes": 779,
+      "sha256": "4adf7ad5e2f7582d715cb380f1addd58b4e0bdb46a15f08e203fb825d2b2fc4b",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/check-ivory-32.png",
+      "bytes": 321,
+      "sha256": "31106069df989604c11573daf9ba965a5a551a3ec00cecd2c919527814cde911",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/check-ivory-96.png",
+      "bytes": 765,
+      "sha256": "367cebf3ea87318b55555efbac59256000ab4914b7035bc99e48a2b61cfcd6be",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/chevron-down-bronze-32.png",
+      "bytes": 342,
+      "sha256": "98755b14be5c03f785017c3cbc830dc093ae43483de57b0aa2f882ca383777b4",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/chevron-down-bronze-96.png",
+      "bytes": 662,
+      "sha256": "08f954c84941a780e6090c9b6b0ed866fbf587462c75e6955fcf6dc2a3ea22cc",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/chevron-down-ink-32.png",
+      "bytes": 285,
+      "sha256": "bf262dc8a9d653e072d9518a14bf82cdcdfd3d4496c15a9a07a28b9830c39207",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/chevron-down-ink-96.png",
+      "bytes": 724,
+      "sha256": "79c2db7250bff72a0bf5aa0967dc5620622a27f45b6f33056b9583c1f9c1e79e",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/chevron-down-ivory-32.png",
+      "bytes": 290,
+      "sha256": "5a4cb3a3f8a89f2fe238eee135189815ec9e1b5c59fba991cfbfdb97fc6158f5",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/chevron-down-ivory-96.png",
+      "bytes": 662,
+      "sha256": "35fd60f398cf58064df28e0acdcb852e93a64f64c1b350691e6a4a023e89ef22",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/chevron-up-bronze-32.png",
+      "bytes": 334,
+      "sha256": "4d212dc215c9f0fa9c42c0093a97d6895658e05178833f6e83e339fd2e65eab9",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/chevron-up-bronze-96.png",
+      "bytes": 666,
+      "sha256": "bcbb6184837e732bd9aef4eda82e380c1ec6c1de4ecdd6022b3653fb7c03b0b2",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/chevron-up-ink-32.png",
+      "bytes": 289,
+      "sha256": "22846b43d98c87a17018c171a8b6325684f0da36a8672830ba66c5108bb7fec4",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/chevron-up-ink-96.png",
+      "bytes": 675,
+      "sha256": "de1c667fa8c0a373648741dd1256e4a84076ccc658accf4e0746e0d176588cba",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/chevron-up-ivory-32.png",
+      "bytes": 289,
+      "sha256": "7b3040679b1a0b750b9058f87fddd792c19c09489a4681297ecd880ff57da673",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/chevron-up-ivory-96.png",
+      "bytes": 628,
+      "sha256": "64f588692067347ed6bd1cdf680bb4698cf41ac67ca9d861483252cd68af912b",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/clock-bronze-32.png",
+      "bytes": 1039,
+      "sha256": "fabeb4623f2334c38820cf0e213cc85072fa67e1d71035c533d2459c760d5cc1",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/clock-bronze-96.png",
+      "bytes": 3247,
+      "sha256": "105c59fad85275c6a22d3b2a8aa7ea2b204af609441fb4d0d868cdf3ac66e06c",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/clock-ink-32.png",
+      "bytes": 1029,
+      "sha256": "e58a0645dadc048d2788d713ae0e5acc7c48dd4cdb8d0b4c9e82bddbe634cdcf",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/clock-ink-96.png",
+      "bytes": 3280,
+      "sha256": "3c41448882bb15bb07fafe67fb76763b80fdc606ac549be9bc34dfb5ca7512d6",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/clock-ivory-32.png",
+      "bytes": 941,
+      "sha256": "6e12a8b5e4112f7b3275263d69cc39ba610831453815a72083a2b5aea7f1a85b",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/clock-ivory-96.png",
+      "bytes": 3238,
+      "sha256": "f05bbe9ad0a02155968c6860136b795d952059b923ad19e5fb6177863f67a3bd",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/close-bronze-32.png",
+      "bytes": 465,
+      "sha256": "8fdc1888e362eb96b762e7a346c5e53c9caea94fde95d228b42bc86e38512063",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/close-bronze-96.png",
+      "bytes": 908,
+      "sha256": "14d3e7a931e0e8bd39e8dc1cba820e693486428796014b617402ed2115b1b0f5",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/close-ink-32.png",
+      "bytes": 476,
+      "sha256": "366da9b38eee08f0d953993cfc71b72430cbcaf8a8996c74757d6a3c6c5cf086",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/close-ink-96.png",
+      "bytes": 935,
+      "sha256": "84ac32f7528b802d2c5cebe7f841aea737c2b1031a16b14f3ce6f2d996e692ab",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/close-ivory-32.png",
+      "bytes": 435,
+      "sha256": "213b902ece09d9e4773440936a125d46037ce60c1deaa53c24c2fac1f9bffa1e",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/close-ivory-96.png",
+      "bytes": 846,
+      "sha256": "0fc3d4786b017335d08d398c66527516ff7d990b00b528331a95a81a3cc1b4ab",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/delivery-bronze-32.png",
+      "bytes": 741,
+      "sha256": "33109c8d8f2530bceccb9ea3928688e595c72f2bb4deca120923605dbec44437",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/delivery-bronze-96.png",
+      "bytes": 1428,
+      "sha256": "151559119075f8aa9fb0b09e65832d48ead3108bb78b086fa276862fc8c55ab9",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/delivery-ink-32.png",
+      "bytes": 706,
+      "sha256": "b7d7118c6a4d4f0ac1b00e0dfa203a6330da636accffdc308b27b18c9512af1a",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/delivery-ink-96.png",
+      "bytes": 1436,
+      "sha256": "34dfff89f2bd04c513d9de6e46a942797b404f65873aef1247bdd3fff61a9b55",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/delivery-ivory-32.png",
+      "bytes": 692,
+      "sha256": "e129cc66d1a92721965f75a99e7859ee907889e6603b0e8285c28d948d388c3d",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/delivery-ivory-96.png",
+      "bytes": 1366,
+      "sha256": "0758ee1f6e17146196cdbd7b0da2b63e36f9c9e30e0799b838b72f4cad49d259",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/download-bronze-32.png",
+      "bytes": 431,
+      "sha256": "2ec014bbf4a93034ca56dfd471117254b73cb6f9a4491c2801ea3f8d99901b62",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/download-bronze-96.png",
+      "bytes": 905,
+      "sha256": "57ce2acd2e1e8d47d46bd6b814907630c0db55959312c37db092bd280e4b680e",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/download-ink-32.png",
+      "bytes": 459,
+      "sha256": "8978f2125ca1a3b13a8ba40e1e17117c87409043d20379a8f6b0c2a9b0d99d94",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/download-ink-96.png",
+      "bytes": 920,
+      "sha256": "b800bb6dcd382607e309a637a14dafd517a2a1758597375a799b8e46be744168",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/download-ivory-32.png",
+      "bytes": 416,
+      "sha256": "211c15e36e3bc46bc9b480544f38cf0d7e2efaf1f701e7cf730c6911c08398f9",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/download-ivory-96.png",
+      "bytes": 866,
+      "sha256": "de8762acb73292f601933444b6566b11ba1e670ddec6da3bb9f73434abb222ec",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/external-link-bronze-32.png",
+      "bytes": 446,
+      "sha256": "1592672e4286958d01b3f9481ec3b3ccae4e6eacf1d5a860f7e8366c906b192d",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/external-link-bronze-96.png",
+      "bytes": 846,
+      "sha256": "2a8989d400e0f3ca2f7ec92f01fc005fc0b401fa90d7b2e3845ebce0321c40eb",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/external-link-ink-32.png",
+      "bytes": 428,
+      "sha256": "4ae794dfc5790afd73ae88fd6e096be0a633f4f9ddf8cf11e1d83c613b6dbbd3",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/external-link-ink-96.png",
+      "bytes": 856,
+      "sha256": "326b96073eacae21fe066979f8adc4dfe24421e3bc7d59e2fbbf226d39460239",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/external-link-ivory-32.png",
+      "bytes": 424,
+      "sha256": "e774cb1d259c72cf97d94bf206a93db2142772016a7d6f40e14df3271a8eda2f",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/external-link-ivory-96.png",
+      "bytes": 832,
+      "sha256": "2a9f1a2e0a4f169d1e658991fe49995137b4ffeffd91265044fb22d1a85950c6",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/filters-bronze-32.png",
+      "bytes": 687,
+      "sha256": "dfeb5ccc8cad6ef871af8b9c9403b8fe5ab3c35e2fc631d0e41c5680370945ff",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/filters-bronze-96.png",
+      "bytes": 1224,
+      "sha256": "40f468b1c1544e867d4e94904e90cd714999fdb4e01f49e2123b05392a9bee28",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/filters-ink-32.png",
+      "bytes": 684,
+      "sha256": "02d8cfd5767498da212d446b0433b96832797be9cec5361bb0a6871500dfbaa8",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/filters-ink-96.png",
+      "bytes": 1195,
+      "sha256": "35f9f9801b87965f7d0cb29d59ea674965dd5fdcd22f3348cb22906b2815ae84",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/filters-ivory-32.png",
+      "bytes": 662,
+      "sha256": "4b69bcac740475b2c63859252b7283bde0708f6fbcb557475dd7d65643142ed6",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/filters-ivory-96.png",
+      "bytes": 1178,
+      "sha256": "c4819ea31d7e80100f6982f0f4790e5ef13ecf286d4fa4a3bd5f7d463e357a23",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/gift-bronze-32.png",
+      "bytes": 800,
+      "sha256": "87e2cd3bd621cde3b6743c74b5fc3c848b6c7d5eafc29ad67db1989a5addfba6",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/gift-bronze-96.png",
+      "bytes": 1985,
+      "sha256": "6be211e08fe3e5379d6080c03a595bbd444e31f507a95a1ae63042d31dbb4650",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/gift-ink-32.png",
+      "bytes": 771,
+      "sha256": "6ffcf038f848e75e37b842cffe8ba92c6802e38f370a564cbb8b67611bda2e18",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/gift-ink-96.png",
+      "bytes": 2042,
+      "sha256": "a8ed655ec88f5aa9e4f35384aac71dedf5fa8ad56623b30bcdeb30d793aa2016",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/gift-ivory-32.png",
+      "bytes": 748,
+      "sha256": "9a207907a708cddcd4050bdc44fae69c40e727259095d7558f1163751cdbbea9",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/gift-ivory-96.png",
+      "bytes": 1927,
+      "sha256": "b33cc5096fa7df11fc16a8c8f78a748b3b96fb895e56874a22f8832afb9bfa6a",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/grid-bronze-32.png",
+      "bytes": 733,
+      "sha256": "999d8e49b9d9158ca629549dd967745ff3a83325bf1d8a95bd0a2c50320eb758",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/grid-bronze-96.png",
+      "bytes": 763,
+      "sha256": "afcb5a39fbf25a8fa24e946372b021a856115bfa2f0e77447d81f9decf0fb58d",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/grid-ink-32.png",
+      "bytes": 695,
+      "sha256": "12ce4b847de355aa232f06ce107f7e3ac846035a0459fcc2b103a34bc2b873e2",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/grid-ink-96.png",
+      "bytes": 761,
+      "sha256": "dc786abadc9357c9af034f00783be73548999fe28c721581ed35eb849b449c55",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/grid-ivory-32.png",
+      "bytes": 698,
+      "sha256": "78fe7e7d7fe504f848cfb1d52b3906412dba0974b6490df023db9c0851a1949d",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/grid-ivory-96.png",
+      "bytes": 747,
+      "sha256": "0e23d5d3b35234f5bf9e4c4c187ec2138cf15fbb39546b7e557573f80e4c5f88",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/heart-bronze-32.png",
+      "bytes": 964,
+      "sha256": "8e5c7b571bab4176c29a8b3a96596dac563cd61496f4f5dc49f38eba05d36878",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/heart-bronze-96.png",
+      "bytes": 2428,
+      "sha256": "945c5a4f30941e53d61714a2baf98db88af56d3e71e78f4c1cad20973e58d9dc",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/heart-ink-32.png",
+      "bytes": 873,
+      "sha256": "43eadea66da16c16ec06cebf504f09f2c70057f7cdd7fc98b51447a5cc986a63",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/heart-ink-96.png",
+      "bytes": 2432,
+      "sha256": "8196712e29543e0129e7719783f7eb90ea1f3a90140ba9ea3922848e92beb43b",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/heart-ivory-32.png",
+      "bytes": 862,
+      "sha256": "268e3abf0c1900cb393359e9b434f332c922727a82a2cbcbc7a8d4af0e5dba55",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/heart-ivory-96.png",
+      "bytes": 2377,
+      "sha256": "2e77b2e498e0432e82d303b4abc3f4ae02568d91d6d36f351bdb5d366775d6e9",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/help-bronze-32.png",
+      "bytes": 1184,
+      "sha256": "3d1faa20ba991c0c2913bc3de6d2b78607fef8ec3daf634b31194bd4ffec2c07",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/help-bronze-96.png",
+      "bytes": 3789,
+      "sha256": "902b00852e1818077355e0b2c4e4a52b64f3c2cb3368718579c151ab09d5e568",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/help-ink-32.png",
+      "bytes": 1190,
+      "sha256": "0a088d51c9e86ba9c1dc133f0c7e24148b26b8afc6a3faee860e632534b6341f",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/help-ink-96.png",
+      "bytes": 3809,
+      "sha256": "570ab7d1d80cbe510453b3d5ece34d01a8dde2fdc8a6a738c3772f2e22baffc7",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/help-ivory-32.png",
+      "bytes": 1129,
+      "sha256": "5dffd30b1a287bee32fc6779d5582bf65187c38f8eb6715b9447762b59ca89df",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/help-ivory-96.png",
+      "bytes": 3751,
+      "sha256": "35fb01ab1894273ad1f02e1dc0678eefe80ec7875835796922e26cb2fbff913e",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/home-bronze-32.png",
+      "bytes": 832,
+      "sha256": "449e580acce95d4f09496e4e10672f94ea20d3a183ffd5d8431c96784d3f4155",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/home-bronze-96.png",
+      "bytes": 1499,
+      "sha256": "d26b97db65a725495fd180007de32c159db200a5df01ad66a896b24af4234ee6",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/home-ink-32.png",
+      "bytes": 814,
+      "sha256": "276075d2380493a3c44fa5cb37b23777630745d4fb60c7f9188fd7f14770da92",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/home-ink-96.png",
+      "bytes": 1595,
+      "sha256": "dd32453f200d49ad08d9994adb3321094963e17eff056cc27df4126733df884a",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/home-ivory-32.png",
+      "bytes": 741,
+      "sha256": "c27f838ea155f95485d9efaf21d297974d484271a21c8ed187439aa1626e1f6b",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/home-ivory-96.png",
+      "bytes": 1461,
+      "sha256": "bc421f3f04dc1708d6cd5de8ce9c28f09bebc689a8b11b467dad69f9ff390618",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/info-bronze-32.png",
+      "bytes": 983,
+      "sha256": "008f6081acdbe2b8485b3a65b58497500f94c29f62d25369e6296b50ee0b7cb3",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/info-bronze-96.png",
+      "bytes": 3115,
+      "sha256": "abc1b55b0769e065a136ff74a6de1484f27b06be861b5b9856c2972451ae181e",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/info-ink-32.png",
+      "bytes": 980,
+      "sha256": "ed3f884546bfbfd6c200b44f09959b0b4e00ca02f4387b91f1ea6e807fd15924",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/info-ink-96.png",
+      "bytes": 3135,
+      "sha256": "5ab0e09fc28826d37798f6a6d19a288652d9c6813a79e59e8ec8e2f7cd53bec5",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/info-ivory-32.png",
+      "bytes": 923,
+      "sha256": "2db465e7feefd53b9243f631102b490a0d899137c9a80930d8cedeac46ab5913",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/info-ivory-96.png",
+      "bytes": 3085,
+      "sha256": "9709661527d46bb71efc2b3927c597e8e18ec474080f31478be80a133a219be1",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/list-bronze-32.png",
+      "bytes": 325,
+      "sha256": "8977fd36798381896d08d57606ed3f1807a97c0457946b506d1263a84a8f5f53",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/list-bronze-96.png",
+      "bytes": 333,
+      "sha256": "2c234608e5ca06d874516251979ed1c2c0c83b0ef69660a393850565abe58867",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/list-ink-32.png",
+      "bytes": 304,
+      "sha256": "6cf277a5de1b9badd35b28e2e5b2973b330e561aa8825b5f292b4bbc5a1316c2",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/list-ink-96.png",
+      "bytes": 359,
+      "sha256": "783867a351e26c162c44cd06a0fde71f5e0133c4a0c6c8b974e53cd2b5f2dbf9",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/list-ivory-32.png",
+      "bytes": 289,
+      "sha256": "695be97244ac712c94d965b3eb338464fd9deaab340d3a30a267f17e4517cc3c",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/list-ivory-96.png",
+      "bytes": 344,
+      "sha256": "4fb749d7122d67cbae17503dd2ed4d339996016955c8f5a23dd7c33c78b61687",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/mail-bronze-32.png",
+      "bytes": 773,
+      "sha256": "23e39e1e04ca160fa4394eddd20051744e89310e70d3d00264ab3322dfdc7750",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/mail-bronze-96.png",
+      "bytes": 1674,
+      "sha256": "47bf3dc76615d1ee6d12690e57f30124ff975c1ea1a994ec3169ea954e4e0adb",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/mail-ink-32.png",
+      "bytes": 704,
+      "sha256": "eafc63c65e0e93ee6389758d10a1581fe64874d7f8c493afa6df4f345644aefc",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/mail-ink-96.png",
+      "bytes": 1635,
+      "sha256": "48d7f993957aa6de354987aa754ed98f334356c6f4e087c7b8ac3a01f6db9f56",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/mail-ivory-32.png",
+      "bytes": 742,
+      "sha256": "562c1ea97e51a0d118d63eef6d4da1588993bed2471ec9e7e42df4b503741141",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/mail-ivory-96.png",
+      "bytes": 1580,
+      "sha256": "e6f23958a0483eed97e323cbfb62d246c1146f31d4f9b9cf0450bf0f875a90d4",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/menu-bronze-32.png",
+      "bytes": 246,
+      "sha256": "1ee15071ddb05b5ff18a2ffa33d1797e82565c04b0c1ab13e7063ff20856c19a",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/menu-bronze-96.png",
+      "bytes": 312,
+      "sha256": "410193761f32a7eef98fcb189f0dd18d7309123d4b776567a1b34e9fff3be324",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/menu-ink-32.png",
+      "bytes": 234,
+      "sha256": "794a6fbf3892a2919959715d70be0c3d7b4b179b235f3bab15e26ea43935af75",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/menu-ink-96.png",
+      "bytes": 335,
+      "sha256": "ec85b90e471018bb7add544ab37df45e1db5876736dbf8e412994745e2319ab6",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/menu-ivory-32.png",
+      "bytes": 240,
+      "sha256": "38474db2a33faefc01aaa848447256dcad28b5c2a2fe985c935220fa4ca27d34",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/menu-ivory-96.png",
+      "bytes": 318,
+      "sha256": "cd4067c977caca7e14c4b6f7702d2712c294671b032732c74edaa9db6016c9d7",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/minus-bronze-32.png",
+      "bytes": 142,
+      "sha256": "846eda82adc0795bc77f79dd2effa81b35615fd615104cb8ac7b1141cbf6dc07",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/minus-bronze-96.png",
+      "bytes": 265,
+      "sha256": "e7b804f550a930d219cd137fedae5e9b48d040f40d463e3a01366e4fb78d8ed2",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/minus-ink-32.png",
+      "bytes": 143,
+      "sha256": "8ca5a840b532c38e96f8a225b19bac43c48884a58e7cd6ccb3a8e3a398053210",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/minus-ink-96.png",
+      "bytes": 287,
+      "sha256": "e755cb9519bb8d17390b755eec02fc389ae74046c7db2cd1ea60752cf9bdc9c5",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/minus-ivory-32.png",
+      "bytes": 141,
+      "sha256": "95bd21178e30f748471e6d5372fba85dafd1bb077e0073ae154c654fc02d8532",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/minus-ivory-96.png",
+      "bytes": 272,
+      "sha256": "1266dd2b1532ae02cdd0220766894ca518a26a85bd7b7f97c26f48ce6bbf2522",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/moon-bronze-32.png",
+      "bytes": 1057,
+      "sha256": "27a855498ee0eee7b7c5c1b834ac1540cecec6c58d857162fc76299be59f96ae",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/moon-bronze-96.png",
+      "bytes": 3153,
+      "sha256": "4c5ee4fa00492417f4069e1b529a1cdede1052e8af33807ef0bb21ed7bf7548f",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/moon-ink-32.png",
+      "bytes": 1002,
+      "sha256": "578b4362613bda20bd66d1039d52431017de3839030bdf6bec3b001bee80e277",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/moon-ink-96.png",
+      "bytes": 3143,
+      "sha256": "89792d98da590c4b9823169a12538a74e59117849d9352d4d005cb5919225bf2",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/moon-ivory-32.png",
+      "bytes": 949,
+      "sha256": "4c627cafdff77141d5c433b5b8458b93325854555a11df04a052e9fda96010c3",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/moon-ivory-96.png",
+      "bytes": 3075,
+      "sha256": "d0d578b50f19efcdb8ba212677661e2856d290d176924c55a45b1d70e015ed43",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/package-bronze-32.png",
+      "bytes": 990,
+      "sha256": "6c6d3bfa42d9d134d19954c2c12b42ab1206f410ca9d51ddb41eb72ad4cb2370",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/package-bronze-96.png",
+      "bytes": 1346,
+      "sha256": "e1c60bcee68c82a24a672300a07db4b75f705961b218d72ff12f507d0d0d2299",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/package-ink-32.png",
+      "bytes": 1009,
+      "sha256": "569cb82dd4bed2d13a890b0e69fff5d05802a76916b748aedc8aa8f7f1b9186a",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/package-ink-96.png",
+      "bytes": 1314,
+      "sha256": "b5d479dbef8dd158b65cced10ecda40bd4411c7bd84d115c6f97296f631ae94f",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/package-ivory-32.png",
+      "bytes": 939,
+      "sha256": "f60111eb27227e42c210cf963058a1f459196d29b2876d6a8bf3e1450c6b24d6",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/package-ivory-96.png",
+      "bytes": 1306,
+      "sha256": "0630561f58131c6d0d2aba8cb711b6c8737c6179e450f5dc77dc1bf2693d9986",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/pause-bronze-32.png",
+      "bytes": 245,
+      "sha256": "8f987a367ce60c680c702eb3ee8e0ec9dd28ef8633d38886720f7ab12214fe08",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/pause-bronze-96.png",
+      "bytes": 397,
+      "sha256": "daf83fa1b0248f4886d7718bfb59de3a8fc47ab52623f7bbb151195bf1b21391",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/pause-ink-32.png",
+      "bytes": 244,
+      "sha256": "e6b3984c6a63fbae26aa5cc8be0eca934de6e5afa2eea98126549b545e96c0b8",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/pause-ink-96.png",
+      "bytes": 422,
+      "sha256": "9584e5ae04ad5466e6c7f2d82f5e37a5197c4e594e817f0fe85fab6670b61fb6",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/pause-ivory-32.png",
+      "bytes": 228,
+      "sha256": "1fbc9d200f96520be4b45681929acb907c6208f4b072226bebc23d22093a21b7",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/pause-ivory-96.png",
+      "bytes": 363,
+      "sha256": "62c19e5432e5fd97540ff0b80dc80b680f106c0d506db328ce2e24a790fca74a",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/pin-bronze-32.png",
+      "bytes": 1243,
+      "sha256": "3ce34d4db1ff2828538da9acbb60ceb1611765d2ec3fbf29ac0cf18a8993cd37",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/pin-bronze-96.png",
+      "bytes": 3768,
+      "sha256": "4f3b54d63da47c192ea4e9968463bb7f246188224d361c172fb8d1d65495ed8c",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/pin-ink-32.png",
+      "bytes": 1210,
+      "sha256": "da12d262839c57cb0867436011a1616fdf308b7735b5d23b0ad7f27e42411ec6",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/pin-ink-96.png",
+      "bytes": 3812,
+      "sha256": "4f00efa19478b4b80ebe8d4665a0d58edee6f59d2e645265aa19f3e0b9625d66",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/pin-ivory-32.png",
+      "bytes": 1106,
+      "sha256": "db717a336a32de9a08f3f8966d7f5208a01c37597b27f79b3d69b9d2f4a97ceb",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/pin-ivory-96.png",
+      "bytes": 3689,
+      "sha256": "aff21cb6f643840655cb0feb2faa6f4dc68a1944d6a67af0f7eb13a470ef67cb",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/play-bronze-32.png",
+      "bytes": 492,
+      "sha256": "f74aaaf16cc9da16c5c2699a57dd29a34e480700a04712fccfded38ea009330b",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/play-bronze-96.png",
+      "bytes": 968,
+      "sha256": "7eb2e10b9182cde2a6448202f6d1f352b8c9e6b0d7757c0820b927aa5cfc3c2c",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/play-ink-32.png",
+      "bytes": 495,
+      "sha256": "2c56027ef67ba9bc4613cac138e3063760c383a3046820c8d7865734106db99a",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/play-ink-96.png",
+      "bytes": 940,
+      "sha256": "c2484696afaf9b67835e8a5f5e531e2fb4b55ca297c80dd231dc0c8c0d513af5",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/play-ivory-32.png",
+      "bytes": 466,
+      "sha256": "79f89c022d9e5dc8a53a73d20a9c0dd885ec4a2381ca0cc50af40056fa398388",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/play-ivory-96.png",
+      "bytes": 888,
+      "sha256": "a0ffcb20c0fbaaedf01d85aa3820682db6d350ce817774ef0c8da3a4cce45e4e",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/plus-bronze-32.png",
+      "bytes": 203,
+      "sha256": "21109e5cea33a4c45e031ada3a7508531b54f24378de9eb139b997df8e203ad4",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/plus-bronze-96.png",
+      "bytes": 482,
+      "sha256": "d686028dac745650c7ed659844b73dbd0de5ff1bf0105c544fca03d09fbcf3b6",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/plus-ink-32.png",
+      "bytes": 201,
+      "sha256": "0e46b83244e81eaf8caacafe85d640e9ae19b1dfa0a3a110e1897bef08dd0a9e",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/plus-ink-96.png",
+      "bytes": 491,
+      "sha256": "40783b91f90f0f02464147dcc3e36e710db26261560c7b19a2b6e3c19170f8e5",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/plus-ivory-32.png",
+      "bytes": 193,
+      "sha256": "464738d56d719280c488f7e0c925058420ae551d5b6953d54c12e14e40f7bbaf",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/plus-ivory-96.png",
+      "bytes": 480,
+      "sha256": "5899cff81c5ef924024679c71d86b91a91474447da06a1d6b70a65f1f2b66dfa",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/return-bronze-32.png",
+      "bytes": 698,
+      "sha256": "58a3fc701c4f3ab02f6315e942ffb4dba53ba0a3b1d5850699c5d65c6698edb5",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/return-bronze-96.png",
+      "bytes": 1817,
+      "sha256": "916088bd1390d292c8aa4de53b3d3384d2f0a3d9e8febe1be08200622384d666",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/return-ink-32.png",
+      "bytes": 699,
+      "sha256": "17e40b9385997fdc0b2737054f31f615ce32ec1315b392dfed870bd830b2f62c",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/return-ink-96.png",
+      "bytes": 1838,
+      "sha256": "e46efc1087f3c05954fb96fe655823341bd0b0515357b953c11722c06d5932cf",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/return-ivory-32.png",
+      "bytes": 622,
+      "sha256": "a1ac23bc8feba07cd0730c3ccba83601c99f815a8f694fc59a02162ad8579fa6",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/return-ivory-96.png",
+      "bytes": 1800,
+      "sha256": "f1514c2552b44bc2262580451371499dce2618a40923f374bfc4d3035e0ae1d4",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/search-bronze-32.png",
+      "bytes": 847,
+      "sha256": "66780c2dd4827e91575abc20e580bd9e16885c49c1a563fc5a4479c8caa5656e",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/search-bronze-96.png",
+      "bytes": 2446,
+      "sha256": "fc96b41d74480f3924f053ae0a784f1be38374272675c54cd1a8fea1cba207f7",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/search-ink-32.png",
+      "bytes": 826,
+      "sha256": "0d1d927d57093716c072e6295f8b78caa29cd775bc120d9514cd8640353902d0",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/search-ink-96.png",
+      "bytes": 2468,
+      "sha256": "621ecd512809fe19272d18eb5e38a99a3e7d5ea52b4c6ca6545608ae404be39c",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/search-ivory-32.png",
+      "bytes": 778,
+      "sha256": "ef332e5af9ad384312956f17f60aa453b79018ab0755c889c9331ce6fb0cee92",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/search-ivory-96.png",
+      "bytes": 2364,
+      "sha256": "448d0bfc94bec6e4575366727a5904dc4875e7772a75f92aeef006860f73851b",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/shopping-bag-bronze-32.png",
+      "bytes": 780,
+      "sha256": "ec43051c7612a0450b74dfb3b3e723952d355192ad30d673f82df8636a5f420e",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/shopping-bag-bronze-96.png",
+      "bytes": 1699,
+      "sha256": "f1422d8b9ef5a0eb93f3393d0da2afdf4355a161558821addb63dbb5d7714e38",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/shopping-bag-ink-32.png",
+      "bytes": 777,
+      "sha256": "5be73b2c72c92084e4e6b046b4a81a194459581fcba35c636b3297604d39a9a6",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/shopping-bag-ink-96.png",
+      "bytes": 1724,
+      "sha256": "a14bf975d8a25d3277dc13a94002f08746fc166df4a57c4dc088fe558135d329",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/shopping-bag-ivory-32.png",
+      "bytes": 729,
+      "sha256": "660d2099c57ee448bf0e54cc2af2b1b7de63f46cbb5402dbeae4bb439fdaa1ae",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/shopping-bag-ivory-96.png",
+      "bytes": 1677,
+      "sha256": "42d5447e9c74f1699de3f1a8c1cb7bc92d3f244bce2540ee41237c0fd9df0831",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/sun-bronze-32.png",
+      "bytes": 912,
+      "sha256": "5e2290c7c075324b147c4d1d3e690d59de508b0362c230f943291d771c09189c",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/sun-bronze-96.png",
+      "bytes": 2176,
+      "sha256": "0e6327e6382511bb443e884d03671ce36638ccaaea0e645151dd72efdcb97b50",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/sun-ink-32.png",
+      "bytes": 866,
+      "sha256": "436433f1ff5de1a93837c61aa1de9088475bef3b2ad6e088a7dfd0f424edb6f5",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/sun-ink-96.png",
+      "bytes": 2288,
+      "sha256": "0cc51124d5bd91a1bce4e760f4ac3e224b3f82206e2370ee4ebd3947dd54917c",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/sun-ivory-32.png",
+      "bytes": 820,
+      "sha256": "6b99abe145e2841ae8fcbf2490bc2504c9bad7fe5c4f746442908e13db872910",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/sun-ivory-96.png",
+      "bytes": 2186,
+      "sha256": "f19f5e1c5f85cc42c9a0fbaf8a7a3931914d1b05cf3e75c5c9c8df3997f9a1a8",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/upload-bronze-32.png",
+      "bytes": 463,
+      "sha256": "d4eceaf7e794db6be3430a1c2c27084079cdf7aa5ab588db4e917032bcf5a7c2",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/upload-bronze-96.png",
+      "bytes": 901,
+      "sha256": "20052c13efad58072e6d5b28fc4d51c138b14c9cb28d750c1e453cb63d0798a5",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/upload-ink-32.png",
+      "bytes": 446,
+      "sha256": "2c8d3d1cf56fc24d0292e8875ea2deed1b82b5b6f83bf51355d240baa9b1a278",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/upload-ink-96.png",
+      "bytes": 907,
+      "sha256": "0819e038e29aea0c458dfd8672f6cc40013981a739b14bb38ebe7f26d8f8d0b0",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/upload-ivory-32.png",
+      "bytes": 447,
+      "sha256": "0113de571651dff516c74e8e26bdd1f3a8155102fb98cfe510130cf00f85337a",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/upload-ivory-96.png",
+      "bytes": 899,
+      "sha256": "fb33b22abbfc5c94c7e5d6c0fba5719a4e60bc85025284ffc30c62aaa8475e36",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/volume-off-bronze-32.png",
+      "bytes": 793,
+      "sha256": "8030916c497626a961e73e3e49ad4a03111c74fe79ff21ad84f66c2ba17ef00c",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/volume-off-bronze-96.png",
+      "bytes": 1676,
+      "sha256": "f0a8e6d04467b11ce9bdf5bba9832ac2c6746a69e200274a466df54330361158",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/volume-off-ink-32.png",
+      "bytes": 782,
+      "sha256": "75cee396bc0ac5ac62e55cabc808f52fe563be91937b51bc786954fd373ec069",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/volume-off-ink-96.png",
+      "bytes": 1659,
+      "sha256": "5adf3d3a6c06d15d8f654ca1114b24c7bf4d3ece38df20767f0ab7731c21bd81",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/icons/volume-off-ivory-32.png",
+      "bytes": 751,
+      "sha256": "ecab354ed8154094cc722e060401b3617038f9258e378098bdc69a408ac53145",
+      "group": "icons",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "assets/icons/volume-off-ivory-96.png",
+      "bytes": 1650,
+      "sha256": "95838bcb0a4fd5a97c7caa8a2e0f4cef286365c88cb054e970bf2605a91a2e82",
+      "group": "icons",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "assets/masters/atrium-evening.png",
+      "bytes": 2888730,
+      "sha256": "b5efa30daad49bcc3dd09737e832ffd26bebbb8c5dd81525ea562e9ffa16fd15",
+      "group": "masters",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "assets/motion/ambient-bronze-1280x720.mp4",
+      "bytes": 167959,
+      "sha256": "787cc711825321e0cdcd4454cbfa6679630ff327a54a28d225020ecef0c0fdc2",
+      "group": "motion",
+      "motion_type": "Six-second camera-motion loop from a still image; no generated live-action movement"
+    },
+    {
+      "path": "assets/motion/ambient-bronze-1280x720.webm",
+      "bytes": 23528,
+      "sha256": "5da9ee9eb0d29b6f560f2276f616aa9918e178def457550a22770806c2817196",
+      "group": "motion",
+      "motion_type": "Six-second camera-motion loop from a still image; no generated live-action movement"
+    },
+    {
+      "path": "assets/motion/atrium-desktop-1280x720.mp4",
+      "bytes": 2139139,
+      "sha256": "ccafb1ce88ec9e2e17df5e8cebd5867300b40feb2255f44487e5c194e30a3d6d",
+      "group": "motion",
+      "motion_type": "Six-second camera-motion loop from a still image; no generated live-action movement"
+    },
+    {
+      "path": "assets/motion/atrium-desktop-1280x720.webm",
+      "bytes": 1472240,
+      "sha256": "33d4a795d0d0176be111f5fb81c3fd34c90ab827cde057c5cd1ae668c2f2c47f",
+      "group": "motion",
+      "motion_type": "Six-second camera-motion loop from a still image; no generated live-action movement"
+    },
+    {
+      "path": "assets/motion/atrium-mobile-648x864.mp4",
+      "bytes": 978240,
+      "sha256": "593ede410068a251e98dd159c8cd528c1a4c2853c1a4847e8a27b82dabcbd4b9",
+      "group": "motion",
+      "motion_type": "Six-second camera-motion loop from a still image; no generated live-action movement"
+    },
+    {
+      "path": "assets/motion/atrium-mobile-648x864.webm",
+      "bytes": 642478,
+      "sha256": "590f4b9634805b48bd2191b6cf9ef30501af323132b74a6d5476d14c7a1ac2d5",
+      "group": "motion",
+      "motion_type": "Six-second camera-motion loop from a still image; no generated live-action movement"
+    },
+    {
+      "path": "assets/motion/atrium-poster.jpg",
+      "bytes": 533147,
+      "sha256": "4f66b1e002e9a48ede675e908be0b3735ff54172cea81179417b1ffeb0c2b92c",
+      "group": "motion",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "path": "assets/social/discover-landscape.jpg",
+      "bytes": 259928,
+      "sha256": "08479158a423d8b18064a3ab2e0a8119b84821f3d93ca29351e1c252e54d4250",
+      "group": "social",
+      "width": 1200,
+      "height": 630
+    },
+    {
+      "path": "assets/social/discover-portrait.jpg",
+      "bytes": 331432,
+      "sha256": "e5a05477822c8a7ca7b8345714b6f73b007a581b25b7bdbc1fe0282df21a8897",
+      "group": "social",
+      "width": 1080,
+      "height": 1350
+    },
+    {
+      "path": "assets/social/discover-square.jpg",
+      "bytes": 323695,
+      "sha256": "e85e2754625c1e2b5360fe2dbb9042148f82544cef0ae15b3deea5d2809a2563",
+      "group": "social",
+      "width": 1080,
+      "height": 1080
+    }
+  ]
+}
