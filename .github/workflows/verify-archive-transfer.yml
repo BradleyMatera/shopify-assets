@@ -1,0 +1,37 @@
+name: Verify complete asset archive transfer
+on:
+  push:
+    paths:
+      - '.github/workflows/verify-archive-transfer.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Verify transport preserves the exact archive bytes
+        shell: bash
+        run: |
+          python -m pip install --quiet Pillow==11.3.0
+          python - <<'PY'
+          import hashlib, io, struct, urllib.request
+          from PIL import Image
+          url = 'https://cdn.shopify.com/s/files/1/0855/4492/7460/files/rma-archive-transfer-12.png?v=1793570748'
+          request = urllib.request.Request(url, headers={'Accept': 'image/png', 'User-Agent': 'RealMallAssetImport/1.0'})
+          with urllib.request.urlopen(request, timeout=120) as response:
+              encoded = response.read(20_000_000)
+          image = Image.open(io.BytesIO(encoded))
+          if image.mode != 'RGB':
+              image = image.convert('RGB')
+          pixels = image.tobytes()
+          assert pixels[:8] == b'RMAZIP01', 'Transport header was altered'
+          size = struct.unpack('>Q', pixels[8:16])[0]
+          payload = pixels[48:48+size]
+          actual = hashlib.sha256(payload).hexdigest()
+          expected = 'f6bb7f60d3c11e387e9d9f13a2af7946fd26a70f43638ca49064c561cc61bf1b'
+          assert size == 1591782, f'Wrong payload size: {size}'
+          assert actual == expected, f'Hash mismatch: {actual}'
+          print(f'TRANSFER_VERIFIED: {size} exact bytes; SHA256={actual}')
+          PY
