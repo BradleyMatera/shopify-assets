@@ -1,5 +1,5 @@
 {
-  "status": "local-files-verified-awaiting-remote-readback",
+  "status": "complete",
   "source_archive": "real-mall-assets-complete.zip",
   "source_archive_sha256": "d2f5f5c4828d3e3876995779ce6e58791f4369ada66682941846eb3444891915",
   "archive_bytes": 186141158,
@@ -28,5 +28,11 @@
     "Reference concepts contain unverified promotional claims and are not production assets.",
     "Videos are camera/light animation from stills, not filmed or independently generated scenes.",
     "No font files are included."
-  ]
+  ],
+  "remote_git_files_verified": 1323,
+  "github_release_zip_verified": true,
+  "github_release_zip_sha256": "d2f5f5c4828d3e3876995779ce6e58791f4369ada66682941846eb3444891915",
+  "github_release_zip_bytes": 186141158,
+  "github_release": "https://github.com/BradleyMatera/shopify-assets/releases/tag/complete-asset-pack-2026-11-01",
+  "verification_run": "https://github.com/BradleyMatera/shopify-assets/actions/runs/41356276672"
 }
