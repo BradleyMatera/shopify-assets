@@ -1,0 +1,40 @@
+name: Verify campaign subjects before promotion
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/verify-campaign-subjects.yml
+permissions:
+  contents: read
+jobs:
+  candidates:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install Pillow
+      - name: Generate two isolated, short-prompt candidates
+        run: |
+          python - <<'PY'
+          import io,json,time,urllib.parse,urllib.request
+          from pathlib import Path
+          from PIL import Image
+          root=Path('candidates');root.mkdir()
+          tests=[('pets','A golden retriever dog resting in an ivory dog bed in a modern living room. Warm sunlight, detailed golden fur, realistic editorial photograph. No people. No text.'),('home-kitchen','A luxurious modern living room and kitchen interior. Ivory sofa, walnut cabinets, limestone kitchen island, ceramic bowl, olive branches. Warm window light. Architectural photograph. No people. No text.')]
+          report=[]
+          for i,(slug,prompt) in enumerate(tests):
+              url='https://image.pollinations.ai/prompt/'+urllib.parse.quote(prompt,safe='')+'?'+urllib.parse.urlencode({'width':1024,'height':768,'seed':2026110190+i,'safe':'true','model':'flux'})
+              request=urllib.request.Request(url,headers={'User-Agent':'RealMallAssetProduction/1.0','Accept':'image/*'})
+              with urllib.request.urlopen(request,timeout=120) as response:data=response.read(20000000)
+              image=Image.open(io.BytesIO(data)).convert('RGB');image.save(root/f'{slug}.jpg',quality=96,subsampling=0)
+              report.append({'id':slug,'prompt':prompt,'url':url,'size':list(image.size),'review':'not approved; requires visual subject verification'})
+              if i==0:time.sleep(50)
+          (root/'candidate-record.json').write_text(json.dumps(report,indent=2)+'\n')
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: subject-check-candidates
+          path: candidates/
+          if-no-files-found: error
