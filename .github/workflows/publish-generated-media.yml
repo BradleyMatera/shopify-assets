@@ -1,0 +1,73 @@
+name: Publish generated raster and motion assets
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/publish-generated-media.yml
+permissions:
+  contents: write
+concurrency:
+  group: native-asset-publication
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Prepare image, type and motion tools
+        run: |
+          python -m pip install Pillow numpy cairosvg
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fonts-liberation
+      - name: Import the actual generated architectural image
+        run: |
+          python scripts/import_atrium.py
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('production/sources.json')
+          if not p.exists():
+              p.write_text(json.dumps({'sources':[{'id':'atrium-evening','path':'assets/masters/atrium-evening.png','origin':'Native image generation in this conversation','use':'Editorial architectural scene, not physical premises ownership'}],'failures':[]},indent=2)+'\n')
+          PY
+      - name: Render actual raster files and encoded video loops
+        run: |
+          python scripts/build_library.py
+          python scripts/build_preview.py
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          r=json.loads(Path('production/asset-manifest.json').read_text())
+          assert r['total_files']>250, 'Missing rendered asset files'
+          assert len(list(Path('assets/motion').glob('*.mp4')))>=3, 'Missing actual encoded video files'
+          print('Verified',r['total_files'],'actual media files')
+          PY
+      - name: Commit media files to main
+        run: |
+          git config user.name 'Real Mall Asset Production'
+          git config user.email '162147754+BradleyMatera@users.noreply.github.com'
+          git add assets production theme preview docs README.md index.html
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish actual raster assets, encoded motion loops, identity files and visual library'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: real-mall-published-media
+          path: |
+            assets/
+            production/
+            preview/
+            theme/
+            docs/
+            scripts/
+            index.html
+            README.md
+          if-no-files-found: error
