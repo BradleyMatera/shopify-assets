@@ -1,0 +1,81 @@
+name: Remove rejected image batch
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/remove-rejected-batch.yml
+permissions:
+  contents: write
+concurrency:
+  group: asset-production-main
+  cancel-in-progress: false
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: |
+          python -m pip install Pillow numpy cairosvg
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fonts-liberation
+      - name: Remove only the specifically rejected image hashes and derivatives
+        run: |
+          python - <<'PY'
+          import hashlib,json,shutil
+          from pathlib import Path
+          bad={
+          'autumn':'4fceb607aa2af5a0be9f109aac46609cd1e4d2015e7edf15032124fd4fe2efca',
+          'bags-travel':'50e66e1bd7f94054abda722877bd352ffa7ceabc882d9c20378f527ca25a77bf',
+          'beauty-self-care':'900f8112704c32e509bf6b68350502d8c083ae896deba0fbc890485107179406',
+          'digital-downloads':'831bcd19fc2e79cdba3ea20c282d44404839d4efbd8b97b46561d56d8b6b48c7',
+          'fashion-accessories':'e5e0d904887b92c91ad45c55b8742082a9d951a34076492b833b7390a2f432b4',
+          'holiday':'108fe361a854790c163c25a842d54ce58a99630de4ae8a7fa9048fb83cd2c19e',
+          'home-kitchen':'74b3cc2d3e09be88c0f37309c3f0cecedfddfe8b990a19d429d3b04aa5b539ff',
+          'kids-hobbies':'9f2d663ae699e52cd6804061e226640ad2c1b819b25c97e692e832a01cb5f1c4',
+          'outdoors-fitness':'46070263684afa81d376c8833d1f74f6e97840676bedf76e013c5bc135c49c90',
+          'pets':'4520c997eb813241fb84acbf95c2f278b9fe2fe712f63c0d4967c0bc2432d15f',
+          'spring':'7f8e00455b42daed1592293a23fc582c34dd99cfe51faee63da4bfb7d2fda134',
+          'summer':'3646369e7348810791e5db9ad32137f90f77c0f4b54c59accee5dc2d55b92d6d',
+          'tech-desk':'feca1dc0cc83fe3da00baf4b6ade53975788df7d2999cb5aa3170b28deabaaa9'}
+          removed=[]
+          for slug,sha in bad.items():
+              path=Path('assets/masters')/(slug+'.jpg')
+              if not path.exists():continue
+              if hashlib.sha256(path.read_bytes()).hexdigest()!=sha:continue
+              path.unlink();removed.append(slug)
+              directory=Path('assets/departments')/slug
+              if directory.exists():shutil.rmtree(directory)
+              (Path('theme/assets')/('rma-dept-'+slug+'-640.webp')).unlink(missing_ok=True)
+          campaigns={'fashion-accessories':'new-arrivals','home-kitchen':'home-edit','outdoors-fitness':'outdoor-edit','spring':'spring-edit','summer':'summer-edit','autumn':'autumn-edit','holiday':'holiday-edit'}
+          for slug in removed:
+              if slug in campaigns:
+                  for folder in ['campaigns','social','email']:
+                      for path in (Path('assets')/folder).glob(campaigns[slug]+'-*'):path.unlink()
+          p=Path('production/sources.json');data=json.loads(p.read_text())
+          data['sources']=[s for s in data['sources'] if s['id'] not in removed]
+          data['failures']=[{'id':slug,'error':'Rejected after visual review: wrong subject. A replacement has not yet been approved.'} for slug in removed]
+          p.write_text(json.dumps(data,indent=2)+'\n')
+          Path('production/rejected-source-shas.json').write_text(json.dumps({'reason':'Subject-mismatched portraits; not acceptable department or seasonal assets','rejected':bad},indent=2)+'\n')
+          print('Removed rejected masters:',removed)
+          PY
+      - name: Rebuild the honest inventory and preview
+        run: |
+          python scripts/build_library.py
+          python scripts/build_preview.py
+      - name: Commit the quality-control removal
+        run: |
+          git config user.name 'Real Mall Asset Production'
+          git config user.email '162147754+BradleyMatera@users.noreply.github.com'
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m 'Remove rejected department portraits and all derived campaign exports'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
