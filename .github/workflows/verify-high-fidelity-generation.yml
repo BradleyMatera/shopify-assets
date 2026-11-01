@@ -1,0 +1,58 @@
+name: Test high-fidelity scene generation
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/verify-high-fidelity-generation.yml
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install gradio_client Pillow
+      - name: Discover the official public endpoint and generate a test scene
+        run: |
+          python - <<'PY'
+          import json,shutil,traceback
+          from pathlib import Path
+          from gradio_client import Client
+          out=Path('candidate');out.mkdir()
+          try:
+              client=Client('black-forest-labs/FLUX.1-schnell',verbose=False)
+              api=client.view_api(return_format='dict')
+              (out/'api-schema.json').write_text(json.dumps(api,indent=2))
+              endpoints=api.get('named_endpoints',{})
+              candidates=[(name,spec) for name,spec in endpoints.items() if any(p.get('parameter_name')=='prompt' for p in spec.get('parameters',[]))]
+              if not candidates:raise RuntimeError('No documented prompt endpoint found')
+              name,spec=next((item for item in candidates if item[0]=='/infer'),candidates[0])
+              prompt='Architectural photograph of an elegant modern living room and kitchen, ivory boucle sofa, walnut cabinetry, honed limestone island, olive branches, warm low afternoon window light, realistic tactile material detail, sophisticated editorial composition, no people, no writing or logos.'
+              values={'prompt':prompt,'seed':202611011,'randomize_seed':False,'width':1024,'height':768,'num_inference_steps':4}
+              args=[]
+              for p in spec['parameters']:
+                  key=p['parameter_name']
+                  if key in values:args.append(values[key])
+                  elif p.get('parameter_has_default'):args.append(p.get('parameter_default'))
+                  else:raise RuntimeError('Required parameter not resolved: '+key)
+              result=client.predict(*args,api_name=name)
+              (out/'result.json').write_text(json.dumps({'space':'black-forest-labs/FLUX.1-schnell','endpoint':name,'prompt':prompt,'result':result},indent=2,default=str))
+              def collect(value):
+                  if isinstance(value,str) and Path(value).is_file():shutil.copyfile(value,out/Path(value).name)
+                  elif isinstance(value,(list,tuple)):
+                      for item in value:collect(item)
+                  elif isinstance(value,dict):
+                      for item in value.values():collect(item)
+              collect(result)
+          except Exception:
+              (out/'error.txt').write_text(traceback.format_exc())
+              print(traceback.format_exc())
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: high-fidelity-generation-test
+          path: candidate/
+          if-no-files-found: error
