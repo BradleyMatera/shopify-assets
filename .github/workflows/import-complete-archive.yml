@@ -1,107 +1,62 @@
-name: Import and verify complete asset package
+name: Verify complete asset package
+# The one-time import is complete. Verify the permanent GitHub copy without
+# depending on temporary Shopify transfer files or modifying the repository.
 on:
   push:
     branches: [main]
     paths:
       - '.github/workflows/import-complete-archive.yml'
-      - 'production/complete-archive-transfer.json'
-      - 'scripts/import_complete_archive.py'
+      - 'complete-library/**'
+      - 'production/complete-library-inventory.json'
   workflow_dispatch:
 permissions:
-  contents: write
+  contents: read
 concurrency:
-  group: complete-asset-package-import
+  group: complete-asset-package-verification
   cancel-in-progress: false
 jobs:
-  import:
+  verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 10
     steps:
-      - name: Check out current repository without discarding existing work
+      - name: Check out the complete library
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
-        with:
-          ref: main
-          fetch-depth: 0
-      - name: Reconstruct and verify every original package file
-        id: import
-        run: |
-          python -m pip install --quiet Pillow==11.3.0
-          python scripts/import_complete_archive.py
-      - name: Commit individual assets and verify their exact Git objects
-        shell: bash
-        run: |
-          set -euo pipefail
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git config core.autocrlf false
-          git add -f complete-library production/complete-library-inventory.json production/complete-library-verification.json README.md ALL-ASSETS.md START-HERE.html
-          if ! git diff --cached --quiet; then
-            git commit -m 'Import complete asset package: 1,323 verified files, 1,302 media exports'
-          fi
-          python scripts/import_complete_archive.py --verify-ref HEAD
-          pushed=false
-          for attempt in 1 2 3; do
-            git fetch origin main
-            git rebase origin/main
-            python scripts/import_complete_archive.py --verify-ref HEAD
-            if git push origin HEAD:main; then pushed=true; break; fi
-          done
-          test "$pushed" = true
-          git fetch origin main
-          python scripts/import_complete_archive.py --verify-ref origin/main
-      - name: Publish the exact original ZIP and checksum as a release
+      - name: Download the permanent original ZIP release
         env:
           GH_TOKEN: ${{ github.token }}
-          ARCHIVE: ${{ steps.import.outputs.archive }}
-          CHECKSUM: ${{ steps.import.outputs.checksum }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/rma-package-verify"
+          gh release download complete-asset-pack-2026-11-01 --pattern 'real-mall-assets-complete.zip' --dir "$RUNNER_TEMP/rma-package-verify"
+      - name: Verify every original file and the complete release archive
         shell: bash
         run: |
-          set -euo pipefail
-          tag='complete-asset-pack-2026-11-01'
-          if ! gh release view "$tag" >/dev/null 2>&1; then
-            gh release create "$tag" --target "$(git rev-parse HEAD)" --title 'Complete asset package — all 1,323 original files' --notes 'Exact original 186,141,158-byte asset ZIP, SHA-256 d2f5f5c4828d3e3876995779ce6e58791f4369ada66682941846eb3444891915. All 1,323 package files are also extracted in complete-library/ on main, including 1,302 registered media exports. Existing assets are preserved. Reference concepts, small crops and enlarged derivatives retain their original labels. This is the full supplied package, not a claim that new photographic production or Shopify deployment is complete.'
-          fi
-          gh release upload "$tag" "$ARCHIVE" "$CHECKSUM" --clobber
-          mkdir -p "$RUNNER_TEMP/rma-release-readback"
-          gh release download "$tag" --pattern 'real-mall-assets-complete.zip' --dir "$RUNNER_TEMP/rma-release-readback" --clobber
           python - <<'PY'
-          import hashlib, json, os
-          from pathlib import Path
+          import hashlib, json, os, subprocess, zipfile
+          from pathlib import Path, PurePosixPath
           expected = 'd2f5f5c4828d3e3876995779ce6e58791f4369ada66682941846eb3444891915'
-          downloaded = Path(os.environ['RUNNER_TEMP']) / 'rma-release-readback/real-mall-assets-complete.zip'
-          actual = hashlib.sha256(downloaded.read_bytes()).hexdigest()
-          if actual != expected or downloaded.stat().st_size != 186141158:
-              raise RuntimeError('GitHub release download does not match the original ZIP')
-          path = Path('production/complete-library-verification.json')
-          report = json.loads(path.read_text())
-          report.update({
-              'status': 'complete',
-              'remote_git_files_verified': 1323,
-              'github_release_zip_verified': True,
-              'github_release_zip_sha256': actual,
-              'github_release_zip_bytes': downloaded.stat().st_size,
-              'github_release': 'https://github.com/BradleyMatera/shopify-assets/releases/tag/complete-asset-pack-2026-11-01',
-              'verification_run': f"https://github.com/{os.environ['GITHUB_REPOSITORY']}/actions/runs/{os.environ['GITHUB_RUN_ID']}"
-          })
-          path.write_text(json.dumps(report, indent=2) + '\n')
-          print('RELEASE_READBACK_VERIFIED: exact original ZIP downloaded from GitHub')
+          archive = Path(os.environ['RUNNER_TEMP']) / 'rma-package-verify/real-mall-assets-complete.zip'
+          assert archive.stat().st_size == 186141158, 'Wrong release size'
+          assert hashlib.sha256(archive.read_bytes()).hexdigest() == expected, 'Wrong release checksum'
+          inventory = json.loads(Path('production/complete-library-inventory.json').read_text())
+          assert len(inventory['files']) == 1323, 'Wrong package inventory count'
+          base = Path('complete-library')
+          with zipfile.ZipFile(archive) as z:
+              members = [i for i in z.infolist() if not i.is_dir()]
+              assert len(members) == 1323
+              for member in members:
+                  prefix = 'real-mall-assets-complete/'
+                  assert member.filename.startswith(prefix)
+                  relative = member.filename[len(prefix):]
+                  assert not PurePosixPath(relative).is_absolute() and '..' not in PurePosixPath(relative).parts
+                  assert (base / relative).read_bytes() == z.read(member), f'Missing or changed: {relative}'
+          for entry in inventory['files']:
+              data = (base / entry['path']).read_bytes()
+              assert len(data) == entry['bytes']
+              assert hashlib.sha256(data).hexdigest() == entry['sha256'], entry['path']
+          manifest = json.loads((base / 'asset-manifest.json').read_text())
+          count = sum(len(asset['variants']) for asset in manifest['assets'])
+          assert count == 1302, 'Wrong media export count'
+          print('VERIFIED: all 1,323 original files, 1,302 media exports, and the exact original ZIP.')
           with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as summary:
-              summary.write('# Complete asset package verified\n\nAll **1,323** original files are in `complete-library/`, including **1,302** registered media exports. Every Git blob matches the original. The original ZIP was uploaded to the release, downloaded again, and matched its SHA-256. Existing assets were preserved.\n')
+              summary.write('# Complete package verified\n\nAll **1,323 original files** match the release ZIP byte for byte. The **1,302 media exports** are included. The original ZIP SHA-256 matches. No temporary transfer service is required.\n')
           PY
-      - name: Record final verification and confirm the remote tree again
-        shell: bash
-        run: |
-          set -euo pipefail
-          git add production/complete-library-verification.json
-          if ! git diff --cached --quiet; then
-            git commit -m 'Record successful remote verification of all assets and original ZIP'
-          fi
-          pushed=false
-          for attempt in 1 2 3; do
-            git fetch origin main
-            git rebase origin/main
-            if git push origin HEAD:main; then pushed=true; break; fi
-          done
-          test "$pushed" = true
-          git fetch origin main
-          python scripts/import_complete_archive.py --verify-ref origin/main
