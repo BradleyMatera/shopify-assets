@@ -1,11 +1,6 @@
-name: Produce and commit real asset files
+name: Rebuild reviewed asset library
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - scripts/**
-      - production/**
-      - .github/workflows/produce-assets.yml
 permissions:
   contents: write
 concurrency:
@@ -14,7 +9,7 @@ concurrency:
 jobs:
   produce:
     runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
         with:
@@ -23,33 +18,38 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Install image and motion tools
+      - name: Install image, typography and motion tools
         run: |
           python -m pip install Pillow numpy cairosvg
-          if ! command -v ffmpeg >/dev/null; then sudo apt-get update -qq && sudo apt-get install -y ffmpeg; fi
-      - name: Import generated atrium from the merchant CDN
-        run: python scripts/import_atrium.py
-      - name: Create independent campaign image files
-        run: python scripts/produce_photography.py
-      - name: Build responsive exports and supporting assets
-        if: always()
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fonts-liberation
+      - name: Require an approved source registry
         run: |
-          if [ -f scripts/build_library.py ]; then python scripts/build_library.py; fi
-          if [ -f scripts/build_preview.py ]; then python scripts/build_preview.py; fi
-      - name: Commit generated binaries into this repository
-        if: always()
+          python - <<'PY'
+          import hashlib,json
+          from pathlib import Path
+          reviews=json.loads(Path('production/approved-sources.json').read_text())
+          for item in reviews['sources']:
+              path=Path(item['path'])
+              assert path.is_file(),f'Missing approved source: {path}'
+              assert hashlib.sha256(path.read_bytes()).hexdigest()==item['sha256'],f'Unreviewed change: {path}'
+          print('Approved source hashes verified')
+          PY
+      - name: Build actual media and preview files
+        run: |
+          python scripts/build_library.py
+          python scripts/build_preview.py
+      - name: Commit generated binaries
         run: |
           git config user.name 'Real Mall Asset Production'
           git config user.email '162147754+BradleyMatera@users.noreply.github.com'
           git add -A
           if ! git diff --cached --quiet; then
-            git commit -m 'Add generated photography, production media, and verified asset inventory'
+            git commit -m 'Rebuild production exports from reviewed source images'
             git pull --rebase origin main
             git push origin HEAD:main
           fi
-      - name: Package the actual produced files
-        if: always()
-        uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v4
         with:
           name: real-mall-production-assets
           path: |
@@ -58,6 +58,8 @@ jobs:
             preview/
             theme/
             email/
+            docs/
+            scripts/
             index.html
             README.md
           if-no-files-found: error
