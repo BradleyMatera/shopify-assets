@@ -1,0 +1,39 @@
+{% liquid
+  assign desktop = section.settings.desktop_image
+  assign mobile = section.settings.mobile_image | default: desktop
+%}
+<section class="mdb-boutique-hero" aria-label="{{ section.settings.heading | escape }}">
+  {% if desktop != blank %}
+    <picture class="mdb-boutique-hero__image">
+      {% if mobile != blank %}
+        <source media="(max-width: 680px)" srcset="{{ mobile | image_url: width: 480 }} 480w, {{ mobile | image_url: width: 720 }} 720w, {{ mobile | image_url: width: 900 }} 900w" sizes="100vw">
+      {% endif %}
+      {{ desktop | image_url: width: 1440 | image_tag: widths: '480, 768, 1080, 1440', sizes: '100vw', alt: '', fetchpriority: 'high' }}
+    </picture>
+  {% endif %}
+  <div class="mdb-boutique-hero__copy">
+    <p class="mdb-boutique-hero__label">{{ section.settings.eyebrow | escape }}</p>
+    <h2 class="mdb-boutique-hero__heading">{{ section.settings.heading | escape }}</h2>
+    <p>{{ section.settings.summary | escape }}</p>
+    {% if section.settings.destination != blank and section.settings.link_label != blank %}
+      <a href="{{ section.settings.destination }}" class="mdb-boutique-hero__cta">{{ section.settings.link_label | escape }}</a>
+    {% endif %}
+  </div>
+</section>
+{% stylesheet %}
+.mdb-boutique-hero{min-height:clamp(420px,50vw,720px);position:relative;isolation:isolate;display:grid;align-items:center;color:#142b22;background:#f7f3ea}
+.mdb-boutique-hero__image,.mdb-boutique-hero__image img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
+.mdb-boutique-hero::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#f7f3eaf2,#f7f3eab0 35%,transparent 67%);z-index:-1}
+.mdb-boutique-hero__copy{padding:clamp(28px,7vw,100px);max-width:760px}
+.mdb-boutique-hero__label{font-size:.75rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase}
+.mdb-boutique-hero__heading{font:500 clamp(3rem,6vw,6.5rem)/.99 Georgia,serif;margin:0 0 1rem}
+.mdb-boutique-hero__copy p:not(.mdb-boutique-hero__label){max-width:27rem}
+.mdb-boutique-hero__cta{display:inline-block;background:#142b22;color:#f7f3ea;padding:.7rem 1rem;text-decoration:none}
+.mdb-boutique-hero__cta:focus-visible{outline:3px solid #9c4e38;outline-offset:4px}
+@media(max-width:680px){.mdb-boutique-hero{min-height:min(650px,160vw);align-items:start}.mdb-boutique-hero::before{background:linear-gradient(180deg,#f7f3eaf2,#f7f3eabf 34%,transparent 76%)}}
+{% endstylesheet %}
+{% schema %}
+{
+  "name":"Boutique editorial hero","settings":[{"type":"image_picker","id":"desktop_image","label":"Desktop editorial image"},{"type":"image_picker","id":"mobile_image","label":"Mobile editorial image"},{"type":"text","id":"eyebrow","label":"Eyebrow","default":"The Kitchen & Market Edit"},{"type":"text","id":"heading","label":"Heading","default":"Useful things for every day."},{"type":"text","id":"summary","label":"Summary","default":"Kitchen staples and market essentials, with the details that help you choose."},{"type":"url","id":"destination","label":"Verified collection link"},{"type":"text","id":"link_label","label":"Link label","default":"Explore the edit"}],"presets":[{"name":"Boutique editorial hero"}]
+}
+{% endschema %}
