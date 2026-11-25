@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 112" role="img" aria-labelledby="title desc">
+<title id="title">Matera Digital Boutique</title>
+<desc id="desc">Matera Digital in an editorial serif with a spaced Boutique label and an MD monogram.</desc>
+<rect x="4" y="14" width="84" height="84" rx="16" fill="#20352C"/>
+<g color="#FBF5EB" transform="translate(4 14) scale(1.3125) translate(-4 0)"><path d="M18 47V17l12 15 12-15v30M42 17h4a15 15 0 0 1 0 30h-4" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="square" stroke-linejoin="miter"/></g>
+<text x="113" y="60" font-family="Georgia, 'Times New Roman', serif" font-weight="400" font-size="56" letter-spacing="-2.1" fill="#20352C">Matera Digital</text>
+<text x="116" y="88" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="15" letter-spacing="6.8" fill="#85523D">BOUTIQUE</text>
+</svg>
