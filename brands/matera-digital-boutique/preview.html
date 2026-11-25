@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Matera Digital Boutique | Identity candidate</title><link rel="icon" href="assets/monogram.svg" type="image/svg+xml"><link rel="stylesheet" href="tokens.css">
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:var(--mdb-paper);color:var(--mdb-charcoal);font:1rem/1.55 var(--mdb-sans)}
+main{width:min(calc(100% - 2rem),72rem);margin-inline:auto}
+nav{display:flex;gap:1rem;align-items:center;justify-content:space-between;padding-block:1.5rem;border-bottom:1px solid var(--mdb-rule)}
+nav img{display:block;width:min(100%,250px);height:auto}
+.kicker{color:var(--mdb-clay);font-weight:700;letter-spacing:.12em;font-size:.75rem;text-transform:uppercase}
+.intro{padding-block:clamp(3rem,8vw,7rem);max-width:49rem}
+h1,h2{font:400 clamp(2.3rem,6.25vw,5.5rem)/.98 var(--mdb-serif);letter-spacing:-.055em;color:var(--mdb-pine);margin:.55em 0 .3em}
+h2{font-size:clamp(1.7rem,3vw,2.8rem);letter-spacing:-.035em}
+p{max-width:58ch}
+.lede{font-size:clamp(1rem,2vw,1.3rem);color:var(--mdb-muted)}
+.pair{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,21rem),1fr));gap:.9rem}
+.tile{border:1px solid var(--mdb-rule);border-radius:.9rem;padding:clamp(1rem,4vw,3rem);background:var(--mdb-linen)}
+.tile img{display:block;width:100%;max-width:31rem;height:auto}
+.tile.dark{color:var(--mdb-paper);background:var(--mdb-pine);border-color:var(--mdb-pine)}
+.dark .kicker{color:var(--mdb-apricot)}
+details{margin-block:1rem}
+a,button{color:var(--mdb-pine);text-underline-offset:.18em}
+a:focus-visible,button:focus-visible{outline:2px solid var(--mdb-focus-light);outline-offset:4px}
+button{font:inherit;border:1px solid var(--mdb-pine);border-radius:3rem;background:transparent;padding:.65rem 1rem;cursor:pointer}
+footer{border-top:1px solid var(--mdb-rule);margin-top:3rem;padding:1.3rem 0 3rem;color:var(--mdb-muted)}
+</style></head><body><main>
+<nav aria-label="Identity preview"><img src="assets/wordmark-ink.svg" width="580" height="112" alt="Matera Digital Boutique"><span class="kicker">Candidate v1</span></nav>
+<header class="intro"><p class="kicker">Identity preview · not a storefront</p><h1>Useful things,<br>chosen with care.</h1><p class="lede">Editorial serif. Warm paper. Deep pine. A quieter identity for a smaller collection of practical goods.</p></header>
+<section class="pair" aria-label="Logo treatments">
+<div class="tile"><p class="kicker">01 · Ink on linen</p><img src="assets/wordmark-ink.svg" width="580" height="112" alt="Dark Matera Digital Boutique wordmark"></div>
+<div class="tile dark"><p class="kicker">02 · Ivory on pine</p><img src="assets/wordmark-ivory.svg" width="580" height="112" alt="Light Matera Digital Boutique wordmark"></div>
+</section>
+<section><h2>The compact mark.</h2><p>Use for avatars, favicons, and tight spaces. Keep text available separately when the mark represents a link.</p><button id="export" type="button">Download 512 px mark PNG</button><span id="status" role="status"></span></section>
+<footer><a href="README.md">Identity and migration notes</a> · Draft assets only. No storefront or sales channel changes.</footer></main>
+<script>
+(() => {
+const markup = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" role=\"img\" aria-labelledby=\"title\">\n<title id=\"title\">Matera Digital Boutique, MD monogram</title>\n<rect width=\"64\" height=\"64\" rx=\"13\" fill=\"#20352C\"/>\n<g color=\"#FBF5EB\" transform=\"translate(-4 0)\"><path d=\"M18 47V17l12 15 12-15v30M42 17h4a15 15 0 0 1 0 30h-4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3.2\" stroke-linecap=\"square\" stroke-linejoin=\"miter\"/></g>\n</svg>\n";
+const button = document.getElementById("export");
+const status = document.getElementById("status");
+button.addEventListener("click", () => {
+ const source = URL.createObjectURL(new Blob([markup], {type:"image/svg+xml;charset=utf-8"}));
+ const pic = new Image();
+ pic.onerror = () => { URL.revokeObjectURL(source); status.textContent = " Export failed; use the SVG master."; };
+ pic.onload = () => {
+  try {
+   const canvas = document.createElement("canvas"); canvas.width = 512; canvas.height = 512;
+   canvas.getContext("2d").drawImage(pic,0,0,512,512);
+   canvas.toBlob((blob) => {
+    if (!blob) { status.textContent = " Export failed; use the SVG master."; return; }
+    const src = URL.createObjectURL(blob); const a = document.createElement("a");
+    a.href=src; a.download="matera-digital-boutique-mark-512.png"; document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(src), 30000);
+    status.textContent = " PNG prepared.";
+   }, "image/png");
+  } catch (err) { status.textContent = " Export failed; use the SVG master."; }
+  finally { URL.revokeObjectURL(source); }
+ };
+ pic.src = source;
+});
+})();
+</script></body></html>
