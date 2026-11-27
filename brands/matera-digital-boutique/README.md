@@ -41,3 +41,7 @@ Suggested sizes are not pre-made raster exports. The candidate preview’s icon 
 ## Legacy package
 
 The original catalog remains under [complete-library](../../complete-library/START-HERE.html), with the [verified original release](https://github.com/BradleyMatera/shopify-assets/releases/tag/complete-asset-pack-2026-11-01) and its existing checksums intact. The [old storefront composition](../../preview/storefront.html) is a historical view with live old-host/shop links; do not use it as the boutique’s launch preview. A GitHub commit does not install or publish these files to Shopify.
+
+## Organic launch assets
+
+[Campaign calendar and graphics](campaigns/organic-launch/README.md)
