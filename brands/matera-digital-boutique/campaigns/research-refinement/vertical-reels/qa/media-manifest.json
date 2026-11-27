@@ -1,0 +1,86 @@
+[
+  {
+    "file": "media/bath-mat-door-clearance-mobile-safe.mp4",
+    "seconds": 9.0,
+    "sha256": "b1fe9d2075e9d9d66c32748aa04008f366f6910052ce9780fe490258c9a13237",
+    "format": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1080,
+      "height": 1920,
+      "pix_fmt": "yuv420p",
+      "avg_frame_rate": "24/1"
+    },
+    "audio": "intentionally silent"
+  },
+  {
+    "file": "media/desk-chair-rolling-envelope-mobile-safe.mp4",
+    "seconds": 9.0,
+    "sha256": "5417354393ee818ff62e3c8e392dd61f507d80871fc7dfec64e925081892635f",
+    "format": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1080,
+      "height": 1920,
+      "pix_fmt": "yuv420p",
+      "avg_frame_rate": "24/1"
+    },
+    "audio": "intentionally silent"
+  },
+  {
+    "file": "media/drawer-towel-routing-mobile-safe.mp4",
+    "seconds": 9.0,
+    "sha256": "344c464fc2cac8da7360fdd1186d792a48dc98f7047cb257f72ce222e4d25ad2",
+    "format": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1080,
+      "height": 1920,
+      "pix_fmt": "yuv420p",
+      "avg_frame_rate": "24/1"
+    },
+    "audio": "intentionally silent"
+  },
+  {
+    "file": "media/mdb-entryway-door-swing-field-note-mobile-safe.mp4",
+    "seconds": 9.5,
+    "sha256": "893a8f57d6f355db10797845a1afe60e9af05c07d7f5026a7518632bd2761452",
+    "format": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1080,
+      "height": 1920,
+      "pix_fmt": "yuv420p",
+      "avg_frame_rate": "24/1"
+    },
+    "audio": "intentionally silent"
+  },
+  {
+    "file": "media/mdb-lid-count-field-note-mobile-safe.mp4",
+    "seconds": 8.5,
+    "sha256": "519497361f3c492253bd6916090f95a931cb0b6408e0e65ebbc33ccbb938d9ec",
+    "format": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1080,
+      "height": 1920,
+      "pix_fmt": "yuv420p",
+      "avg_frame_rate": "24/1"
+    },
+    "audio": "intentionally silent"
+  },
+  {
+    "file": "media/pantry-bin-clearance-mobile-safe.mp4",
+    "seconds": 9.0,
+    "sha256": "739d07d4b84698ed3d073e4267f43919170c4e0b60f360306d1ff19e66c30795",
+    "format": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1080,
+      "height": 1920,
+      "pix_fmt": "yuv420p",
+      "avg_frame_rate": "24/1"
+    },
+    "audio": "intentionally silent"
+  }
+]
