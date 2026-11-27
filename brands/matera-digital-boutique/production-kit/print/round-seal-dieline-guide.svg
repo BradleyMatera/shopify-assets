@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2.25in" height="2.25in" viewBox="0 0 162 162" fill="none">
+  <title>2-inch round seal; 0.125-inch bleed outside trim</title>
+  <desc>Non-printing geometry guide. Have the vendor convert this path to its required spot-cut specification. Do not print a magenta circle.</desc>
+  <circle cx="81" cy="81" r="72" stroke="#FF00FF" stroke-width=".25"/>
+</svg>

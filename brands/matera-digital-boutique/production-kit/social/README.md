@@ -1,0 +1,20 @@
+# Matera Digital Boutique | Kitchen & Market / Social Studio
+
+Two coordinated editorial campaigns across ten channel canvases. Use the botanical-paper palette and publisher voice consistently; change the headline or the photo, not both brand treatments at once.
+
+- **01 / Market Notes:** ivory, a terracotta issue label, handwritten-feeling serif second line and apricot paper seal. Use for a seasonal kitchen note, a gathering idea or a product story.
+- **02 / The Counter Edit:** pine, an apricot issue label and rust paper seal. Use for a curated counter, a recipe-side thought or a shelf story. Neither system claims a discount, availability, health benefit, delivery, ratings or customer endorsement.
+- **Publish-ready brand-only:** `exports/` contains 20 opaque PNGs; no placeholder, product photo, prices or order claims. The compositional artwork is original linework, not a product depiction. `templates/*--brand.svg` are editable masters.
+- **Photo templates:** use `templates/*--photo.svg` in Inkscape. The image replacement layer clips to the arched window; the fill underneath is only a workspace placeholder. Insert a real photo on the documented layer, preserve the aspect ratio, and move the focal point into the top-centre of the arch. The fastest equivalent: `python set_photo.py templates/market-notes--instagram-feed--photo.svg my-photo.jpg ready.svg`, then `inkscape ready.svg --export-filename=ready.png`. Do not publish the unfilled photo version.
+- **Choice of photo:** use a verified product image or an approved editorial still life. If an AI scene is illustrative and not exact product photography, leave it as mood imagery and make that distinction clear in the caption if it might otherwise be mistaken for the product. Do not use vintage-looking labels, prices, logos, or packaging that are not present on the real thing. Keep text modules editable in the source. Brand-only PNG export is independent of product availability.
+- **Viewport:** hidden magenta Safe guides are available per template but must remain hidden when publishing. Keep key letters within the protected central area; channel crops and UI placement are deliberately allowed for using house templates, not guaranteed platform specs. Facebook and X cover decorative arches may crop; the brand and title should remain. YouTube banner: center 1546×423 in the 2560×1440 canvas holds the main text. Stories: let the interface have the upper 15% and lower 19%. Verify final current device previews before publishing. The same cover is not an ad.
+- **Typography:** Nimbus Roman (alternate Georgia) for editorial headlines, Liberation Sans (alternate Arial) for the masthead. SVG text is editable. If handing off for fidelity, share the PNG with the SVG. Cream/pine is the main text contrast pair; rust only appears on ivory, apricot only on pine for editable text.
+- **Export:** `formats.json` is the dimension/image-window registry. Photos retain source photograph resolution when embedded. Use the PNG for an exact publisher-ready master or convert to sRGB JPEG if a platform file-size limit requires it. Do not enlarge the thumbnail above native export. Run `python qa.py` for all assets and a quick reference sheet.
+
+## Copy starters
+
+**Market Notes.** For the way we gather. Use the post caption for a specific practical detail, followed by a verified content link if wanted.
+
+**The Counter Edit.** A softer kind of everyday. Use the caption for one simple use case and only details confirmed against the pack or product listing. Before adding a pack description, confirm pack count and size, which individual products/variants it contains, and availability with the latest Shopify record. Keep any caveat in the same caption rather than a separate comment.
+
+**Brand-only alt text:** “Matera Digital Boutique campaign graphic: Market Notes, Kitchen & Market, with an illustrated arch and circular seal.” Adapt the campaign title and description for the alternate design. For a photo version, replace the description of the arch with the meaningful visual subject; do not repeat every visible word.

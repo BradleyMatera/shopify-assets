@@ -1,0 +1,402 @@
+[
+  {
+    "file": "market-notes--facebook-feed",
+    "width": 1200,
+    "height": 1500,
+    "use": "portrait",
+    "channel": "facebook-feed",
+    "campaign": "market-notes",
+    "safe": [
+      114,
+      108,
+      1086,
+      1365
+    ],
+    "photo": [
+      576,
+      368,
+      534,
+      998
+    ]
+  },
+  {
+    "file": "counter-edit--facebook-feed",
+    "width": 1200,
+    "height": 1500,
+    "use": "portrait",
+    "channel": "facebook-feed",
+    "campaign": "counter-edit",
+    "safe": [
+      114,
+      108,
+      1086,
+      1365
+    ],
+    "photo": [
+      576,
+      368,
+      534,
+      998
+    ]
+  },
+  {
+    "file": "market-notes--facebook-cover",
+    "width": 1640,
+    "height": 624,
+    "use": "banner",
+    "channel": "facebook-cover",
+    "campaign": "market-notes",
+    "safe": [
+      197,
+      94,
+      1443,
+      530
+    ],
+    "photo": [
+      1033,
+      25,
+      476,
+      587
+    ]
+  },
+  {
+    "file": "counter-edit--facebook-cover",
+    "width": 1640,
+    "height": 624,
+    "use": "banner",
+    "channel": "facebook-cover",
+    "campaign": "counter-edit",
+    "safe": [
+      197,
+      94,
+      1443,
+      530
+    ],
+    "photo": [
+      1033,
+      25,
+      476,
+      587
+    ]
+  },
+  {
+    "file": "market-notes--instagram-feed",
+    "width": 1080,
+    "height": 1350,
+    "use": "portrait",
+    "channel": "instagram-feed",
+    "campaign": "market-notes",
+    "safe": [
+      103,
+      97,
+      977,
+      1228
+    ],
+    "photo": [
+      518,
+      331,
+      481,
+      898
+    ]
+  },
+  {
+    "file": "counter-edit--instagram-feed",
+    "width": 1080,
+    "height": 1350,
+    "use": "portrait",
+    "channel": "instagram-feed",
+    "campaign": "counter-edit",
+    "safe": [
+      103,
+      97,
+      977,
+      1228
+    ],
+    "photo": [
+      518,
+      331,
+      481,
+      898
+    ]
+  },
+  {
+    "file": "market-notes--instagram-square",
+    "width": 1080,
+    "height": 1080,
+    "use": "portrait",
+    "channel": "instagram-square",
+    "campaign": "market-notes",
+    "safe": [
+      103,
+      78,
+      977,
+      983
+    ],
+    "photo": [
+      518,
+      265,
+      481,
+      718
+    ]
+  },
+  {
+    "file": "counter-edit--instagram-square",
+    "width": 1080,
+    "height": 1080,
+    "use": "portrait",
+    "channel": "instagram-square",
+    "campaign": "counter-edit",
+    "safe": [
+      103,
+      78,
+      977,
+      983
+    ],
+    "photo": [
+      518,
+      265,
+      481,
+      718
+    ]
+  },
+  {
+    "file": "market-notes--instagram-story",
+    "width": 1080,
+    "height": 1920,
+    "use": "story",
+    "channel": "instagram-story",
+    "campaign": "market-notes",
+    "safe": [
+      103,
+      288,
+      977,
+      1555
+    ],
+    "photo": [
+      518,
+      470,
+      481,
+      1085
+    ]
+  },
+  {
+    "file": "counter-edit--instagram-story",
+    "width": 1080,
+    "height": 1920,
+    "use": "story",
+    "channel": "instagram-story",
+    "campaign": "counter-edit",
+    "safe": [
+      103,
+      288,
+      977,
+      1555
+    ],
+    "photo": [
+      518,
+      470,
+      481,
+      1085
+    ]
+  },
+  {
+    "file": "market-notes--pinterest-pin",
+    "width": 1000,
+    "height": 1500,
+    "use": "portrait",
+    "channel": "pinterest-pin",
+    "campaign": "market-notes",
+    "safe": [
+      95,
+      108,
+      905,
+      1365
+    ],
+    "photo": [
+      480,
+      368,
+      445,
+      998
+    ]
+  },
+  {
+    "file": "counter-edit--pinterest-pin",
+    "width": 1000,
+    "height": 1500,
+    "use": "portrait",
+    "channel": "pinterest-pin",
+    "campaign": "counter-edit",
+    "safe": [
+      95,
+      108,
+      905,
+      1365
+    ],
+    "photo": [
+      480,
+      368,
+      445,
+      998
+    ]
+  },
+  {
+    "file": "market-notes--x-post",
+    "width": 1600,
+    "height": 900,
+    "use": "wide",
+    "channel": "x-post",
+    "campaign": "market-notes",
+    "safe": [
+      120,
+      108,
+      1480,
+      788
+    ],
+    "photo": [
+      912,
+      83,
+      576,
+      738
+    ]
+  },
+  {
+    "file": "counter-edit--x-post",
+    "width": 1600,
+    "height": 900,
+    "use": "wide",
+    "channel": "x-post",
+    "campaign": "counter-edit",
+    "safe": [
+      120,
+      108,
+      1480,
+      788
+    ],
+    "photo": [
+      912,
+      83,
+      576,
+      738
+    ]
+  },
+  {
+    "file": "market-notes--x-header",
+    "width": 1500,
+    "height": 500,
+    "use": "banner",
+    "channel": "x-header",
+    "campaign": "market-notes",
+    "safe": [
+      240,
+      75,
+      1320,
+      425
+    ],
+    "photo": [
+      945,
+      20,
+      435,
+      470
+    ]
+  },
+  {
+    "file": "counter-edit--x-header",
+    "width": 1500,
+    "height": 500,
+    "use": "banner",
+    "channel": "x-header",
+    "campaign": "counter-edit",
+    "safe": [
+      240,
+      75,
+      1320,
+      425
+    ],
+    "photo": [
+      945,
+      20,
+      435,
+      470
+    ]
+  },
+  {
+    "file": "market-notes--youtube-thumbnail",
+    "width": 1280,
+    "height": 720,
+    "use": "wide",
+    "channel": "youtube-thumbnail",
+    "campaign": "market-notes",
+    "safe": [
+      96,
+      86,
+      1184,
+      630
+    ],
+    "photo": [
+      730,
+      66,
+      461,
+      590
+    ]
+  },
+  {
+    "file": "counter-edit--youtube-thumbnail",
+    "width": 1280,
+    "height": 720,
+    "use": "wide",
+    "channel": "youtube-thumbnail",
+    "campaign": "counter-edit",
+    "safe": [
+      96,
+      86,
+      1184,
+      630
+    ],
+    "photo": [
+      730,
+      66,
+      461,
+      590
+    ]
+  },
+  {
+    "file": "market-notes--youtube-banner",
+    "width": 2560,
+    "height": 1440,
+    "use": "yt",
+    "channel": "youtube-banner",
+    "campaign": "market-notes",
+    "safe": [
+      507,
+      508,
+      2053,
+      932
+    ],
+    "photo": [
+      1459,
+      536,
+      522,
+      370
+    ]
+  },
+  {
+    "file": "counter-edit--youtube-banner",
+    "width": 2560,
+    "height": 1440,
+    "use": "yt",
+    "channel": "youtube-banner",
+    "campaign": "counter-edit",
+    "safe": [
+      507,
+      508,
+      2053,
+      932
+    ],
+    "photo": [
+      1459,
+      536,
+      522,
+      370
+    ]
+  }
+]

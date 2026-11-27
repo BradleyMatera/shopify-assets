@@ -1,0 +1,20 @@
+{
+  "svgCount": 21,
+  "pngCount": 28,
+  "iconFrames": [
+    16,
+    32,
+    48,
+    64
+  ],
+  "contrast": {
+    "pineIvory": 13.56,
+    "rustIvory": 5.33,
+    "apricotPine": 7.61
+  },
+  "checks": [
+    "All viewBoxes and outlines valid XML, no live fonts, raster images, scripts or external references",
+    "PNG decodable, expected dimensions; Shopify marks have transparent clear space and no clipping",
+    "ICO contains byte-identical 16/32/48/64 PNG frames at correct sizes"
+  ]
+}

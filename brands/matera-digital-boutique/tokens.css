@@ -1,0 +1,14 @@
+:root {
+  --mdb-paper: #FBF5EB;
+  --mdb-linen: #F1E7D7;
+  --mdb-pine: #20352C;
+  --mdb-charcoal: #222823;
+  --mdb-clay: #85523D;
+  --mdb-apricot: #E5BC9E;
+  --mdb-muted: #526058;
+  --mdb-serif: Georgia, "Times New Roman", serif;
+  --mdb-sans: system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mdb-rule: #C4B7A7;
+  --mdb-focus-light: #85523D;
+  --mdb-focus-dark: #E5BC9E;
+}

@@ -1,0 +1,11 @@
+date,time_as_displayed_in_meta,platform,content_key,historical_state_when_initially_queued,paid_spend_usd
+2026-11-27,2:30 PM,facebook,drawer_routine_01,Originally scheduled; later published now,0
+2026-11-27,6:30 PM,facebook,food_storage_01,Originally scheduled; later published now,0
+2026-11-28,9:30 AM,facebook,pantry_fit_01,Originally scheduled; later published now,0
+2026-11-28,1:30 PM,facebook,counter_appliance_01,Originally scheduled; later published now,0
+2026-11-28,6:30 PM,facebook,bath_mat_01,Originally scheduled; later published now,0
+2026-11-29,10:30 AM,facebook,bathroom_hooks_01,Originally scheduled; later published now,0
+2026-11-29,5:30 PM,facebook,entryway_drop_01,Originally scheduled; later published now,0
+2026-11-30,9:15 AM,facebook,light_quality_01,Originally scheduled; later published now,0
+2026-11-30,1:15 PM,facebook,closet_footprint_01,Originally scheduled; later published now,0
+2026-11-30,6:15 PM,facebook,workstation_fit_01,Originally scheduled; later published now,0

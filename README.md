@@ -2,8 +2,14 @@
 
 Production identity and creative assets for Matera Digital Boutique, the online storefront operated by Matera Digital.
 
-[Browse the verified Boutique production kit](https://github.com/BradleyMatera/shopify-assets/tree/eb3529ebb186bead84f4e299c8cff1cf57be72dc/brands/matera-digital-boutique/production-kit).
+**[Open the production kit](brands/matera-digital-boutique/production-kit/)** · **[Browse the asset gallery](brands/matera-digital-boutique/production-kit/integration/index.html)** · **[Read the integration guide](brands/matera-digital-boutique/production-kit/integration/README.md)**
 
-The kit includes logo and icon exports, desktop and mobile imagery, editable social templates, motion exports, print proofs, and Shopify integration files. Editorial imagery is not product photography.
+The kit includes logo and icon exports, desktop and mobile imagery, editable social templates, motion exports, print proofs, and Shopify integration files. The editorial stills are atmosphere, not product photography. Use verified supplier photos and verified product details in product listings.
 
-Existing files are retained for compatibility. This repository does not publish the live Shopify theme.
+The storefront files in this repository are integration assets, not the live Shopify theme. Test them in an unpublished theme before use. Older asset files are retained for compatibility and are not current branding.
+
+## Boutique campaigns
+
+- [Organic launch calendar and art](brands/matera-digital-boutique/campaigns/organic-launch/README.md)
+- [November guide sprint and Black Friday release log](brands/matera-digital-boutique/campaigns/november-guide-sprint/README.md)
+- [Research, refreshed creative and social cleanup status](brands/matera-digital-boutique/campaigns/research-refinement/README.md)

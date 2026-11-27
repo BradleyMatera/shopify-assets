@@ -1,0 +1,2 @@
+# Ambient motion
+Six-second silent editorial loops, created by a restrained camera drift over generated editorial scenes. These are not filmed product demos. Poster assets are under storefront/. If used later, retain still-first behavior, do not autoplay for reduced-motion preferences, add a pause control for motion on an actively viewed page, and do not preload motion on mobile. The GIF is a lightweight preview only, not the recommended storefront asset.
