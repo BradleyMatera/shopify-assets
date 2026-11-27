@@ -7,3 +7,9 @@ Production identity and creative assets for Matera Digital Boutique, the online 
 The kit includes logo and icon exports, desktop and mobile imagery, editable social templates, motion exports, print proofs, and Shopify integration files. The editorial stills are atmosphere, not product photography. Use verified supplier photos and verified product details in product listings.
 
 The storefront files in this repository are integration assets, not the live Shopify theme. Test them in an unpublished theme before use. Older asset files are retained for compatibility and are not current branding.
+
+## Boutique campaigns
+
+- [Organic launch calendar and art](brands/matera-digital-boutique/campaigns/organic-launch/README.md)
+- [November guide sprint and Black Friday release log](brands/matera-digital-boutique/campaigns/november-guide-sprint/README.md)
+- [Research, refreshed creative and social cleanup status](brands/matera-digital-boutique/campaigns/research-refinement/README.md)
